@@ -4,7 +4,7 @@
 
 用户授权将当前15个室内设计Skills创建为公开GitHub项目。发布范围包括主版本Skills、共享契约、工具、安装器、测试、使用说明和两个示范/测试案例；排除本机环境、缓存、安装备份记录和早期离线包总清单。
 
-仓库目标：`liuqing0224/interior-design-skills`。当前阶段：发布准备。保留既有案例、历史执行记录与文件哈希；以远端仓库可见性、15项Skills及实际自动检查结果核验发布完成状态。
+公开仓库：[liuqing0224/interior-design-skills](https://github.com/liuqing0224/interior-design-skills)。当前阶段：已完成。远端已核验为PUBLIC，默认分支main；首次推送的212个Git文件与本地对象逐一一致，含15项Skills。保留既有案例、历史执行记录与文件哈希；本地格式/引用、46项行为测试、两案例资产及安装一致性检查通过，GitHub Actions首次运行通过。发布结果详见`VALIDATION.md`。
 
 ## 2026-10-26 第二轮：跨户型复用与变更验证
 

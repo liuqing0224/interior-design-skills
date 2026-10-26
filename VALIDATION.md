@@ -1,5 +1,13 @@
 # 交付验证
 
+## GitHub 公开发布
+
+2026-10-26创建并推送[interior-design-skills](https://github.com/liuqing0224/interior-design-skills)，远端可见性PUBLIC、默认分支main。首次发布提交`634ff394dea0a9cca1cfe674b880557580fcb36c`：212个文件的Git对象与本地逐一一致，包含15个`SKILL.md`及两个案例。
+
+发布前重新通过官方Skills格式校验15/15、35处引用、46项行为测试、安装字节比对、两个项目交付清单哈希、84㎡图纸/预算/5项阶段记录、柜体变更及96㎡冻结案例回归。暂存文件和ZIP/XLSX成员未发现凭据；本机环境、缓存、安装备份路径记录及早期离线包总清单未提交。已有项目文件和历史哈希保持原样。
+
+[GitHub Actions首次运行](https://github.com/liuqing0224/interior-design-skills/actions/runs/40305519457)已成功，在Ubuntu/Python 3.12下核对15项元数据、35处引用与两个项目清单，运行46项行为测试、84㎡项目和变更核验、96㎡冻结案例核验。该流程读取已提交成果进行校核，不在CI中重新生成Blender、PDF或预算工作簿。
+
 ## v2 跨户型复用
 
 日期：2026-10-26。新案例TEST-L-084为设计设定，当前模型v1.1；原DEMO-APT-096保持冻结。

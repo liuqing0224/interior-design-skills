@@ -1,5 +1,7 @@
 # 室内设计全流程 · 15 Skills v2
 
+[GitHub 仓库](https://github.com/liuqing0224/interior-design-skills) · [自动检查](https://github.com/liuqing0224/interior-design-skills/actions/workflows/validate.yml)
+
 用统一项目数据衔接需求、测量、平面、概念、空间表现、材料、灯光、定制、机电、图纸、软装、预算、校审和交付配合。
 
 15个可独立安装的 Skills、共享项目模型、二维出图与预算工具，以及两个可浏览的项目案例。
