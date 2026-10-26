@@ -1,0 +1,56 @@
+{
+  "model_sha256": "f6970ee23e0095cb72a4d3755577b86e3c0e37c3452eda104a8722f4404a1025",
+  "revision": "v1.1",
+  "engine": "Cycles CPU",
+  "samples": 32,
+  "views": [
+    {
+      "file": "01-axon.png",
+      "camera": [
+        17,
+        -17,
+        20
+      ],
+      "target": [
+        6,
+        4,
+        0
+      ],
+      "type": "ORTHO",
+      "lens": 28,
+      "cutaway_wall_height_mm": 1050
+    },
+    {
+      "file": "02-living.png",
+      "camera": [
+        5.45,
+        3.12,
+        2.05
+      ],
+      "target": [
+        1.7,
+        1.65,
+        1.05
+      ],
+      "type": "PERSP",
+      "lens": 25,
+      "cutaway_wall_height_mm": null
+    },
+    {
+      "file": "03-study.png",
+      "camera": [
+        7.25,
+        4.82,
+        1.85
+      ],
+      "target": [
+        8.15,
+        7.25,
+        1.15
+      ],
+      "type": "PERSP",
+      "lens": 23,
+      "cutaway_wall_height_mm": null
+    }
+  ]
+}

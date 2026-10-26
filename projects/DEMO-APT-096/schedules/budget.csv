@@ -1,0 +1,41 @@
+﻿id,category,name,quantity,unit,rate,waste,basis,objects,source,quantity_rule,purchase_quantity,amount
+B01,硬装,干区复合地板含安装,74.1336,㎡,245,0.05,房间净面积合计，柜下满铺,M01,illustrative_estimate_not_quote,"{""kind"": ""floor"", ""materials"": [""M01""]}",77.8403,19070.87
+B02,硬装,厨卫地砖含安装,18.4008,㎡,240,0.08,R02与R06净面积，不与墙砖重复,"M02,M03",illustrative_estimate_not_quote,"{""kind"": ""floor"", ""materials"": [""M02"", ""M03""]}",19.8729,4769.5
+B03,硬装,顶面基层及涂装,92.5344,㎡,135,0,净分区面积，厨卫耐湿体系另列,M04,illustrative_estimate_not_quote,"{""kind"": ""net_area""}",92.5344,12492.14
+B04,硬装,干区墙面基层与涂装,178.0,㎡,68,0,墙面展开估量，详见06；现场复尺后替换,M05,illustrative_estimate_not_quote,,178.0,12104.0
+B05,硬装,卫浴墙砖,24.5,㎡,245,0.08,估量：实墙面展开扣门窗，非地砖,M10,illustrative_estimate_not_quote,,26.46,6482.7
+B06,硬装,厨房背板墙砖,4.7,㎡,220,0.08,台面长度×0.6m，高柜区域扣除,M10,illustrative_estimate_not_quote,,5.076,1116.72
+B07,硬装,卫浴防水与找坡基层,25.0,㎡,95,0,地面加墙面设计估量，淋浴高度待专业深化,R06,illustrative_estimate_not_quote,,25.0,2375.0
+B08,硬装,干区踢脚及收口,48.0,m,68,0,净长度估量，门洞及柜体端部复尺,M06,illustrative_estimate_not_quote,,48.0,3264.0
+B09,硬装,室内门及五金,5.0,套,2300,0,D02-D06，入户门保留,"D02,D03,D04,D05,D06",illustrative_estimate_not_quote,,5.0,11500.0
+B10,硬装,淋浴玻璃隔断,2.94,㎡,880,0,1400×2100，五金含在单价,SHOWER,illustrative_estimate_not_quote,,2.94,2587.2
+B11,硬装,厨卫耐湿顶面增量,18.4008,㎡,65,0,相对B03的增量，不重复基础,M04,illustrative_estimate_not_quote,"{""kind"": ""floor"", ""materials"": [""M02"", ""M03""]}",18.4008,1196.05
+B12,硬装,成品保护与清运,1.0,项,4800,0,设计估算,,illustrative_estimate_not_quote,,1.0,4800.0
+B13,机电,电气点位施工暂估,1.0,项,13500,0,不含灯具和家电，待专业系统深化,points,illustrative_estimate_not_quote,,1.0,13500.0
+B14,机电,给排水改造暂估,1.0,项,7800,0,保留原立管，不含洁具,points,illustrative_estimate_not_quote,,1.0,7800.0
+B15,机电,分体空调供装,4.0,套,4200,0,含机组安装基本配置，超长管另核,"E07,E08,E09,E10",illustrative_estimate_not_quote,,4.0,16800.0
+B16,机电,卫浴排风与风口,1.0,项,1800,0,原风道接入条件待核,E11,illustrative_estimate_not_quote,,1.0,1800.0
+B17,灯具,全部灯具与驱动,1.0,项,9800,0,灯具表28盏/条，控制器包含,lights,illustrative_estimate_not_quote,,1.0,9800.0
+B18,定制,主卧衣柜,5.76,㎡,1100,0,2.4×2.4投影，侧板和五金含,J01,illustrative_estimate_not_quote,"{""kind"": ""projection"", ""ids"": [""J01""]}",5.76,6336.0
+B19,定制,儿童衣柜,5.04,㎡,1050,0,2.1×2.4投影,J02,illustrative_estimate_not_quote,"{""kind"": ""projection"", ""ids"": [""J02""]}",5.04,5292.0
+B20,定制,书房书柜,5.04,㎡,950,0,2.1×2.4投影,J04,illustrative_estimate_not_quote,"{""kind"": ""projection"", ""ids"": [""J04""]}",5.04,4788.0
+B21,定制,玄关柜,1.32,㎡,1100,0,0.55×2.4投影,J03,illustrative_estimate_not_quote,"{""kind"": ""projection"", ""ids"": [""J03""]}",1.32,1452.0
+B22,定制,餐边柜,2.0,m,1800,0,长度计价，非投影面积,J06,illustrative_estimate_not_quote,"{""kind"": ""length"", ""ids"": [""J06""]}",2.0,3600.0
+B23,定制,电视柜与床头柜,1.0,项,5800,0,电视柜2.6m，床头柜两只,"J05,J10,J11",illustrative_estimate_not_quote,,1.0,5800.0
+B24,定制,厨房地柜与台面,4.48,m,3100,0,2.48+2.00，L角不重复,"J07,J08,M07",illustrative_estimate_not_quote,"{""kind"": ""length"", ""ids"": [""J07"", ""J08""]}",4.48,13888.0
+B25,定制,浴室柜与镜,1.2,m,3000,0,沿墙长度1.2m,J09,illustrative_estimate_not_quote,"{""kind"": ""length"", ""ids"": [""J09""]}",1.2,3600.0
+B26,软装,三人沙发,1.0,件,6200,0,2600×900,F01,illustrative_estimate_not_quote,,1.0,6200.0
+B27,软装,茶几与单椅,1.0,组,3200,0,两件合计,"F02,F03",illustrative_estimate_not_quote,,1.0,3200.0
+B28,软装,餐桌,1.0,件,3200,0,修订为1400×800，分体运输；示范估算,F04,illustrative_estimate_not_quote,,1.0,3200.0
+B29,软装,餐椅,4.0,把,680,0,四把,"F05,F06,F07,F08",illustrative_estimate_not_quote,"{""kind"": ""count"", ""ids"": [""F05"", ""F06"", ""F07"", ""F08""]}",4.0,2720.0
+B30,软装,两卧床与床垫,2.0,套,4300,0,主卧1800床、儿童1200床,"F09,F10",illustrative_estimate_not_quote,,2.0,8600.0
+B31,软装,双工作位与座椅,1.0,组,5200,0,儿童桌与书房桌、椅各一,"F11,F12,F13,F14",illustrative_estimate_not_quote,,1.0,5200.0
+B32,软装,书房折叠沙发床,1.0,件,2800,0,折叠1400×850,F15,illustrative_estimate_not_quote,,1.0,2800.0
+B33,软装,窗帘及轨道,1.0,项,6200,0,按窗表配置，现场复尺,WIN01-WIN05,illustrative_estimate_not_quote,,1.0,6200.0
+B34,软装,地毯及少量饰品,1.0,项,2800,0,不另计装饰模型,F16,illustrative_estimate_not_quote,,1.0,2800.0
+B35,家电洁具,冰箱,1.0,台,4200,0,750×750外包条件,E01,illustrative_estimate_not_quote,,1.0,4200.0
+B36,家电洁具,洗烘设备,1.0,组,6500,0,叠放安装,E02,illustrative_estimate_not_quote,,1.0,6500.0
+B37,家电洁具,厨房电器及水槽,1.0,组,8200,0,灶、油烟机、洗碗机、水槽，不含橱柜,"E03,E04,E05",illustrative_estimate_not_quote,,1.0,8200.0
+B38,家电洁具,卫浴洁具与热水,1.0,组,7200,0,坐便、花洒、龙头、热水器，不含浴室柜,"E06,F19",illustrative_estimate_not_quote,,1.0,7200.0
+B39,服务,设计与深化服务暂估,1.0,项,15000,0,本示范为预算结构设定，不代表收费报价,,illustrative_estimate_not_quote,,1.0,15000.0
+B40,服务,安装协调及调试暂估,1.0,项,3500,0,不重复各供装项的基本安装,,illustrative_estimate_not_quote,,1.0,3500.0

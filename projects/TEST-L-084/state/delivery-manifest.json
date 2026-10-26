@@ -1,0 +1,341 @@
+{
+  "revision": "v1.1",
+  "scope": "2D transfer test",
+  "files": [
+    {
+      "path": "03-layout.md",
+      "bytes": 858,
+      "sha256": "acbea6d76b569d6e707d9519802d56c56f4b8e93174919e0db4641e23d321551"
+    },
+    {
+      "path": "10-drawings.md",
+      "bytes": 948,
+      "sha256": "4e09a850ead793c1fe1b3ec3cd7ef23b4c0e99f5e110d02de79566ed035ddd9b"
+    },
+    {
+      "path": "12-cost.md",
+      "bytes": 952,
+      "sha256": "3d4aed73ec906944a93eb4d784476d9d7bfd3d0f4fab81f771e3bba018a72089"
+    },
+    {
+      "path": "13-review.md",
+      "bytes": 1147,
+      "sha256": "169709df3c53eb43351e725609889a493f0cd9c3371fab892e89359231afc0a0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1761,
+      "sha256": "be6e5fb070f0f398c6ddb309931f8e7f80a3065ea46afd679c2f93e7b0da235d"
+    },
+    {
+      "path": "documents/pdf-manifest.json",
+      "bytes": 660,
+      "sha256": "ae91ddaa9c8fee75cfa29e5ca40a2a1b5ca83fbc6d2067a83932e53787c6f9d7"
+    },
+    {
+      "path": "documents/折庭_图集.pdf",
+      "bytes": 134941,
+      "sha256": "9f9ddc65d5fcfde3ce54b63415203553fc5a76801bec849fdc752cc0993d872c"
+    },
+    {
+      "path": "drawings/ID-01.svg",
+      "bytes": 26163,
+      "sha256": "799fceb7d936bc537b09f4550424918f5bb936af2789b8bd71f1176e0f266e6b"
+    },
+    {
+      "path": "drawings/ID-02.svg",
+      "bytes": 34459,
+      "sha256": "4ca7e7027ec9158c030d0fe9ab826204335f2e23fdaf488708e5d1f7760750d9"
+    },
+    {
+      "path": "drawings/ID-03.svg",
+      "bytes": 28141,
+      "sha256": "0a6d3faaaf9a744344ac7554b6e9bb62630589f5eda5e83d425512723a21e840"
+    },
+    {
+      "path": "drawings/ID-04.svg",
+      "bytes": 25737,
+      "sha256": "1b3ca0ae03061353da3649d4694accf20bfa2c2514ae97d74023d0ec037c31fa"
+    },
+    {
+      "path": "drawings/ID-05.svg",
+      "bytes": 23397,
+      "sha256": "ab15f4a5791fa29cb80cd60d6abfbec9575b08e1dba63a34b1f17f32913b759c"
+    },
+    {
+      "path": "drawings/ID-06.svg",
+      "bytes": 8227,
+      "sha256": "c5757a265f89fb4ef828ff24f7bd280def230c9fdda767da60ea9f45bf31e41d"
+    },
+    {
+      "path": "drawings/drawing-manifest.json",
+      "bytes": 1732,
+      "sha256": "aa08d718216b175337494b6f8545de5df00c60a499c95fc9f89da0cb224c434a"
+    },
+    {
+      "path": "drawings/interior-set.dxf",
+      "bytes": 230728,
+      "sha256": "c206994a908dcc765622c0f73e10ecebc64956514b8eea240788335910e561ad"
+    },
+    {
+      "path": "drawings/interior-set.py",
+      "bytes": 571,
+      "sha256": "4a59d4f840e6cfe5ea50d66d3f9acba8735c955dac7f243cb5b83d886bf8a7d5"
+    },
+    {
+      "path": "history/v1.0/documents/pdf-manifest.json",
+      "bytes": 660,
+      "sha256": "29e78dcc4699db008c7792b49f3146f8a309c2424e2c84c63e222cee5553f5d7"
+    },
+    {
+      "path": "history/v1.0/documents/折庭_图集.pdf",
+      "bytes": 123841,
+      "sha256": "55af5a319a1f0d63beb022c0079ce28170702162c9b35305127a07d59cc196b5"
+    },
+    {
+      "path": "history/v1.0/drawings/ID-01.svg",
+      "bytes": 26163,
+      "sha256": "dc5e1c7bfd49a934edaf9bb25dcfed5ad284d08d110748454755a9b9fa95ea85"
+    },
+    {
+      "path": "history/v1.0/drawings/ID-02.svg",
+      "bytes": 34459,
+      "sha256": "4ca7e7027ec9158c030d0fe9ab826204335f2e23fdaf488708e5d1f7760750d9"
+    },
+    {
+      "path": "history/v1.0/drawings/ID-03.svg",
+      "bytes": 28141,
+      "sha256": "03d7c85873759619049e5d6e809fc9b4942b77b2b8a08df4e948ac92bd5bb51c"
+    },
+    {
+      "path": "history/v1.0/drawings/ID-04.svg",
+      "bytes": 25737,
+      "sha256": "c5001075f9be1ec3da78ac84bbd14032d7f68d0ceae3260e795442ac10316dcd"
+    },
+    {
+      "path": "history/v1.0/drawings/ID-05.svg",
+      "bytes": 23397,
+      "sha256": "ab15f4a5791fa29cb80cd60d6abfbec9575b08e1dba63a34b1f17f32913b759c"
+    },
+    {
+      "path": "history/v1.0/drawings/ID-06.svg",
+      "bytes": 8227,
+      "sha256": "8ff22b78d6b428d1d1f1597c9d3d3e95e25851fc95732e151b2bee8a09218061"
+    },
+    {
+      "path": "history/v1.0/drawings/drawing-manifest.json",
+      "bytes": 1732,
+      "sha256": "820df9476f8180d7ea11b5b5c24b9ee235afe1455512cd9fa8febec5db739da1"
+    },
+    {
+      "path": "history/v1.0/drawings/interior-set.dxf",
+      "bytes": 230745,
+      "sha256": "a6967668c7d47283c63a6f221c22b686794008b3fad581af3c3ee5560d883e04"
+    },
+    {
+      "path": "history/v1.0/drawings/interior-set.py",
+      "bytes": 571,
+      "sha256": "4a59d4f840e6cfe5ea50d66d3f9acba8735c955dac7f243cb5b83d886bf8a7d5"
+    },
+    {
+      "path": "history/v1.0/model/project.json",
+      "bytes": 27021,
+      "sha256": "cabce49a782b843f247854bbff2fafce5810557f0af260a471a5f6e0b6ef14fb"
+    },
+    {
+      "path": "history/v1.0/schedules/budget-inputs.json",
+      "bytes": 10232,
+      "sha256": "c1ae9b70d8d9165f956c8e91f287dc7846a80d767daef5b65b3a7dc5cb00de7f"
+    },
+    {
+      "path": "history/v1.0/schedules/budget-summary.json",
+      "bytes": 114,
+      "sha256": "823956e4fe78c70880514236f8b952d1729c8f31f1085ec6dd69289f83d34482"
+    },
+    {
+      "path": "history/v1.0/schedules/budget.csv",
+      "bytes": 4520,
+      "sha256": "52c8ef09797288c11e62a38b7fbf4e1df8e75d7d805e4b455ff5f3d5750f7aad"
+    },
+    {
+      "path": "history/v1.0/schedules/equipment.csv",
+      "bytes": 135,
+      "sha256": "e7df48c89a21248197ce27c647077e3a7db46acf9d54f4d92fb7da080af0cfa7"
+    },
+    {
+      "path": "history/v1.0/schedules/furniture.csv",
+      "bytes": 1715,
+      "sha256": "b5e1655cacb6cffe362c863d9451238ae334c32eac15766fe0e82fb2e408a813"
+    },
+    {
+      "path": "history/v1.0/schedules/joinery.csv",
+      "bytes": 968,
+      "sha256": "38edc9b5d27d95c543d10d41a50abed9c550ac38f3b14f8019aabd9821eb9e31"
+    },
+    {
+      "path": "history/v1.0/schedules/lights.csv",
+      "bytes": 763,
+      "sha256": "5a568c195789144190e9099dd569ca8dddd002c0d5d25691c8cbeb675509d6f6"
+    },
+    {
+      "path": "history/v1.0/schedules/materials.csv",
+      "bytes": 626,
+      "sha256": "9c741dc937f570f492af428a09f094c460477f16238c0cba123a7f89d5604448"
+    },
+    {
+      "path": "history/v1.0/schedules/points.csv",
+      "bytes": 415,
+      "sha256": "41e91f49fb248f94245b2e708f465131e84acf5cec1f145be87244cd61fe5c10"
+    },
+    {
+      "path": "history/v1.0/schedules/rooms.csv",
+      "bytes": 266,
+      "sha256": "c9d3da4dc37a029525ec4acc2ae4dd128f84ac0c645e75bbaaa7b7eed34356d7"
+    },
+    {
+      "path": "history/v1.0/schedules/折庭_预算.xlsx",
+      "bytes": 9080,
+      "sha256": "21e9068b283f25b95d2a7082f0f955d93480a3751ad3a4f0e8b698ae2ddd64fc"
+    },
+    {
+      "path": "history/v1.0/state/budget-detail-preview.png",
+      "bytes": 292498,
+      "sha256": "8456d6c5874e191084228aeab7b8a94dfe0d4084a54ae2666815c999ff813d95"
+    },
+    {
+      "path": "history/v1.0/state/budget-summary-preview.png",
+      "bytes": 123054,
+      "sha256": "958c7381f173cc78690043d533bebef532c64d17a3e11a320f675e9d29d0b93c"
+    },
+    {
+      "path": "history/v1.0/state/model-check.json",
+      "bytes": 767,
+      "sha256": "c7ace02e0e7ba1c1353fb6b0763e1c5c0235bdbe29cfa938dfc17500c2df4be4"
+    },
+    {
+      "path": "history/v1.0/state/workbook-check.json",
+      "bytes": 527,
+      "sha256": "b37a91d8d57a058442d5e1e654c0279a9e387484a96502251c6bcd5d92f1fca4"
+    },
+    {
+      "path": "history/v1.0/state/workbook-error-scan.txt",
+      "bytes": 60,
+      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146"
+    },
+    {
+      "path": "history/v1.0/state/workbook-key-ranges.txt",
+      "bytes": 573,
+      "sha256": "a278dc9925c5ec6ece685d8faf6da057704d9e2250240cdd13ef32d52ff7d217"
+    },
+    {
+      "path": "model/project.json",
+      "bytes": 27021,
+      "sha256": "347bfdfc11521ae2510d1508892bbba7f3ee9882fe78a9224943df385ee54ffb"
+    },
+    {
+      "path": "schedules/budget-inputs.json",
+      "bytes": 10232,
+      "sha256": "cc1d535de0a02268f50457f10720d644d556f821a3e74dbccbf774bcf1f4e114"
+    },
+    {
+      "path": "schedules/budget-summary.json",
+      "bytes": 114,
+      "sha256": "0505530d05b2904ada30e60e7caae1e102d27d95f4a8ae57116078033a229a2b"
+    },
+    {
+      "path": "schedules/budget.csv",
+      "bytes": 4520,
+      "sha256": "4acd2369de08bfd261ded57f73461e4260bcb7caf6b0d02f551651ecf1878d5c"
+    },
+    {
+      "path": "schedules/equipment.csv",
+      "bytes": 135,
+      "sha256": "e7df48c89a21248197ce27c647077e3a7db46acf9d54f4d92fb7da080af0cfa7"
+    },
+    {
+      "path": "schedules/furniture.csv",
+      "bytes": 1715,
+      "sha256": "fb9605566c92415439d10a2b41a51816e3552fe651b896a2b898dfad7df4c24e"
+    },
+    {
+      "path": "schedules/joinery.csv",
+      "bytes": 968,
+      "sha256": "92ab6c25efaaddba9cc6e8afff3d4a4a15b89c30cf9fbc2a35f1bf9a6465e715"
+    },
+    {
+      "path": "schedules/lights.csv",
+      "bytes": 763,
+      "sha256": "5a568c195789144190e9099dd569ca8dddd002c0d5d25691c8cbeb675509d6f6"
+    },
+    {
+      "path": "schedules/materials.csv",
+      "bytes": 626,
+      "sha256": "9c741dc937f570f492af428a09f094c460477f16238c0cba123a7f89d5604448"
+    },
+    {
+      "path": "schedules/points.csv",
+      "bytes": 415,
+      "sha256": "41e91f49fb248f94245b2e708f465131e84acf5cec1f145be87244cd61fe5c10"
+    },
+    {
+      "path": "schedules/rooms.csv",
+      "bytes": 266,
+      "sha256": "c9d3da4dc37a029525ec4acc2ae4dd128f84ac0c645e75bbaaa7b7eed34356d7"
+    },
+    {
+      "path": "schedules/折庭_预算.xlsx",
+      "bytes": 9085,
+      "sha256": "bb137b3133a8115a464dfe17310c2f07e4a4d102bdd1fa7e3d0e1464d5ecfc80"
+    },
+    {
+      "path": "state/budget-detail-preview.png",
+      "bytes": 293801,
+      "sha256": "5921a51d4fb0cbb3f330e8d492271f273231af2152fd857b5669da85df7319a4"
+    },
+    {
+      "path": "state/budget-summary-preview.png",
+      "bytes": 122864,
+      "sha256": "583f961313af01e60ac516db6717786e2958095d631e46751c85cc035bce6fbd"
+    },
+    {
+      "path": "state/change-register.json",
+      "bytes": 387,
+      "sha256": "c298fb111a16a20d09bc10380f8bd950901d5ca33cc4eb5535e3ea84a50f048b"
+    },
+    {
+      "path": "state/change-verification.json",
+      "bytes": 2001,
+      "sha256": "ef3c358b07d685d867f32f2280bc416ba6dc57c2c2f2abd09ba6c8997a30e150"
+    },
+    {
+      "path": "state/model-check.json",
+      "bytes": 767,
+      "sha256": "3482c12647a36a6a3e57c504616cd245e559f15a651e2a8234ff32626e37cbf5"
+    },
+    {
+      "path": "state/project-plan.md",
+      "bytes": 697,
+      "sha256": "ddd9f8d294e701ed08809f1e805906055a7000c6f5d06f50ea461992a1d6b0eb"
+    },
+    {
+      "path": "state/refresh-timing.json",
+      "bytes": 1830,
+      "sha256": "184e234729758fda82487b4cf3ab575df6fb123d78b8368a22947e85977660e0"
+    },
+    {
+      "path": "state/workbook-check.json",
+      "bytes": 527,
+      "sha256": "bbcac21f22039477c264dd30a9ba6fb4c34595adaf16788aade75de9e0c86b1b"
+    },
+    {
+      "path": "state/workbook-error-scan.txt",
+      "bytes": 60,
+      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146"
+    },
+    {
+      "path": "state/workbook-key-ranges.txt",
+      "bytes": 573,
+      "sha256": "a278dc9925c5ec6ece685d8faf6da057704d9e2250240cdd13ef32d52ff7d217"
+    }
+  ]
+}

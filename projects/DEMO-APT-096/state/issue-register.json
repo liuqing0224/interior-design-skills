@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ISS01",
+    "object_id": "F04/C01",
+    "observed": "2000mm餐桌与餐边柜间仅200mm",
+    "basis_type": "project_design_target",
+    "target": "≥750mm",
+    "before_revision": "v0.1",
+    "action": "桌长改为1400mm，预算B28从4500改3200",
+    "after_revision": "v1.0",
+    "status": "closed_by_model_recheck",
+    "recheck_evidence": "state/model-v1.0-check.json",
+    "actual_after_mm": 800
+  },
+  {
+    "id": "ISS02",
+    "object_id": "P07/F17",
+    "observed": "P07坐标落在冰箱外包范围",
+    "basis_type": "maintenance_access_design_requirement",
+    "target": "移至相邻可达区",
+    "before_revision": "v0.1",
+    "action": "P07从(9600,2700)移至(10200,3170)，标高1300不变",
+    "after_revision": "v1.0",
+    "status": "closed_by_model_recheck",
+    "recheck_evidence": "state/model-v1.0-check.json"
+  },
+  {
+    "id": "ISS03",
+    "object_id": "F01/F02/J05/P01",
+    "observed": "立面协调发现电视矮柜原位处于南侧窗下，不宜设置固定电视背景",
+    "detection": "manual_elevation_coordination",
+    "basis_type": "design_layout_requirement",
+    "before_revision": "v1.0",
+    "action": "保持全部门窗不变，沙发、茶几旋转朝西，电视柜移至西实墙，P01同步移至西墙",
+    "after_revision": "v1.1",
+    "status": "closed_by_geometry_and_elevation_review",
+    "recheck_evidence": "state/model-v1.1-check.json",
+    "note": "变更后沙发至茶几净距600mm；不改变预算计价尺寸"
+  }
+]

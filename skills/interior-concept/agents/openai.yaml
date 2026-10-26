@@ -1,0 +1,4 @@
+interface:
+  display_name: "概念与材质方向"
+  short_description: "将概念与材质方向落实为可追溯的设计文件，统一编号并核对输入版本与交付结果"
+  default_prompt: "使用 $interior-concept，基于项目资料完成概念与材质方向，提交对应交付物与检查记录。"

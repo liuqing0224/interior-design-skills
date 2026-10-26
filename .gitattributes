@@ -1,0 +1,11 @@
+# Preserve bytes: project records and manifests verify SHA-256 across platforms.
+* -text
+*.pdf binary
+*.xlsx binary
+*.png binary
+*.blend binary
+*.glb binary
+*.zip binary
+# Generated CAD and spreadsheet interchange files retain their original endings.
+*.dxf -whitespace
+*.csv -whitespace

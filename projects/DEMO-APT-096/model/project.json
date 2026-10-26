@@ -1,0 +1,2335 @@
+{
+  "project_id": "DEMO-APT-096",
+  "title": "栖木之家",
+  "revision": "v1.1",
+  "input_kind": "design_assumption",
+  "selection_status": "selected_for_demo",
+  "location": "杭州住宅情境（无真实地址）",
+  "location_status": "fictional",
+  "units": "mm",
+  "envelope": [
+    0,
+    0,
+    12000,
+    8000
+  ],
+  "height_mm": 2700,
+  "budget_cny": 300000,
+  "reserve_rate": 0.1,
+  "area_definition": "96.00㎡为内侧轮廓，净分区面积不含内墙及门洞墙厚投影；不是法定产权面积。",
+  "rooms": [
+    {
+      "id": "R01",
+      "name": "客餐厅",
+      "rect": [
+        0,
+        0,
+        9000,
+        3320
+      ],
+      "floor": "M01",
+      "ceiling": "M04",
+      "wall": "M05",
+      "height_mm": 2700,
+      "source": "design_assumption"
+    },
+    {
+      "id": "R02",
+      "name": "厨房",
+      "rect": [
+        9120,
+        0,
+        2880,
+        3200
+      ],
+      "floor": "M02",
+      "ceiling": "M04",
+      "wall": "M05",
+      "height_mm": 2700,
+      "source": "design_assumption"
+    },
+    {
+      "id": "R03",
+      "name": "主卧",
+      "rect": [
+        0,
+        4440,
+        3600,
+        3560
+      ],
+      "floor": "M01",
+      "ceiling": "M04",
+      "wall": "M05",
+      "height_mm": 2700,
+      "source": "design_assumption"
+    },
+    {
+      "id": "R04",
+      "name": "儿童房",
+      "rect": [
+        3720,
+        4440,
+        3080,
+        3560
+      ],
+      "floor": "M01",
+      "ceiling": "M04",
+      "wall": "M05",
+      "height_mm": 2700,
+      "source": "design_assumption"
+    },
+    {
+      "id": "R05",
+      "name": "书房兼客房",
+      "rect": [
+        6920,
+        4440,
+        2380,
+        3560
+      ],
+      "floor": "M01",
+      "ceiling": "M04",
+      "wall": "M05",
+      "height_mm": 2700,
+      "source": "design_assumption"
+    },
+    {
+      "id": "R06",
+      "name": "卫浴与洗衣",
+      "rect": [
+        9420,
+        4440,
+        2580,
+        3560
+      ],
+      "floor": "M03",
+      "ceiling": "M04",
+      "wall": "M05",
+      "height_mm": 2700,
+      "source": "design_assumption"
+    },
+    {
+      "id": "R07",
+      "name": "玄关与走廊",
+      "rect": [
+        0,
+        3320,
+        12000,
+        1000
+      ],
+      "floor": "M01",
+      "ceiling": "M04",
+      "wall": "M05",
+      "height_mm": 2700,
+      "source": "design_assumption"
+    }
+  ],
+  "walls": [
+    {
+      "id": "W01",
+      "axis": "x",
+      "start": -200,
+      "end": 12200,
+      "at": -200,
+      "thickness": 200,
+      "height": 2700,
+      "internal": false,
+      "structural_status": "unverified_demo",
+      "material": "M05"
+    },
+    {
+      "id": "W02",
+      "axis": "x",
+      "start": -200,
+      "end": 12200,
+      "at": 8000,
+      "thickness": 200,
+      "height": 2700,
+      "internal": false,
+      "structural_status": "unverified_demo",
+      "material": "M05"
+    },
+    {
+      "id": "W03",
+      "axis": "y",
+      "start": 0,
+      "end": 8000,
+      "at": -200,
+      "thickness": 200,
+      "height": 2700,
+      "internal": false,
+      "structural_status": "unverified_demo",
+      "material": "M05"
+    },
+    {
+      "id": "W04",
+      "axis": "y",
+      "start": 0,
+      "end": 8000,
+      "at": 12000,
+      "thickness": 200,
+      "height": 2700,
+      "internal": false,
+      "structural_status": "unverified_demo",
+      "material": "M05"
+    },
+    {
+      "id": "W05",
+      "axis": "x",
+      "start": 0,
+      "end": 12000,
+      "at": 4320,
+      "thickness": 120,
+      "height": 2700,
+      "internal": true,
+      "structural_status": "unverified_demo",
+      "material": "M05"
+    },
+    {
+      "id": "W06",
+      "axis": "y",
+      "start": 4440,
+      "end": 8000,
+      "at": 3600,
+      "thickness": 120,
+      "height": 2700,
+      "internal": true,
+      "structural_status": "unverified_demo",
+      "material": "M05"
+    },
+    {
+      "id": "W07",
+      "axis": "y",
+      "start": 4440,
+      "end": 8000,
+      "at": 6800,
+      "thickness": 120,
+      "height": 2700,
+      "internal": true,
+      "structural_status": "unverified_demo",
+      "material": "M05"
+    },
+    {
+      "id": "W08",
+      "axis": "y",
+      "start": 4440,
+      "end": 8000,
+      "at": 9300,
+      "thickness": 120,
+      "height": 2700,
+      "internal": true,
+      "structural_status": "unverified_demo",
+      "material": "M05"
+    },
+    {
+      "id": "W09",
+      "axis": "y",
+      "start": 0,
+      "end": 3320,
+      "at": 9000,
+      "thickness": 120,
+      "height": 2700,
+      "internal": true,
+      "structural_status": "unverified_demo",
+      "material": "M05"
+    },
+    {
+      "id": "W10",
+      "axis": "x",
+      "start": 9120,
+      "end": 12000,
+      "at": 3200,
+      "thickness": 120,
+      "height": 2700,
+      "internal": true,
+      "structural_status": "unverified_demo",
+      "material": "M05"
+    }
+  ],
+  "openings": [
+    {
+      "id": "D01",
+      "wall": "W04",
+      "start": 3370,
+      "width": 900,
+      "height": 2200,
+      "sill": 0,
+      "kind": "hinged",
+      "room": "R07",
+      "source": "design_assumption"
+    },
+    {
+      "id": "D02",
+      "wall": "W10",
+      "start": 10100,
+      "width": 900,
+      "height": 2200,
+      "sill": 0,
+      "kind": "sliding",
+      "room": "R02",
+      "source": "design_assumption"
+    },
+    {
+      "id": "D03",
+      "wall": "W05",
+      "start": 2450,
+      "width": 850,
+      "height": 2200,
+      "sill": 0,
+      "kind": "hinged",
+      "room": "R03",
+      "source": "design_assumption"
+    },
+    {
+      "id": "D04",
+      "wall": "W05",
+      "start": 3850,
+      "width": 850,
+      "height": 2200,
+      "sill": 0,
+      "kind": "hinged",
+      "room": "R04",
+      "source": "design_assumption"
+    },
+    {
+      "id": "D05",
+      "wall": "W05",
+      "start": 7050,
+      "width": 850,
+      "height": 2200,
+      "sill": 0,
+      "kind": "sliding",
+      "room": "R05",
+      "source": "design_assumption"
+    },
+    {
+      "id": "D06",
+      "wall": "W05",
+      "start": 10000,
+      "width": 800,
+      "height": 2200,
+      "sill": 0,
+      "kind": "sliding",
+      "room": "R06",
+      "source": "design_assumption"
+    },
+    {
+      "id": "WIN01",
+      "wall": "W01",
+      "start": 500,
+      "width": 4400,
+      "height": 1800,
+      "sill": 600,
+      "kind": "window",
+      "room": "R01",
+      "source": "design_assumption"
+    },
+    {
+      "id": "WIN02",
+      "wall": "W01",
+      "start": 6200,
+      "width": 1800,
+      "height": 1800,
+      "sill": 600,
+      "kind": "window",
+      "room": "R01",
+      "source": "design_assumption"
+    },
+    {
+      "id": "WIN03",
+      "wall": "W02",
+      "start": 500,
+      "width": 2200,
+      "height": 1500,
+      "sill": 900,
+      "kind": "window",
+      "room": "R03",
+      "source": "design_assumption"
+    },
+    {
+      "id": "WIN04",
+      "wall": "W02",
+      "start": 4100,
+      "width": 1800,
+      "height": 1500,
+      "sill": 900,
+      "kind": "window",
+      "room": "R04",
+      "source": "design_assumption"
+    },
+    {
+      "id": "WIN05",
+      "wall": "W02",
+      "start": 7300,
+      "width": 1400,
+      "height": 1500,
+      "sill": 900,
+      "kind": "window",
+      "room": "R05",
+      "source": "design_assumption"
+    },
+    {
+      "id": "WIN06",
+      "wall": "W02",
+      "start": 11000,
+      "width": 600,
+      "height": 900,
+      "sill": 1500,
+      "kind": "window",
+      "room": "R06",
+      "source": "design_assumption"
+    },
+    {
+      "id": "WIN07",
+      "wall": "W04",
+      "start": 800,
+      "width": 1400,
+      "height": 1200,
+      "sill": 1100,
+      "kind": "window",
+      "room": "R02",
+      "source": "design_assumption"
+    }
+  ],
+  "materials": [
+    {
+      "id": "M01",
+      "name": "浅橡木复合地板",
+      "color": "#C7A77B",
+      "use": "干区地面，含柜下满铺",
+      "spec": "15mm，哑光，板宽180mm",
+      "sample_status": "not_submitted"
+    },
+    {
+      "id": "M02",
+      "name": "暖灰厨房地砖",
+      "color": "#C8C5BC",
+      "use": "厨房地面",
+      "spec": "600×600，防滑性能待实际选品核验",
+      "sample_status": "not_submitted"
+    },
+    {
+      "id": "M03",
+      "name": "浅石色湿区地砖",
+      "color": "#B9B7AE",
+      "use": "卫浴地面",
+      "spec": "300×600，防滑及湿区适用性待送样",
+      "sample_status": "not_submitted"
+    },
+    {
+      "id": "M04",
+      "name": "暖白顶面",
+      "color": "#F0EDE5",
+      "use": "平顶，厨房卫浴耐湿体系",
+      "spec": "基层和面层分区配套",
+      "sample_status": "not_submitted"
+    },
+    {
+      "id": "M05",
+      "name": "米白墙面",
+      "color": "#E6E0D4",
+      "use": "干区墙面",
+      "spec": "低光泽，基层待现场核实",
+      "sample_status": "not_submitted"
+    },
+    {
+      "id": "M06",
+      "name": "橡木饰面板",
+      "color": "#B98D5C",
+      "use": "柜体可见面",
+      "spec": "18mm板，封边与五金送样确认",
+      "sample_status": "not_submitted"
+    },
+    {
+      "id": "M07",
+      "name": "暖灰石英石",
+      "color": "#D8D4C9",
+      "use": "厨房台面",
+      "spec": "20mm，挡水及开孔按设备深化",
+      "sample_status": "not_submitted"
+    },
+    {
+      "id": "M08",
+      "name": "米灰织物",
+      "color": "#D5CDBF",
+      "use": "沙发、床、窗帘",
+      "spec": "可拆洗或易维护面料，实际阻燃要求按项目核验",
+      "sample_status": "not_submitted"
+    },
+    {
+      "id": "M09",
+      "name": "拉丝金属",
+      "color": "#72766E",
+      "use": "灯具、五金、设备",
+      "spec": "低反射暖灰金属",
+      "sample_status": "not_submitted"
+    },
+    {
+      "id": "M10",
+      "name": "浅石色墙砖",
+      "color": "#D3CEC2",
+      "use": "卫浴墙面、厨房背板",
+      "spec": "600×1200，湿区配套防水基层",
+      "sample_status": "not_submitted"
+    }
+  ],
+  "furniture": [
+    {
+      "id": "F01",
+      "name": "三人沙发",
+      "room": "R01",
+      "rect": [
+        2600,
+        650,
+        900,
+        2600
+      ],
+      "height_mm": 800,
+      "kind": "furniture",
+      "material": "M08"
+    },
+    {
+      "id": "F02",
+      "name": "茶几",
+      "room": "R01",
+      "rect": [
+        1400,
+        1300,
+        600,
+        1100
+      ],
+      "height_mm": 360,
+      "kind": "furniture",
+      "material": "M06"
+    },
+    {
+      "id": "F03",
+      "name": "单椅",
+      "room": "R01",
+      "rect": [
+        4200,
+        1400,
+        800,
+        800
+      ],
+      "height_mm": 800,
+      "kind": "furniture",
+      "material": "M08"
+    },
+    {
+      "id": "F04",
+      "name": "餐桌",
+      "room": "R01",
+      "rect": [
+        6300,
+        1200,
+        1400,
+        800
+      ],
+      "height_mm": 750,
+      "kind": "furniture",
+      "material": "M06",
+      "transport": "分体，桌面最大1400×800，腿现场组装"
+    },
+    {
+      "id": "F05",
+      "name": "餐椅",
+      "room": "R01",
+      "rect": [
+        6400,
+        550,
+        450,
+        500
+      ],
+      "height_mm": 780,
+      "kind": "furniture",
+      "material": "M08"
+    },
+    {
+      "id": "F06",
+      "name": "餐椅",
+      "room": "R01",
+      "rect": [
+        7200,
+        550,
+        450,
+        500
+      ],
+      "height_mm": 780,
+      "kind": "furniture",
+      "material": "M08"
+    },
+    {
+      "id": "F07",
+      "name": "餐椅",
+      "room": "R01",
+      "rect": [
+        6400,
+        2150,
+        450,
+        500
+      ],
+      "height_mm": 780,
+      "kind": "furniture",
+      "material": "M08"
+    },
+    {
+      "id": "F08",
+      "name": "餐椅",
+      "room": "R01",
+      "rect": [
+        7200,
+        2150,
+        450,
+        500
+      ],
+      "height_mm": 780,
+      "kind": "furniture",
+      "material": "M08"
+    },
+    {
+      "id": "F09",
+      "name": "主卧床",
+      "room": "R03",
+      "rect": [
+        220,
+        5700,
+        2000,
+        1800
+      ],
+      "height_mm": 550,
+      "kind": "furniture",
+      "material": "M08",
+      "transport": "床架拆分，床垫可弯折运输条件待核"
+    },
+    {
+      "id": "F10",
+      "name": "儿童床",
+      "room": "R04",
+      "rect": [
+        3950,
+        5650,
+        1200,
+        2000
+      ],
+      "height_mm": 520,
+      "kind": "furniture",
+      "material": "M08"
+    },
+    {
+      "id": "F11",
+      "name": "儿童书桌",
+      "room": "R04",
+      "rect": [
+        5400,
+        7400,
+        1200,
+        600
+      ],
+      "height_mm": 740,
+      "kind": "furniture",
+      "material": "M06"
+    },
+    {
+      "id": "F12",
+      "name": "儿童学习椅",
+      "room": "R04",
+      "rect": [
+        5600,
+        6700,
+        500,
+        500
+      ],
+      "height_mm": 800,
+      "kind": "furniture",
+      "material": "M08"
+    },
+    {
+      "id": "F13",
+      "name": "书房工作台",
+      "room": "R05",
+      "rect": [
+        7100,
+        7350,
+        2000,
+        650
+      ],
+      "height_mm": 740,
+      "kind": "furniture",
+      "material": "M06"
+    },
+    {
+      "id": "F14",
+      "name": "书房椅",
+      "room": "R05",
+      "rect": [
+        7700,
+        6500,
+        600,
+        600
+      ],
+      "height_mm": 850,
+      "kind": "furniture",
+      "material": "M08"
+    },
+    {
+      "id": "F15",
+      "name": "折叠沙发床",
+      "room": "R05",
+      "rect": [
+        7100,
+        4950,
+        1400,
+        850
+      ],
+      "height_mm": 780,
+      "kind": "furniture",
+      "material": "M08",
+      "modes": "折叠1400×850；展开1400×1900时移走工作椅，临时客用"
+    },
+    {
+      "id": "F16",
+      "name": "地毯",
+      "room": "R01",
+      "rect": [
+        800,
+        650,
+        3500,
+        2500
+      ],
+      "height_mm": 12,
+      "kind": "rug",
+      "material": "M08"
+    },
+    {
+      "id": "F17",
+      "name": "冰箱",
+      "room": "R02",
+      "rect": [
+        9300,
+        2350,
+        750,
+        750
+      ],
+      "height_mm": 1900,
+      "kind": "equipment",
+      "material": "M09"
+    },
+    {
+      "id": "F18",
+      "name": "洗烘塔",
+      "room": "R06",
+      "rect": [
+        9500,
+        7200,
+        650,
+        700
+      ],
+      "height_mm": 1900,
+      "kind": "equipment",
+      "material": "M09"
+    },
+    {
+      "id": "F19",
+      "name": "坐便器",
+      "room": "R06",
+      "rect": [
+        11000,
+        5200,
+        700,
+        1100
+      ],
+      "height_mm": 750,
+      "kind": "equipment",
+      "material": "M04"
+    },
+    {
+      "id": "J01",
+      "name": "主卧衣柜",
+      "room": "R03",
+      "rect": [
+        3000,
+        5400,
+        600,
+        2400
+      ],
+      "height_mm": 2400,
+      "kind": "joinery",
+      "material": "M06"
+    },
+    {
+      "id": "J02",
+      "name": "儿童衣柜",
+      "room": "R04",
+      "rect": [
+        6200,
+        4650,
+        600,
+        2100
+      ],
+      "height_mm": 2400,
+      "kind": "joinery",
+      "material": "M06"
+    },
+    {
+      "id": "J03",
+      "name": "玄关高柜",
+      "room": "R01",
+      "rect": [
+        8500,
+        2700,
+        500,
+        550
+      ],
+      "height_mm": 2400,
+      "kind": "joinery",
+      "material": "M06"
+    },
+    {
+      "id": "J04",
+      "name": "书房书柜",
+      "room": "R05",
+      "rect": [
+        8850,
+        4900,
+        450,
+        2100
+      ],
+      "height_mm": 2400,
+      "kind": "joinery",
+      "material": "M06"
+    },
+    {
+      "id": "J05",
+      "name": "电视矮柜",
+      "room": "R01",
+      "rect": [
+        100,
+        600,
+        350,
+        2600
+      ],
+      "height_mm": 450,
+      "kind": "joinery",
+      "material": "M06"
+    },
+    {
+      "id": "J06",
+      "name": "餐边柜",
+      "room": "R01",
+      "rect": [
+        8500,
+        300,
+        500,
+        2000
+      ],
+      "height_mm": 900,
+      "kind": "joinery",
+      "material": "M06"
+    },
+    {
+      "id": "J07",
+      "name": "厨房南侧地柜",
+      "room": "R02",
+      "rect": [
+        9320,
+        150,
+        2480,
+        600
+      ],
+      "height_mm": 850,
+      "kind": "joinery",
+      "material": "M06"
+    },
+    {
+      "id": "J08",
+      "name": "厨房东侧地柜",
+      "room": "R02",
+      "rect": [
+        11400,
+        750,
+        600,
+        2000
+      ],
+      "height_mm": 850,
+      "kind": "joinery",
+      "material": "M06"
+    },
+    {
+      "id": "J09",
+      "name": "浴室柜",
+      "room": "R06",
+      "rect": [
+        9500,
+        5700,
+        550,
+        1200
+      ],
+      "height_mm": 850,
+      "kind": "joinery",
+      "material": "M06"
+    },
+    {
+      "id": "J10",
+      "name": "主卧床头一",
+      "room": "R03",
+      "rect": [
+        220,
+        5150,
+        450,
+        450
+      ],
+      "height_mm": 450,
+      "kind": "joinery",
+      "material": "M06"
+    },
+    {
+      "id": "J11",
+      "name": "主卧床头二",
+      "room": "R03",
+      "rect": [
+        220,
+        7550,
+        450,
+        350
+      ],
+      "height_mm": 450,
+      "kind": "joinery",
+      "material": "M06"
+    }
+  ],
+  "lights": [
+    {
+      "id": "L01",
+      "room": "R01",
+      "xy": [
+        1400,
+        800
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 12,
+      "lumens": 1100,
+      "cct_k": 3000,
+      "group": "G01",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L02",
+      "room": "R01",
+      "xy": [
+        3600,
+        800
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 12,
+      "lumens": 1100,
+      "cct_k": 3000,
+      "group": "G01",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L03",
+      "room": "R01",
+      "xy": [
+        1400,
+        2800
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 12,
+      "lumens": 1100,
+      "cct_k": 3000,
+      "group": "G01",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L04",
+      "room": "R01",
+      "xy": [
+        4000,
+        2800
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 12,
+      "lumens": 1100,
+      "cct_k": 3000,
+      "group": "G01",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L05",
+      "room": "R01",
+      "xy": [
+        6200,
+        700
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 12,
+      "lumens": 1100,
+      "cct_k": 3000,
+      "group": "G01",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L06",
+      "room": "R01",
+      "xy": [
+        7800,
+        2700
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 12,
+      "lumens": 1100,
+      "cct_k": 3000,
+      "group": "G01",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L07",
+      "room": "R01",
+      "xy": [
+        7000,
+        1600
+      ],
+      "z_mm": 1750,
+      "type": "餐桌线性吊灯",
+      "power_w": 22,
+      "lumens": 1800,
+      "cct_k": 3000,
+      "group": "G02",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L08",
+      "room": "R01",
+      "xy": [
+        4500,
+        3100
+      ],
+      "z_mm": 2580,
+      "type": "局部线性灯",
+      "power_w": 15,
+      "lumens": 1200,
+      "cct_k": 3000,
+      "group": "G03",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L09",
+      "room": "R02",
+      "xy": [
+        9800,
+        1200
+      ],
+      "z_mm": 2580,
+      "type": "面板灯",
+      "power_w": 16,
+      "lumens": 1400,
+      "cct_k": 3500,
+      "group": "G04",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L10",
+      "room": "R02",
+      "xy": [
+        10800,
+        2600
+      ],
+      "z_mm": 2580,
+      "type": "面板灯",
+      "power_w": 16,
+      "lumens": 1400,
+      "cct_k": 3500,
+      "group": "G04",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L11",
+      "room": "R02",
+      "xy": [
+        11200,
+        1100
+      ],
+      "z_mm": 1500,
+      "type": "操作台线性灯",
+      "power_w": 18,
+      "lumens": 1500,
+      "cct_k": 3500,
+      "group": "G05",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L12",
+      "room": "R03",
+      "xy": [
+        1200,
+        5000
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 13,
+      "lumens": 1200,
+      "cct_k": 3000,
+      "group": "G06",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L13",
+      "room": "R03",
+      "xy": [
+        2300,
+        7400
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 13,
+      "lumens": 1200,
+      "cct_k": 3000,
+      "group": "G06",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L14",
+      "room": "R03",
+      "xy": [
+        450,
+        5300
+      ],
+      "z_mm": 1200,
+      "type": "床头阅读灯",
+      "power_w": 7,
+      "lumens": 600,
+      "cct_k": 3000,
+      "group": "G07",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L15",
+      "room": "R03",
+      "xy": [
+        450,
+        7700
+      ],
+      "z_mm": 1200,
+      "type": "床头阅读灯",
+      "power_w": 7,
+      "lumens": 600,
+      "cct_k": 3000,
+      "group": "G07",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L16",
+      "room": "R04",
+      "xy": [
+        4600,
+        5100
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 13,
+      "lumens": 1200,
+      "cct_k": 3500,
+      "group": "G08",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L17",
+      "room": "R04",
+      "xy": [
+        5900,
+        7000
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 13,
+      "lumens": 1200,
+      "cct_k": 3500,
+      "group": "G08",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L18",
+      "room": "R04",
+      "xy": [
+        6000,
+        7700
+      ],
+      "z_mm": 1200,
+      "type": "桌面任务灯",
+      "power_w": 10,
+      "lumens": 800,
+      "cct_k": 3500,
+      "group": "G09",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L19",
+      "room": "R05",
+      "xy": [
+        7600,
+        5600
+      ],
+      "z_mm": 2580,
+      "type": "吸顶灯",
+      "power_w": 16,
+      "lumens": 1400,
+      "cct_k": 3500,
+      "group": "G10",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L20",
+      "room": "R05",
+      "xy": [
+        8300,
+        7200
+      ],
+      "z_mm": 2580,
+      "type": "吸顶灯",
+      "power_w": 16,
+      "lumens": 1400,
+      "cct_k": 3500,
+      "group": "G10",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L21",
+      "room": "R05",
+      "xy": [
+        8100,
+        7800
+      ],
+      "z_mm": 1250,
+      "type": "桌面任务灯",
+      "power_w": 12,
+      "lumens": 1000,
+      "cct_k": 3500,
+      "group": "G11",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L22",
+      "room": "R06",
+      "xy": [
+        10300,
+        5300
+      ],
+      "z_mm": 2580,
+      "type": "湿区防护灯",
+      "power_w": 12,
+      "lumens": 1000,
+      "cct_k": 3000,
+      "group": "G12",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L23",
+      "room": "R06",
+      "xy": [
+        11200,
+        7300
+      ],
+      "z_mm": 2580,
+      "type": "湿区防护灯",
+      "power_w": 12,
+      "lumens": 1000,
+      "cct_k": 3000,
+      "group": "G12",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L24",
+      "room": "R06",
+      "xy": [
+        9800,
+        6400
+      ],
+      "z_mm": 1900,
+      "type": "镜前灯",
+      "power_w": 10,
+      "lumens": 800,
+      "cct_k": 3000,
+      "group": "G13",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L25",
+      "room": "R07",
+      "xy": [
+        1700,
+        3820
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 7,
+      "lumens": 600,
+      "cct_k": 3000,
+      "group": "G14",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L26",
+      "room": "R07",
+      "xy": [
+        4900,
+        3820
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 7,
+      "lumens": 600,
+      "cct_k": 3000,
+      "group": "G14",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L27",
+      "room": "R07",
+      "xy": [
+        8200,
+        3820
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 7,
+      "lumens": 600,
+      "cct_k": 3000,
+      "group": "G14",
+      "status": "specification_intent"
+    },
+    {
+      "id": "L28",
+      "room": "R07",
+      "xy": [
+        11200,
+        3820
+      ],
+      "z_mm": 2580,
+      "type": "筒灯",
+      "power_w": 7,
+      "lumens": 600,
+      "cct_k": 3000,
+      "group": "G14",
+      "status": "specification_intent"
+    }
+  ],
+  "control_groups": [
+    {
+      "id": "G01",
+      "name": "客餐基础",
+      "mode": "分组调光"
+    },
+    {
+      "id": "G02",
+      "name": "餐桌用餐",
+      "mode": "独立调光"
+    },
+    {
+      "id": "G03",
+      "name": "客厅夜间",
+      "mode": "独立调光"
+    },
+    {
+      "id": "G04",
+      "name": "厨房基础",
+      "mode": "入口控制"
+    },
+    {
+      "id": "G05",
+      "name": "厨房操作",
+      "mode": "台面控制"
+    },
+    {
+      "id": "G06",
+      "name": "主卧基础",
+      "mode": "入口与床头双控意向"
+    },
+    {
+      "id": "G07",
+      "name": "床头阅读",
+      "mode": "左右独立"
+    },
+    {
+      "id": "G08",
+      "name": "儿童基础",
+      "mode": "入口控制"
+    },
+    {
+      "id": "G09",
+      "name": "儿童作业",
+      "mode": "桌面控制"
+    },
+    {
+      "id": "G10",
+      "name": "书房基础",
+      "mode": "入口控制"
+    },
+    {
+      "id": "G11",
+      "name": "书房任务",
+      "mode": "桌面控制"
+    },
+    {
+      "id": "G12",
+      "name": "卫浴基础",
+      "mode": "入口控制"
+    },
+    {
+      "id": "G13",
+      "name": "镜前照明",
+      "mode": "独立控制"
+    },
+    {
+      "id": "G14",
+      "name": "走廊夜间",
+      "mode": "感应加手动"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "E01",
+      "name": "冰箱",
+      "room": "R02",
+      "object": "F17",
+      "power_kw": 0.3,
+      "services": "电源；散热；分体搬运",
+      "status": "intent"
+    },
+    {
+      "id": "E02",
+      "name": "洗烘塔",
+      "room": "R06",
+      "object": "F18",
+      "power_kw": 3.0,
+      "services": "电源；给排水；地面防水；检修",
+      "status": "intent"
+    },
+    {
+      "id": "E03",
+      "name": "电磁灶",
+      "room": "R02",
+      "xy": [
+        10200,
+        450
+      ],
+      "power_kw": 3.5,
+      "services": "专用电源条件；台面开孔；排油烟",
+      "status": "intent"
+    },
+    {
+      "id": "E04",
+      "name": "洗碗机",
+      "room": "R02",
+      "xy": [
+        11450,
+        900
+      ],
+      "power_kw": 1.8,
+      "services": "电源；给排水；开门空间",
+      "status": "intent"
+    },
+    {
+      "id": "E05",
+      "name": "厨房水槽",
+      "room": "R02",
+      "xy": [
+        11650,
+        1700
+      ],
+      "power_kw": 0,
+      "services": "给水；排水；存水及检修",
+      "status": "intent"
+    },
+    {
+      "id": "E06",
+      "name": "电热水器",
+      "room": "R06",
+      "xy": [
+        9800,
+        7400
+      ],
+      "power_kw": 2.0,
+      "services": "电源；给排水；承载与泄压排放专业复核",
+      "status": "intent"
+    },
+    {
+      "id": "E07",
+      "name": "客厅空调",
+      "room": "R01",
+      "xy": [
+        4800,
+        3250
+      ],
+      "power_kw": 1.6,
+      "services": "电源；制冷剂管；冷凝水；检修",
+      "status": "intent"
+    },
+    {
+      "id": "E08",
+      "name": "主卧空调",
+      "room": "R03",
+      "xy": [
+        3400,
+        5100
+      ],
+      "power_kw": 0.8,
+      "services": "电源；冷凝水；检修",
+      "status": "intent"
+    },
+    {
+      "id": "E09",
+      "name": "儿童房空调",
+      "room": "R04",
+      "xy": [
+        6600,
+        5350
+      ],
+      "power_kw": 0.8,
+      "services": "电源；冷凝水；检修",
+      "status": "intent"
+    },
+    {
+      "id": "E10",
+      "name": "书房空调",
+      "room": "R05",
+      "xy": [
+        9100,
+        5300
+      ],
+      "power_kw": 0.8,
+      "services": "电源；冷凝水；检修",
+      "status": "intent"
+    },
+    {
+      "id": "E11",
+      "name": "浴室排风",
+      "room": "R06",
+      "xy": [
+        11700,
+        4800
+      ],
+      "power_kw": 0.04,
+      "services": "电源；接原排风系统条件待核",
+      "status": "intent"
+    }
+  ],
+  "points": [
+    {
+      "id": "P01",
+      "room": "R01",
+      "xy": [
+        80,
+        1800
+      ],
+      "z_mm": 350,
+      "type": "电视电源与数据",
+      "link": "J05",
+      "access_required": false,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "P02",
+      "room": "R01",
+      "xy": [
+        3700,
+        3000
+      ],
+      "z_mm": 350,
+      "type": "沙发侧电源",
+      "link": "F01",
+      "access_required": false,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "P03",
+      "room": "R01",
+      "xy": [
+        8500,
+        1700
+      ],
+      "z_mm": 1100,
+      "type": "餐边设备电源",
+      "link": "J06",
+      "access_required": false,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "P04",
+      "room": "R05",
+      "xy": [
+        8000,
+        7950
+      ],
+      "z_mm": 1100,
+      "type": "工作台电源与数据",
+      "link": "F13",
+      "access_required": false,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "P05",
+      "room": "R04",
+      "xy": [
+        6000,
+        7950
+      ],
+      "z_mm": 1100,
+      "type": "儿童桌面电源",
+      "link": "F11",
+      "access_required": false,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "P06",
+      "room": "R03",
+      "xy": [
+        180,
+        5300
+      ],
+      "z_mm": 650,
+      "type": "床头电源",
+      "link": "J10",
+      "access_required": false,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "P07",
+      "room": "R02",
+      "xy": [
+        10200,
+        3170
+      ],
+      "z_mm": 1300,
+      "type": "冰箱可维护电源",
+      "link": "E01",
+      "access_required": true,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "P08",
+      "room": "R02",
+      "xy": [
+        11500,
+        1700
+      ],
+      "z_mm": 550,
+      "type": "厨房给排水",
+      "link": "E05",
+      "access_required": false,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "P09",
+      "room": "R06",
+      "xy": [
+        9800,
+        7300
+      ],
+      "z_mm": 1200,
+      "type": "洗衣给排水条件",
+      "link": "E02",
+      "access_required": false,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "P10",
+      "room": "R06",
+      "xy": [
+        9800,
+        6300
+      ],
+      "z_mm": 550,
+      "type": "洗手盆给排水",
+      "link": "J09",
+      "access_required": false,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "P11",
+      "room": "R06",
+      "xy": [
+        11350,
+        5600
+      ],
+      "z_mm": 0,
+      "type": "坐便排水预留",
+      "link": "F19",
+      "access_required": false,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "P12",
+      "room": "R06",
+      "xy": [
+        11700,
+        7400
+      ],
+      "z_mm": 1100,
+      "type": "淋浴冷热水",
+      "link": "SHOWER",
+      "access_required": false,
+      "status": "intent_not_construction"
+    }
+  ],
+  "clearances": [
+    {
+      "id": "C01",
+      "name": "餐桌东端至餐边柜",
+      "from": "F04",
+      "to": "J06",
+      "axis": "x",
+      "target_mm": 750,
+      "basis": "project_design_target"
+    },
+    {
+      "id": "C02",
+      "name": "主卧床尾至衣柜",
+      "from": "F09",
+      "to": "J01",
+      "axis": "x",
+      "target_mm": 750,
+      "basis": "project_design_target"
+    },
+    {
+      "id": "C03",
+      "name": "沙发至茶几",
+      "from": "F02",
+      "to": "F01",
+      "axis": "x",
+      "target_mm": 450,
+      "basis": "project_design_target"
+    },
+    {
+      "id": "C04",
+      "name": "厨房冰箱与东侧地柜",
+      "from": "F17",
+      "to": "J08",
+      "axis": "x",
+      "target_mm": 1100,
+      "basis": "project_design_target"
+    }
+  ],
+  "clear_zones": [
+    {
+      "id": "CZ01",
+      "name": "走廊主通道",
+      "rect": [
+        0,
+        3320,
+        12000,
+        1000
+      ],
+      "target_mm": 1000
+    },
+    {
+      "id": "CZ02",
+      "name": "主卧开门包络",
+      "rect": [
+        2450,
+        4440,
+        850,
+        850
+      ]
+    },
+    {
+      "id": "CZ03",
+      "name": "儿童房开门包络",
+      "rect": [
+        3850,
+        4440,
+        850,
+        850
+      ]
+    }
+  ],
+  "shower": {
+    "rect": [
+      10600,
+      6600,
+      1400,
+      1400
+    ],
+    "glass_height_mm": 2100,
+    "door": "sliding"
+  },
+  "light_calc": {
+    "utilization_factor": 0.6,
+    "maintenance_factor": 0.8,
+    "target_lux": {
+      "R01": 150,
+      "R02": 200,
+      "R03": 100,
+      "R04": 100,
+      "R05": 150,
+      "R06": 100,
+      "R07": 80
+    },
+    "basis": "方案平均照度设计目标，非规范阈值；无配光仿真"
+  },
+  "budget": [
+    {
+      "id": "B01",
+      "category": "硬装",
+      "name": "干区复合地板含安装",
+      "quantity": 74.1336,
+      "unit": "㎡",
+      "rate": 245,
+      "waste": 0.05,
+      "basis": "房间净面积合计，柜下满铺",
+      "objects": "M01",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "floor",
+        "materials": [
+          "M01"
+        ]
+      }
+    },
+    {
+      "id": "B02",
+      "category": "硬装",
+      "name": "厨卫地砖含安装",
+      "quantity": 18.4008,
+      "unit": "㎡",
+      "rate": 240,
+      "waste": 0.08,
+      "basis": "R02与R06净面积，不与墙砖重复",
+      "objects": "M02,M03",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "floor",
+        "materials": [
+          "M02",
+          "M03"
+        ]
+      }
+    },
+    {
+      "id": "B03",
+      "category": "硬装",
+      "name": "顶面基层及涂装",
+      "quantity": 92.5344,
+      "unit": "㎡",
+      "rate": 135,
+      "waste": 0,
+      "basis": "净分区面积，厨卫耐湿体系另列",
+      "objects": "M04",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "net_area"
+      }
+    },
+    {
+      "id": "B04",
+      "category": "硬装",
+      "name": "干区墙面基层与涂装",
+      "quantity": 178,
+      "unit": "㎡",
+      "rate": 68,
+      "waste": 0,
+      "basis": "墙面展开估量，详见06；现场复尺后替换",
+      "objects": "M05",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B05",
+      "category": "硬装",
+      "name": "卫浴墙砖",
+      "quantity": 24.5,
+      "unit": "㎡",
+      "rate": 245,
+      "waste": 0.08,
+      "basis": "估量：实墙面展开扣门窗，非地砖",
+      "objects": "M10",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B06",
+      "category": "硬装",
+      "name": "厨房背板墙砖",
+      "quantity": 4.7,
+      "unit": "㎡",
+      "rate": 220,
+      "waste": 0.08,
+      "basis": "台面长度×0.6m，高柜区域扣除",
+      "objects": "M10",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B07",
+      "category": "硬装",
+      "name": "卫浴防水与找坡基层",
+      "quantity": 25,
+      "unit": "㎡",
+      "rate": 95,
+      "waste": 0,
+      "basis": "地面加墙面设计估量，淋浴高度待专业深化",
+      "objects": "R06",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B08",
+      "category": "硬装",
+      "name": "干区踢脚及收口",
+      "quantity": 48,
+      "unit": "m",
+      "rate": 68,
+      "waste": 0,
+      "basis": "净长度估量，门洞及柜体端部复尺",
+      "objects": "M06",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B09",
+      "category": "硬装",
+      "name": "室内门及五金",
+      "quantity": 5,
+      "unit": "套",
+      "rate": 2300,
+      "waste": 0,
+      "basis": "D02-D06，入户门保留",
+      "objects": "D02,D03,D04,D05,D06",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B10",
+      "category": "硬装",
+      "name": "淋浴玻璃隔断",
+      "quantity": 2.94,
+      "unit": "㎡",
+      "rate": 880,
+      "waste": 0,
+      "basis": "1400×2100，五金含在单价",
+      "objects": "SHOWER",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B11",
+      "category": "硬装",
+      "name": "厨卫耐湿顶面增量",
+      "quantity": 18.4008,
+      "unit": "㎡",
+      "rate": 65,
+      "waste": 0,
+      "basis": "相对B03的增量，不重复基础",
+      "objects": "M04",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "floor",
+        "materials": [
+          "M02",
+          "M03"
+        ]
+      }
+    },
+    {
+      "id": "B12",
+      "category": "硬装",
+      "name": "成品保护与清运",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 4800,
+      "waste": 0,
+      "basis": "设计估算",
+      "objects": "",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B13",
+      "category": "机电",
+      "name": "电气点位施工暂估",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 13500,
+      "waste": 0,
+      "basis": "不含灯具和家电，待专业系统深化",
+      "objects": "points",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B14",
+      "category": "机电",
+      "name": "给排水改造暂估",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 7800,
+      "waste": 0,
+      "basis": "保留原立管，不含洁具",
+      "objects": "points",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B15",
+      "category": "机电",
+      "name": "分体空调供装",
+      "quantity": 4,
+      "unit": "套",
+      "rate": 4200,
+      "waste": 0,
+      "basis": "含机组安装基本配置，超长管另核",
+      "objects": "E07,E08,E09,E10",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B16",
+      "category": "机电",
+      "name": "卫浴排风与风口",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 1800,
+      "waste": 0,
+      "basis": "原风道接入条件待核",
+      "objects": "E11",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B17",
+      "category": "灯具",
+      "name": "全部灯具与驱动",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 9800,
+      "waste": 0,
+      "basis": "灯具表28盏/条，控制器包含",
+      "objects": "lights",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B18",
+      "category": "定制",
+      "name": "主卧衣柜",
+      "quantity": 5.76,
+      "unit": "㎡",
+      "rate": 1100,
+      "waste": 0,
+      "basis": "2.4×2.4投影，侧板和五金含",
+      "objects": "J01",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "projection",
+        "ids": [
+          "J01"
+        ]
+      }
+    },
+    {
+      "id": "B19",
+      "category": "定制",
+      "name": "儿童衣柜",
+      "quantity": 5.04,
+      "unit": "㎡",
+      "rate": 1050,
+      "waste": 0,
+      "basis": "2.1×2.4投影",
+      "objects": "J02",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "projection",
+        "ids": [
+          "J02"
+        ]
+      }
+    },
+    {
+      "id": "B20",
+      "category": "定制",
+      "name": "书房书柜",
+      "quantity": 5.04,
+      "unit": "㎡",
+      "rate": 950,
+      "waste": 0,
+      "basis": "2.1×2.4投影",
+      "objects": "J04",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "projection",
+        "ids": [
+          "J04"
+        ]
+      }
+    },
+    {
+      "id": "B21",
+      "category": "定制",
+      "name": "玄关柜",
+      "quantity": 1.32,
+      "unit": "㎡",
+      "rate": 1100,
+      "waste": 0,
+      "basis": "0.55×2.4投影",
+      "objects": "J03",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "projection",
+        "ids": [
+          "J03"
+        ]
+      }
+    },
+    {
+      "id": "B22",
+      "category": "定制",
+      "name": "餐边柜",
+      "quantity": 2,
+      "unit": "m",
+      "rate": 1800,
+      "waste": 0,
+      "basis": "长度计价，非投影面积",
+      "objects": "J06",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "length",
+        "ids": [
+          "J06"
+        ]
+      }
+    },
+    {
+      "id": "B23",
+      "category": "定制",
+      "name": "电视柜与床头柜",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 5800,
+      "waste": 0,
+      "basis": "电视柜2.6m，床头柜两只",
+      "objects": "J05,J10,J11",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B24",
+      "category": "定制",
+      "name": "厨房地柜与台面",
+      "quantity": 4.48,
+      "unit": "m",
+      "rate": 3100,
+      "waste": 0,
+      "basis": "2.48+2.00，L角不重复",
+      "objects": "J07,J08,M07",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "length",
+        "ids": [
+          "J07",
+          "J08"
+        ]
+      }
+    },
+    {
+      "id": "B25",
+      "category": "定制",
+      "name": "浴室柜与镜",
+      "quantity": 1.2,
+      "unit": "m",
+      "rate": 3000,
+      "waste": 0,
+      "basis": "沿墙长度1.2m",
+      "objects": "J09",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "length",
+        "ids": [
+          "J09"
+        ]
+      }
+    },
+    {
+      "id": "B26",
+      "category": "软装",
+      "name": "三人沙发",
+      "quantity": 1,
+      "unit": "件",
+      "rate": 6200,
+      "waste": 0,
+      "basis": "2600×900",
+      "objects": "F01",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B27",
+      "category": "软装",
+      "name": "茶几与单椅",
+      "quantity": 1,
+      "unit": "组",
+      "rate": 3200,
+      "waste": 0,
+      "basis": "两件合计",
+      "objects": "F02,F03",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B28",
+      "category": "软装",
+      "name": "餐桌",
+      "quantity": 1,
+      "unit": "件",
+      "rate": 3200,
+      "waste": 0,
+      "basis": "修订为1400×800，分体运输；示范估算",
+      "objects": "F04",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B29",
+      "category": "软装",
+      "name": "餐椅",
+      "quantity": 4,
+      "unit": "把",
+      "rate": 680,
+      "waste": 0,
+      "basis": "四把",
+      "objects": "F05,F06,F07,F08",
+      "source": "illustrative_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "ids": [
+          "F05",
+          "F06",
+          "F07",
+          "F08"
+        ]
+      }
+    },
+    {
+      "id": "B30",
+      "category": "软装",
+      "name": "两卧床与床垫",
+      "quantity": 2,
+      "unit": "套",
+      "rate": 4300,
+      "waste": 0,
+      "basis": "主卧1800床、儿童1200床",
+      "objects": "F09,F10",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B31",
+      "category": "软装",
+      "name": "双工作位与座椅",
+      "quantity": 1,
+      "unit": "组",
+      "rate": 5200,
+      "waste": 0,
+      "basis": "儿童桌与书房桌、椅各一",
+      "objects": "F11,F12,F13,F14",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B32",
+      "category": "软装",
+      "name": "书房折叠沙发床",
+      "quantity": 1,
+      "unit": "件",
+      "rate": 2800,
+      "waste": 0,
+      "basis": "折叠1400×850",
+      "objects": "F15",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B33",
+      "category": "软装",
+      "name": "窗帘及轨道",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 6200,
+      "waste": 0,
+      "basis": "按窗表配置，现场复尺",
+      "objects": "WIN01-WIN05",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B34",
+      "category": "软装",
+      "name": "地毯及少量饰品",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 2800,
+      "waste": 0,
+      "basis": "不另计装饰模型",
+      "objects": "F16",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B35",
+      "category": "家电洁具",
+      "name": "冰箱",
+      "quantity": 1,
+      "unit": "台",
+      "rate": 4200,
+      "waste": 0,
+      "basis": "750×750外包条件",
+      "objects": "E01",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B36",
+      "category": "家电洁具",
+      "name": "洗烘设备",
+      "quantity": 1,
+      "unit": "组",
+      "rate": 6500,
+      "waste": 0,
+      "basis": "叠放安装",
+      "objects": "E02",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B37",
+      "category": "家电洁具",
+      "name": "厨房电器及水槽",
+      "quantity": 1,
+      "unit": "组",
+      "rate": 8200,
+      "waste": 0,
+      "basis": "灶、油烟机、洗碗机、水槽，不含橱柜",
+      "objects": "E03,E04,E05",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B38",
+      "category": "家电洁具",
+      "name": "卫浴洁具与热水",
+      "quantity": 1,
+      "unit": "组",
+      "rate": 7200,
+      "waste": 0,
+      "basis": "坐便、花洒、龙头、热水器，不含浴室柜",
+      "objects": "E06,F19",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B39",
+      "category": "服务",
+      "name": "设计与深化服务暂估",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 15000,
+      "waste": 0,
+      "basis": "本示范为预算结构设定，不代表收费报价",
+      "objects": "",
+      "source": "illustrative_estimate_not_quote"
+    },
+    {
+      "id": "B40",
+      "category": "服务",
+      "name": "安装协调及调试暂估",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 3500,
+      "waste": 0,
+      "basis": "不重复各供装项的基本安装",
+      "objects": "",
+      "source": "illustrative_estimate_not_quote"
+    }
+  ],
+  "site_status": "not_started",
+  "procurement_status": "not_ordered"
+}

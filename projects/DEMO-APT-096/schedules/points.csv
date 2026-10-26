@@ -1,0 +1,13 @@
+﻿id,room,xy,z_mm,type,link,access_required,status
+P01,R01,"[80, 1800]",350,电视电源与数据,J05,False,intent_not_construction
+P02,R01,"[3700, 3000]",350,沙发侧电源,F01,False,intent_not_construction
+P03,R01,"[8500, 1700]",1100,餐边设备电源,J06,False,intent_not_construction
+P04,R05,"[8000, 7950]",1100,工作台电源与数据,F13,False,intent_not_construction
+P05,R04,"[6000, 7950]",1100,儿童桌面电源,F11,False,intent_not_construction
+P06,R03,"[180, 5300]",650,床头电源,J10,False,intent_not_construction
+P07,R02,"[10200, 3170]",1300,冰箱可维护电源,E01,True,intent_not_construction
+P08,R02,"[11500, 1700]",550,厨房给排水,E05,False,intent_not_construction
+P09,R06,"[9800, 7300]",1200,洗衣给排水条件,E02,False,intent_not_construction
+P10,R06,"[9800, 6300]",550,洗手盆给排水,J09,False,intent_not_construction
+P11,R06,"[11350, 5600]",0,坐便排水预留,F19,False,intent_not_construction
+P12,R06,"[11700, 7400]",1100,淋浴冷热水,SHOWER,False,intent_not_construction

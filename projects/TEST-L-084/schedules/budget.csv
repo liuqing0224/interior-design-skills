@@ -1,0 +1,27 @@
+﻿id,category,name,quantity,unit,rate,waste,basis,source,quantity_rule,purchase_quantity,amount
+Q-OAK,硬装,OAK地面供装,61.3688,㎡,235,0.05,净分区面积，柜下满铺；加所列损耗,synthetic_estimate_not_quote,"{""kind"": ""floor"", ""materials"": [""OAK""]}",64.4372,15142.74
+Q-KT,硬装,STONE地面供装,12.384,㎡,245,0.08,净分区面积，柜下满铺；加所列损耗,synthetic_estimate_not_quote,"{""kind"": ""floor"", ""materials"": [""STONE""]}",13.3747,3276.8
+Q-WET,硬装,WET地面供装,6.76,㎡,250,0.08,净分区面积，柜下满铺；加所列损耗,synthetic_estimate_not_quote,"{""kind"": ""floor"", ""materials"": [""WET""]}",7.3008,1825.2
+Q-CEILING,硬装,顶面基层与涂装,80.5128,㎡,125,0,按模型对象计量,synthetic_estimate_not_quote,"{""kind"": ""net_area""}",80.5128,10064.1
+Q-DOORS,硬装,室内门及五金,6.0,套,2100,0,按模型对象计量,synthetic_estimate_not_quote,"{""kind"": ""count"", ""collection"": ""openings"", ""ids"": [""K-DOOR"", ""L-DOOR"", ""K-HALL"", ""BED-DOOR"", ""WORK-DOOR"", ""BATH-DOOR""]}",6.0,12600.0
+Q-PAINT,硬装,墙面及湿区基层暂估,1.0,项,18000,0,综合暂估，未建立墙面展开量规则,synthetic_estimate_not_quote,,1.0,18000.0
+Q-PROTECT,硬装,保护与清运,1.0,项,4200,0,测试估算包项,synthetic_estimate_not_quote,,1.0,4200.0
+Q-CAB-A,定制,CAB-A柜体,6.37,㎡,1050,0,front_axis正面宽度×高度；含板材五金,synthetic_estimate_not_quote,"{""kind"": ""projection"", ""ids"": [""CAB-A""]}",6.37,6688.5
+Q-SIDE-A,定制,SIDE-A柜体,2.2,㎡,900,0,front_axis正面宽度×高度；含板材五金,synthetic_estimate_not_quote,"{""kind"": ""projection"", ""ids"": [""SIDE-A""]}",2.2,1980.0
+Q-TV-LOW,定制,TV-LOW柜体,1.32,㎡,900,0,front_axis正面宽度×高度；含板材五金,synthetic_estimate_not_quote,"{""kind"": ""projection"", ""ids"": [""TV-LOW""]}",1.32,1188.0
+Q-KT-BASE,定制,KT-BASE柜体及台面,2.4,m,3000,0,沿front_axis正面长度，非最大包围边默认值,synthetic_estimate_not_quote,"{""kind"": ""length"", ""ids"": [""KT-BASE""]}",2.4,7200.0
+Q-VANITY,定制,VANITY柜体及台面,1.2,m,2700,0,沿front_axis正面长度，非最大包围边默认值,synthetic_estimate_not_quote,"{""kind"": ""length"", ""ids"": [""VANITY""]}",1.2,3240.0
+Q-LAMPS,灯具,灯具与驱动,10.0,盏,650,0,按模型对象计量,synthetic_estimate_not_quote,"{""kind"": ""count"", ""collection"": ""lights""}",10.0,6500.0
+Q-POINTS,机电,条件点位施工暂估,4.0,点,600,0,每个条件点暂估，系统深化费用另列,synthetic_estimate_not_quote,"{""kind"": ""count"", ""collection"": ""points""}",4.0,2400.0
+Q-MEP,机电,管线及系统深化暂估,1.0,项,14000,0,不重复点位；测试估算包项,synthetic_estimate_not_quote,,1.0,14000.0
+Q-EQUIP,家电设备,设备采购供装暂估,3.0,台,3800,0,每台测试统一估算；不代表选型报价,synthetic_estimate_not_quote,"{""kind"": ""count"", ""collection"": ""equipment""}",3.0,11400.0
+Q-SOFA-A,家具洁具,双人沙发,1.0,件,5500,0,按模型对象计量,synthetic_estimate_not_quote,"{""kind"": ""count"", ""ids"": [""SOFA-A""]}",1.0,5500.0
+Q-TABLE-C,家具洁具,茶几,1.0,件,1800,0,按模型对象计量,synthetic_estimate_not_quote,"{""kind"": ""count"", ""ids"": [""TABLE-C""]}",1.0,1800.0
+Q-DINING,家具洁具,餐桌,1.0,件,3000,0,按模型对象计量,synthetic_estimate_not_quote,"{""kind"": ""count"", ""ids"": [""DINING""]}",1.0,3000.0
+Q-BED-A,家具洁具,床及床垫,1.0,件,4800,0,按模型对象计量,synthetic_estimate_not_quote,"{""kind"": ""count"", ""ids"": [""BED-A""]}",1.0,4800.0
+Q-DESK-A,家具洁具,工作桌,1.0,件,1800,0,按模型对象计量,synthetic_estimate_not_quote,"{""kind"": ""count"", ""ids"": [""DESK-A""]}",1.0,1800.0
+Q-CHAIR-A,家具洁具,工作椅,1.0,件,900,0,按模型对象计量,synthetic_estimate_not_quote,"{""kind"": ""count"", ""ids"": [""CHAIR-A""]}",1.0,900.0
+Q-WC-A,家具洁具,坐便器,1.0,件,2600,0,按模型对象计量,synthetic_estimate_not_quote,"{""kind"": ""count"", ""ids"": [""WC-A""]}",1.0,2600.0
+Q-SEATS,家具洁具,餐椅,4.0,把,600,0,按模型对象计量,synthetic_estimate_not_quote,"{""kind"": ""count"", ""ids"": [""SEAT-1"", ""SEAT-2"", ""SEAT-3"", ""SEAT-4""]}",4.0,2400.0
+Q-SOFT,软装,窗帘与饰品暂估,1.0,项,7000,0,测试估算包项,synthetic_estimate_not_quote,,1.0,7000.0
+Q-SERVICE,服务,设计与协调暂估,1.0,项,16000,0,测试预算结构设定,synthetic_estimate_not_quote,,1.0,16000.0

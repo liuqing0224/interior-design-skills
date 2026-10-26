@@ -1,0 +1,36 @@
+{
+  "project_id": "TEST-L-084",
+  "revision": "v1.0",
+  "passed": true,
+  "issues": [],
+  "scope": [
+    "simple orthogonal footprint",
+    "rectangular room boundaries",
+    "furniture collision",
+    "design clearances",
+    "ID references",
+    "opening limits",
+    "control groups",
+    "service access",
+    "budget arithmetic",
+    "area cover"
+  ],
+  "not_checked": [
+    "structural safety",
+    "electrical protection",
+    "pipe sizing and gradients",
+    "statutory compliance",
+    "site conditions",
+    "client approval"
+  ],
+  "envelope_area_m2": 84.0,
+  "bounding_box_area_m2": 94.5,
+  "net_area_m2": 80.5128,
+  "budget": {
+    "base": 163898.84,
+    "reserve": 16389.88,
+    "total": 180288.72,
+    "budget": 220000,
+    "remaining": 39711.28
+  }
+}

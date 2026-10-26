@@ -1,0 +1,19 @@
+{
+  "revision": "v1.0",
+  "total": 180288.72,
+  "remaining": 39711.28,
+  "independentTotal": 180288.72,
+  "input_change_recalculated": 180997.53,
+  "missing_input_exposed": true,
+  "zero_preserved": true,
+  "restored": true,
+  "engine": "artifact-tool",
+  "cells": {
+    "base": "C19",
+    "reserve": "C20",
+    "total": "C21",
+    "remaining": "C22"
+  },
+  "model_sha256": "cabce49a782b843f247854bbff2fafce5810557f0af260a471a5f6e0b6ef14fb",
+  "xlsx_sha256": "21e9068b283f25b95d2a7082f0f955d93480a3751ad3a4f0e8b698ae2ddd64fc"
+}

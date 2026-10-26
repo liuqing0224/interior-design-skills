@@ -1,0 +1,4 @@
+interface:
+  display_name: "软装与采购"
+  short_description: "将软装与采购落实为可追溯的设计文件，统一编号并核对输入版本与交付结果"
+  default_prompt: "使用 $interior-ffe，基于项目资料完成软装与采购，提交对应交付物与检查记录。"

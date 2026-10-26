@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.blend1
+node_modules/
+*.inspect.ndjson
+.env
+.env.*
+!.env.example
+.local/
+# 本机安装记录与早期离线交付包清单；不属于 Git 仓库版本清单。
+/validation/install-v2.json
+/PACKAGE-MANIFEST.json

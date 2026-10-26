@@ -1,0 +1,33 @@
+{
+  "file": "折庭_图集.pdf",
+  "pages": 7,
+  "model_sha256": "cabce49a782b843f247854bbff2fafce5810557f0af260a471a5f6e0b6ef14fb",
+  "revision": "v1.0",
+  "scales": [
+    {
+      "code": "ID-01",
+      "scale_denominator": 50
+    },
+    {
+      "code": "ID-02",
+      "scale_denominator": 50
+    },
+    {
+      "code": "ID-03",
+      "scale_denominator": 50
+    },
+    {
+      "code": "ID-04",
+      "scale_denominator": 50
+    },
+    {
+      "code": "ID-05",
+      "scale_denominator": 50
+    },
+    {
+      "code": "ID-06",
+      "scale_denominator": 50
+    }
+  ],
+  "generator_sha256": "08bf56fcea26078778d13e318c2554681d4de4d6756bb456db62e59d662fde9f"
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "project_id": "TEST-L-084",
+  "revision": "v1.0",
+  "model_sha256": "cabce49a782b843f247854bbff2fafce5810557f0af260a471a5f6e0b6ef14fb",
+  "scope": "2D drawings, schedules and budget",
+  "footprint_m2": 84.0,
+  "net_area_m2": 80.5128,
+  "dxf_audit_errors": 0,
+  "dxf_audit_fixes": 0,
+  "room_rectangles_checked": 30,
+  "furniture_checked": 17,
+  "cabinet_elevations_checked": 3,
+  "svg_files": 6,
+  "pdf_pages": 7,
+  "budget_rows": 26,
+  "linked_budget_rows": 21,
+  "budget": {
+    "base": 163898.84,
+    "reserve": 16389.88,
+    "total": 180288.72,
+    "remaining": 39711.28
+  },
+  "latest_skill_records_checked": 0
+}

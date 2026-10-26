@@ -1,0 +1,10 @@
+{
+  "total": 287907.6,
+  "remaining": 12092.400000000023,
+  "independentTotal": 287907.6,
+  "input_change_recalculated": 288763.85,
+  "missing_input_exposed": true,
+  "zero_preserved": true,
+  "restored": true,
+  "engine": "artifact-tool"
+}

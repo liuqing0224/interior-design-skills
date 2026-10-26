@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "test_kind": "synthetic_transfer_and_change",
+  "object_id": "CAB-A",
+  "before": {
+    "passed": true,
+    "project_id": "TEST-L-084",
+    "revision": "v1.0",
+    "model_sha256": "cabce49a782b843f247854bbff2fafce5810557f0af260a471a5f6e0b6ef14fb",
+    "scope": "2D drawings, schedules and budget",
+    "footprint_m2": 84.0,
+    "net_area_m2": 80.5128,
+    "dxf_audit_errors": 0,
+    "dxf_audit_fixes": 0,
+    "room_rectangles_checked": 30,
+    "furniture_checked": 17,
+    "cabinet_elevations_checked": 3,
+    "svg_files": 6,
+    "pdf_pages": 7,
+    "budget_rows": 26,
+    "linked_budget_rows": 21,
+    "budget": {
+      "base": 163898.84,
+      "reserve": 16389.88,
+      "total": 180288.72,
+      "remaining": 39711.28
+    },
+    "latest_skill_records_checked": 0
+  },
+  "after": {
+    "passed": true,
+    "project_id": "TEST-L-084",
+    "revision": "v1.1",
+    "model_sha256": "347bfdfc11521ae2510d1508892bbba7f3ee9882fe78a9224943df385ee54ffb",
+    "scope": "2D drawings, schedules and budget",
+    "footprint_m2": 84.0,
+    "net_area_m2": 80.5128,
+    "dxf_audit_errors": 0,
+    "dxf_audit_fixes": 0,
+    "room_rectangles_checked": 30,
+    "furniture_checked": 17,
+    "cabinet_elevations_checked": 3,
+    "svg_files": 6,
+    "pdf_pages": 8,
+    "budget_rows": 26,
+    "linked_budget_rows": 21,
+    "budget": {
+      "base": 165505.34,
+      "reserve": 16550.53,
+      "total": 182055.87,
+      "remaining": 37944.13
+    },
+    "latest_skill_records_checked": 0
+  },
+  "projection_m2": {
+    "before": 4.84,
+    "after": 6.37
+  },
+  "amount_change_cny": 1606.5,
+  "reserve_change_cny": 160.65,
+  "total_change_cny": 1767.15,
+  "dependent_files_changed": [
+    "drawings/ID-01.svg",
+    "drawings/ID-06.svg",
+    "drawings/interior-set.dxf",
+    "schedules/furniture.csv",
+    "schedules/joinery.csv",
+    "schedules/budget.csv",
+    "schedules/折庭_预算.xlsx",
+    "documents/折庭_图集.pdf"
+  ],
+  "unaffected_rooms_unchanged": true,
+  "stale_input_rejected": true
+}

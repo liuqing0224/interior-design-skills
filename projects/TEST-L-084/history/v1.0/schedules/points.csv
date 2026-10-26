@@ -1,0 +1,5 @@
+﻿id,room,xy,z_mm,type,link,access_required,status
+POWER-R,COOK,"[10400, 6000]",1300,冰箱可维护电源,REF-E,True,intent_not_construction
+POWER-D,WORK,"[6200, 10200]",1100,工作位电源,DESK-A,True,intent_not_construction
+WATER-K,COOK,"[10900, 2850]",550,厨房给排水条件,SINK-A,True,intent_not_construction
+WATER-H,WASH,"[7100, 9800]",550,浴室给排水条件,VANITY,True,intent_not_construction

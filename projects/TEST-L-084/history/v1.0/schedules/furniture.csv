@@ -1,0 +1,18 @@
+﻿id,name,room,rect,height_mm,kind,material,front_axis,joinery
+SOFA-A,双人沙发,LOUNGE,"[1400, 4800, 2400, 900]",800,furniture,FABRIC,,
+TABLE-C,茶几,LOUNGE,"[1700, 3600, 1100, 600]",380,furniture,WOOD,,
+TV-LOW,电视矮柜,LOUNGE,"[1500, 2100, 2400, 350]",550,joinery,WOOD,x,"{""panel_mm"": 18, ""back_mm"": 9, ""plinth_mm"": 80, ""scribe_mm"": 15, ""bays"": 2}"
+DINING,四人餐桌,LOUNGE,"[5700, 3500, 1600, 850]",750,furniture,WOOD,,
+SEAT-1,餐椅,LOUNGE,"[5800, 2900, 450, 450]",780,furniture,WOOD,,
+SEAT-2,餐椅,LOUNGE,"[6700, 2900, 450, 450]",780,furniture,WOOD,,
+SEAT-3,餐椅,LOUNGE,"[5800, 4500, 450, 450]",780,furniture,WOOD,,
+SEAT-4,餐椅,LOUNGE,"[6700, 4500, 450, 450]",780,furniture,WOOD,,
+SIDE-A,餐边柜,LOUNGE,"[7850, 3000, 450, 2200]",1000,joinery,WOOD,y,"{""panel_mm"": 18, ""back_mm"": 9, ""plinth_mm"": 80, ""scribe_mm"": 15, ""bays"": 2}"
+BED-A,双人床,SLEEP,"[1400, 8200, 1600, 2100]",550,furniture,FABRIC,,
+CAB-A,卧室衣柜,SLEEP,"[3880, 8200, 600, 2200]",2200,joinery,WOOD,y,"{""panel_mm"": 18, ""back_mm"": 9, ""plinth_mm"": 80, ""scribe_mm"": 15, ""bays"": 3}"
+DESK-A,书房工作台,WORK,"[4700, 10350, 1500, 600]",740,furniture,WOOD,,
+CHAIR-A,工作椅,WORK,"[5100, 9500, 550, 550]",820,furniture,WOOD,,
+KT-BASE,厨房地柜,COOK,"[8900, 2100, 2400, 600]",850,joinery,WOOD,x,"{""panel_mm"": 18, ""back_mm"": 9, ""plinth_mm"": 80, ""scribe_mm"": 15, ""bays"": 2}"
+FRIDGE,冰箱,COOK,"[10600, 5200, 750, 750]",1900,equipment,METAL,,
+VANITY,浴室柜,WASH,"[6500, 9000, 500, 1200]",850,joinery,WOOD,y,"{""panel_mm"": 18, ""back_mm"": 9, ""plinth_mm"": 80, ""scribe_mm"": 15, ""bays"": 2}"
+WC-A,坐便体量,WASH,"[7500, 8100, 700, 900]",750,equipment,METAL,,

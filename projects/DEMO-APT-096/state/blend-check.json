@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "sha256": "fea4386b7c604bb7092f1f107cc1890b3381a0c4065361534832ab0ce4661f1f",
+  "objects": 545,
+  "scenes": 1,
+  "cameras": 1,
+  "blender_version": "5.2.1 LTS"
+}

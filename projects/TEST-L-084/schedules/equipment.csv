@@ -1,0 +1,4 @@
+﻿id,room,object,name,xy
+REF-E,COOK,FRIDGE,冰箱,
+AC-E,LOUNGE,,分体空调,"[8000, 5700]"
+FAN-E,WASH,,排风机,"[8200, 10500]"

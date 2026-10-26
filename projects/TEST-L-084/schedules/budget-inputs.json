@@ -1,0 +1,466 @@
+[
+  {
+    "id": "Q-OAK",
+    "category": "硬装",
+    "name": "OAK地面供装",
+    "quantity": 61.3688,
+    "unit": "㎡",
+    "rate": 235,
+    "waste": 0.05,
+    "basis": "净分区面积，柜下满铺；加所列损耗",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "floor",
+      "materials": [
+        "OAK"
+      ]
+    },
+    "purchase_quantity": 64.4372,
+    "amount": 15142.74
+  },
+  {
+    "id": "Q-KT",
+    "category": "硬装",
+    "name": "STONE地面供装",
+    "quantity": 12.384,
+    "unit": "㎡",
+    "rate": 245,
+    "waste": 0.08,
+    "basis": "净分区面积，柜下满铺；加所列损耗",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "floor",
+      "materials": [
+        "STONE"
+      ]
+    },
+    "purchase_quantity": 13.3747,
+    "amount": 3276.8
+  },
+  {
+    "id": "Q-WET",
+    "category": "硬装",
+    "name": "WET地面供装",
+    "quantity": 6.76,
+    "unit": "㎡",
+    "rate": 250,
+    "waste": 0.08,
+    "basis": "净分区面积，柜下满铺；加所列损耗",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "floor",
+      "materials": [
+        "WET"
+      ]
+    },
+    "purchase_quantity": 7.3008,
+    "amount": 1825.2
+  },
+  {
+    "id": "Q-CEILING",
+    "category": "硬装",
+    "name": "顶面基层与涂装",
+    "quantity": 80.5128,
+    "unit": "㎡",
+    "rate": 125,
+    "waste": 0,
+    "basis": "按模型对象计量",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "net_area"
+    },
+    "purchase_quantity": 80.5128,
+    "amount": 10064.1
+  },
+  {
+    "id": "Q-DOORS",
+    "category": "硬装",
+    "name": "室内门及五金",
+    "quantity": 6.0,
+    "unit": "套",
+    "rate": 2100,
+    "waste": 0,
+    "basis": "按模型对象计量",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "collection": "openings",
+      "ids": [
+        "K-DOOR",
+        "L-DOOR",
+        "K-HALL",
+        "BED-DOOR",
+        "WORK-DOOR",
+        "BATH-DOOR"
+      ]
+    },
+    "purchase_quantity": 6.0,
+    "amount": 12600.0
+  },
+  {
+    "id": "Q-PAINT",
+    "category": "硬装",
+    "name": "墙面及湿区基层暂估",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 18000,
+    "waste": 0,
+    "basis": "综合暂估，未建立墙面展开量规则",
+    "source": "synthetic_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 18000.0
+  },
+  {
+    "id": "Q-PROTECT",
+    "category": "硬装",
+    "name": "保护与清运",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 4200,
+    "waste": 0,
+    "basis": "测试估算包项",
+    "source": "synthetic_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 4200.0
+  },
+  {
+    "id": "Q-CAB-A",
+    "category": "定制",
+    "name": "CAB-A柜体",
+    "quantity": 6.37,
+    "unit": "㎡",
+    "rate": 1050,
+    "waste": 0,
+    "basis": "front_axis正面宽度×高度；含板材五金",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "projection",
+      "ids": [
+        "CAB-A"
+      ]
+    },
+    "purchase_quantity": 6.37,
+    "amount": 6688.5
+  },
+  {
+    "id": "Q-SIDE-A",
+    "category": "定制",
+    "name": "SIDE-A柜体",
+    "quantity": 2.2,
+    "unit": "㎡",
+    "rate": 900,
+    "waste": 0,
+    "basis": "front_axis正面宽度×高度；含板材五金",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "projection",
+      "ids": [
+        "SIDE-A"
+      ]
+    },
+    "purchase_quantity": 2.2,
+    "amount": 1980.0
+  },
+  {
+    "id": "Q-TV-LOW",
+    "category": "定制",
+    "name": "TV-LOW柜体",
+    "quantity": 1.32,
+    "unit": "㎡",
+    "rate": 900,
+    "waste": 0,
+    "basis": "front_axis正面宽度×高度；含板材五金",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "projection",
+      "ids": [
+        "TV-LOW"
+      ]
+    },
+    "purchase_quantity": 1.32,
+    "amount": 1188.0
+  },
+  {
+    "id": "Q-KT-BASE",
+    "category": "定制",
+    "name": "KT-BASE柜体及台面",
+    "quantity": 2.4,
+    "unit": "m",
+    "rate": 3000,
+    "waste": 0,
+    "basis": "沿front_axis正面长度，非最大包围边默认值",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "length",
+      "ids": [
+        "KT-BASE"
+      ]
+    },
+    "purchase_quantity": 2.4,
+    "amount": 7200.0
+  },
+  {
+    "id": "Q-VANITY",
+    "category": "定制",
+    "name": "VANITY柜体及台面",
+    "quantity": 1.2,
+    "unit": "m",
+    "rate": 2700,
+    "waste": 0,
+    "basis": "沿front_axis正面长度，非最大包围边默认值",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "length",
+      "ids": [
+        "VANITY"
+      ]
+    },
+    "purchase_quantity": 1.2,
+    "amount": 3240.0
+  },
+  {
+    "id": "Q-LAMPS",
+    "category": "灯具",
+    "name": "灯具与驱动",
+    "quantity": 10.0,
+    "unit": "盏",
+    "rate": 650,
+    "waste": 0,
+    "basis": "按模型对象计量",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "collection": "lights"
+    },
+    "purchase_quantity": 10.0,
+    "amount": 6500.0
+  },
+  {
+    "id": "Q-POINTS",
+    "category": "机电",
+    "name": "条件点位施工暂估",
+    "quantity": 4.0,
+    "unit": "点",
+    "rate": 600,
+    "waste": 0,
+    "basis": "每个条件点暂估，系统深化费用另列",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "collection": "points"
+    },
+    "purchase_quantity": 4.0,
+    "amount": 2400.0
+  },
+  {
+    "id": "Q-MEP",
+    "category": "机电",
+    "name": "管线及系统深化暂估",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 14000,
+    "waste": 0,
+    "basis": "不重复点位；测试估算包项",
+    "source": "synthetic_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 14000.0
+  },
+  {
+    "id": "Q-EQUIP",
+    "category": "家电设备",
+    "name": "设备采购供装暂估",
+    "quantity": 3.0,
+    "unit": "台",
+    "rate": 3800,
+    "waste": 0,
+    "basis": "每台测试统一估算；不代表选型报价",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "collection": "equipment"
+    },
+    "purchase_quantity": 3.0,
+    "amount": 11400.0
+  },
+  {
+    "id": "Q-SOFA-A",
+    "category": "家具洁具",
+    "name": "双人沙发",
+    "quantity": 1.0,
+    "unit": "件",
+    "rate": 5500,
+    "waste": 0,
+    "basis": "按模型对象计量",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "ids": [
+        "SOFA-A"
+      ]
+    },
+    "purchase_quantity": 1.0,
+    "amount": 5500.0
+  },
+  {
+    "id": "Q-TABLE-C",
+    "category": "家具洁具",
+    "name": "茶几",
+    "quantity": 1.0,
+    "unit": "件",
+    "rate": 1800,
+    "waste": 0,
+    "basis": "按模型对象计量",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "ids": [
+        "TABLE-C"
+      ]
+    },
+    "purchase_quantity": 1.0,
+    "amount": 1800.0
+  },
+  {
+    "id": "Q-DINING",
+    "category": "家具洁具",
+    "name": "餐桌",
+    "quantity": 1.0,
+    "unit": "件",
+    "rate": 3000,
+    "waste": 0,
+    "basis": "按模型对象计量",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "ids": [
+        "DINING"
+      ]
+    },
+    "purchase_quantity": 1.0,
+    "amount": 3000.0
+  },
+  {
+    "id": "Q-BED-A",
+    "category": "家具洁具",
+    "name": "床及床垫",
+    "quantity": 1.0,
+    "unit": "件",
+    "rate": 4800,
+    "waste": 0,
+    "basis": "按模型对象计量",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "ids": [
+        "BED-A"
+      ]
+    },
+    "purchase_quantity": 1.0,
+    "amount": 4800.0
+  },
+  {
+    "id": "Q-DESK-A",
+    "category": "家具洁具",
+    "name": "工作桌",
+    "quantity": 1.0,
+    "unit": "件",
+    "rate": 1800,
+    "waste": 0,
+    "basis": "按模型对象计量",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "ids": [
+        "DESK-A"
+      ]
+    },
+    "purchase_quantity": 1.0,
+    "amount": 1800.0
+  },
+  {
+    "id": "Q-CHAIR-A",
+    "category": "家具洁具",
+    "name": "工作椅",
+    "quantity": 1.0,
+    "unit": "件",
+    "rate": 900,
+    "waste": 0,
+    "basis": "按模型对象计量",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "ids": [
+        "CHAIR-A"
+      ]
+    },
+    "purchase_quantity": 1.0,
+    "amount": 900.0
+  },
+  {
+    "id": "Q-WC-A",
+    "category": "家具洁具",
+    "name": "坐便器",
+    "quantity": 1.0,
+    "unit": "件",
+    "rate": 2600,
+    "waste": 0,
+    "basis": "按模型对象计量",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "ids": [
+        "WC-A"
+      ]
+    },
+    "purchase_quantity": 1.0,
+    "amount": 2600.0
+  },
+  {
+    "id": "Q-SEATS",
+    "category": "家具洁具",
+    "name": "餐椅",
+    "quantity": 4.0,
+    "unit": "把",
+    "rate": 600,
+    "waste": 0,
+    "basis": "按模型对象计量",
+    "source": "synthetic_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "ids": [
+        "SEAT-1",
+        "SEAT-2",
+        "SEAT-3",
+        "SEAT-4"
+      ]
+    },
+    "purchase_quantity": 4.0,
+    "amount": 2400.0
+  },
+  {
+    "id": "Q-SOFT",
+    "category": "软装",
+    "name": "窗帘与饰品暂估",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 7000,
+    "waste": 0,
+    "basis": "测试估算包项",
+    "source": "synthetic_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 7000.0
+  },
+  {
+    "id": "Q-SERVICE",
+    "category": "服务",
+    "name": "设计与协调暂估",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 16000,
+    "waste": 0,
+    "basis": "测试预算结构设定",
+    "source": "synthetic_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 16000.0
+  }
+]

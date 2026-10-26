@@ -1,0 +1,7 @@
+﻿id,name,color,use,spec,sample_status,pattern
+OAK,浅木复合地板,#C9AD88,干区地面,板宽160mm,not_submitted,"{""spacing_mm"": [160, 0]}"
+STONE,灰米厨房地砖,#CEC9BE,厨房地面,800×800,not_submitted,"{""spacing_mm"": [800, 800]}"
+WET,浅灰卫浴砖,#B6BCB7,卫浴地面,300×600,not_submitted,"{""spacing_mm"": [300, 600]}"
+WOOD,浅木柜面,#B69570,定制与桌面,18mm板,not_submitted,"{""spacing_mm"": [0, 0]}"
+FABRIC,米白织物,#E4DFD2,沙发与床,示意色,not_submitted,"{""spacing_mm"": [0, 0]}"
+METAL,暖灰金属,#7F8C87,家电与灯具,示意色,not_submitted,"{""spacing_mm"": [0, 0]}"

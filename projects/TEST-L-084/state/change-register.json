@@ -1,0 +1,14 @@
+[
+  {
+    "id": "CHG-TEST-01",
+    "kind": "synthetic_design_change",
+    "object_id": "CAB-A",
+    "from_revision": "v1.0",
+    "to_revision": "v1.1",
+    "before_front_depth_height_mm": [2200, 600, 2200],
+    "after_front_depth_height_mm": [2600, 600, 2450],
+    "basis": "跨户型工具测试设定",
+    "status": "rechecked",
+    "evidence": "state/change-verification.json"
+  }
+]

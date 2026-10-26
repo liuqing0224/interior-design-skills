@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "skill_validation": [
+    {
+      "skill": "interior-brief",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-concept",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-cost",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-delivery",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-drawings",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-ffe",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-finishes",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-joinery",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-layout",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-lighting",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-mep",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-orchestrator",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-review",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-survey",
+      "passed": true,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "interior-visualization",
+      "passed": true,
+      "output": "Skill is valid!"
+    }
+  ],
+  "relative_references": {
+    "checked": 35,
+    "missing": []
+  },
+  "behavior_tests": {
+    "count": 46,
+    "passed": true
+  }
+}

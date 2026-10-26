@@ -1,0 +1,259 @@
+{
+  "skills": [
+    {
+      "skill": "interior-brief",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-concept",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-cost",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-delivery",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-drawings",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-ffe",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-finishes",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-joinery",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-layout",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-lighting",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-mep",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-orchestrator",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-review",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-survey",
+      "passed": true,
+      "result": "Skill is valid!"
+    },
+    {
+      "skill": "interior-visualization",
+      "passed": true,
+      "result": "Skill is valid!"
+    }
+  ],
+  "relative_references": [
+    {
+      "file": "skills/interior-orchestrator/SKILL.md",
+      "ref": "references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-orchestrator/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-orchestrator/SKILL.md",
+      "ref": "references/tool-guide.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-orchestrator/SKILL.md",
+      "ref": "references/typologies.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-review/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-review/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-survey/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-survey/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-cost/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-cost/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-drawings/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-drawings/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-mep/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-mep/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-brief/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-brief/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-concept/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-concept/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-delivery/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-delivery/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-visualization/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-visualization/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-ffe/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-ffe/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-layout/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-layout/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-finishes/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-finishes/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-lighting/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-lighting/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-joinery/SKILL.md",
+      "ref": "../interior-orchestrator/references/project-contract.md",
+      "exists": true
+    },
+    {
+      "file": "skills/interior-joinery/SKILL.md",
+      "ref": "references/checklist.md",
+      "exists": true
+    }
+  ],
+  "all_passed": true,
+  "verified_at": "2026-10-26",
+  "behavioral_tests": {
+    "passed": true,
+    "tests": 22,
+    "command": ".venv/bin/python tests/test_project_tools.py"
+  },
+  "artifact_check": {
+    "passed": true,
+    "path": "projects/DEMO-APT-096/state/artifact-check.json",
+    "latest_skill_records_checked": 15
+  },
+  "installation": {
+    "passed": true,
+    "skills": 15,
+    "canonical_bytes_equal": true,
+    "target_kind": "user_codex_skills"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "project_id": "DEMO-APT-096",
+  "revision": "v1.0",
+  "passed": true,
+  "issues": [],
+  "scope": [
+    "rectangular room boundaries",
+    "furniture collision",
+    "design clearances",
+    "ID references",
+    "opening limits",
+    "control groups",
+    "service access",
+    "budget arithmetic",
+    "area cover"
+  ],
+  "not_checked": [
+    "structural safety",
+    "electrical protection",
+    "pipe sizing and gradients",
+    "statutory compliance",
+    "site conditions",
+    "client approval"
+  ],
+  "envelope_area_m2": 96.0,
+  "net_area_m2": 92.5344,
+  "budget": {
+    "base": 261734.17,
+    "reserve": 26173.42,
+    "total": 287907.59,
+    "budget": 300000,
+    "remaining": 12092.41
+  }
+}

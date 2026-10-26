@@ -1,0 +1,44 @@
+[
+  {
+    "id": "CHG01",
+    "objects": [
+      "F04",
+      "P07",
+      "B28"
+    ],
+    "reason": "空间净距与维护可达性校审",
+    "affected": [
+      "ID-01",
+      "ID-04",
+      "家具清单",
+      "软装规格",
+      "预算",
+      "空间表现"
+    ],
+    "before_input_sha256": "3e788cda16d23a986ae14b4e3e37ac904cb661c06f5366dc751c4f0686aff249",
+    "after_input_sha256": "cb296603add7aeaedeadfc489a543fa1f2b8e7c82e6c93257726f9227417ec71",
+    "cost_delta_cny": -1430.0,
+    "status": "rechecked_design_files"
+  },
+  {
+    "id": "CHG02",
+    "objects": [
+      "F01",
+      "F02",
+      "J05",
+      "P01",
+      "C03"
+    ],
+    "reason": "电视背景与采光窗立面协调",
+    "affected": [
+      "ID-01",
+      "ID-04",
+      "空间表现",
+      "家具平面"
+    ],
+    "before_input_sha256": "cb296603add7aeaedeadfc489a543fa1f2b8e7c82e6c93257726f9227417ec71",
+    "after_input_sha256": "4975abbcc43220de291c554fcb601196f51df8b5456117880fd46042716f870f",
+    "cost_delta_cny": 0,
+    "status": "rechecked_design_files"
+  }
+]

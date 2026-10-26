@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "name": "interior-orchestrator",
+      "title": "室内项目总控",
+      "description": "编排室内设计从任务书、方案深化到图纸、采购及交付配合，维护统一项目数据、版本和跨环节依赖。用于完整室内设计项目或多环节变更协调。",
+      "path": "skills/interior-orchestrator"
+    },
+    {
+      "name": "interior-brief",
+      "title": "需求与任务书",
+      "description": "把居住或商业使用需求转成可验证的室内设计任务书，排序预算、功能、审美和维护要求。用于项目启动或需求变更。",
+      "path": "skills/interior-brief"
+    },
+    {
+      "name": "interior-survey",
+      "title": "现状与测量",
+      "description": "整理室内原始图纸、测量、照片、保留构件与服务点位，建立可追溯现状基线。用于开工前资料接收和尺寸复核。",
+      "path": "skills/interior-survey"
+    },
+    {
+      "name": "interior-layout",
+      "title": "空间与动线",
+      "description": "根据现状和任务书推演室内分区、家具、收纳和动线，比较方案并记录尺寸取舍。用于平面规划与功能调整。",
+      "path": "skills/interior-layout"
+    },
+    {
+      "name": "interior-concept",
+      "title": "概念与材质方向",
+      "description": "把使用需求转成可执行的室内空间概念、色彩和材料组合。用于概念设计与材料方向确认。",
+      "path": "skills/interior-concept"
+    },
+    {
+      "name": "interior-visualization",
+      "title": "空间表现",
+      "description": "从锁定的室内几何、材料和家具数据生成可追溯的空间表现与相机清单。用于效果图、剖透视和方案汇报。",
+      "path": "skills/interior-visualization"
+    },
+    {
+      "name": "interior-finishes",
+      "title": "材料与收口",
+      "description": "深化墙地顶材料、铺装、踢脚和交接节点，维护材料编号及工程量口径。用于材料选型、铺装和送样准备。",
+      "path": "skills/interior-finishes"
+    },
+    {
+      "name": "interior-lighting",
+      "title": "照明与控制",
+      "description": "根据家具与活动场景组织室内照明、灯具位置、分组和控制意图。用于灯位、场景与顶面协调。",
+      "path": "skills/interior-lighting"
+    },
+    {
+      "name": "interior-joinery",
+      "title": "定制与木作",
+      "description": "将收纳需求与平面转成柜体、木作及定制家具深化条件，协调五金、电源和检修。用于橱柜、衣柜及定制家具设计。",
+      "path": "skills/interior-joinery"
+    },
+    {
+      "name": "interior-mep",
+      "title": "设备与机电接口",
+      "description": "协调室内空调、新风、给排水、电气及智能设备点位和安装空间。用于室内设备条件图与多专业接口审阅。",
+      "path": "skills/interior-mep"
+    },
+    {
+      "name": "interior-drawings",
+      "title": "图纸编排",
+      "description": "从统一室内模型编排平面、地材、灯位、机电点位、立面和节点图纸。用于方案深化图集与施工图组织。",
+      "path": "skills/interior-drawings"
+    },
+    {
+      "name": "interior-ffe",
+      "title": "软装与采购",
+      "description": "根据室内方案组织家具、灯饰、窗帘、地毯和饰品的规格与采购计划。用于软装配置、询价和到货协调。",
+      "path": "skills/interior-ffe"
+    },
+    {
+      "name": "interior-cost",
+      "title": "工程量与预算",
+      "description": "从室内模型与规格表计算工程量、损耗、费用及替代方案，维护预算范围与来源。用于方案估算、询价对比和变更成本。",
+      "path": "skills/interior-cost"
+    },
+    {
+      "name": "interior-review",
+      "title": "校审与变更复查",
+      "description": "检查室内空间、图纸、材料、灯具、设备和预算的一致性并管理整改。用于阶段校审和变更后的关联复核。",
+      "path": "skills/interior-review"
+    },
+    {
+      "name": "interior-delivery",
+      "title": "交底与交付配合",
+      "description": "组织室内项目图纸清单、交底、送样、变更及整改移交记录。用于设计交付包和现场配合准备。",
+      "path": "skills/interior-delivery"
+    }
+  ]
+}

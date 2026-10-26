@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "revision": "v1.1",
+  "model_sha256": "f6970ee23e0095cb72a4d3755577b86e3c0e37c3452eda104a8722f4404a1025",
+  "model": {
+    "project_id": "DEMO-APT-096",
+    "revision": "v1.1",
+    "passed": true,
+    "issues": [],
+    "scope": [
+      "rectangular room boundaries",
+      "furniture collision",
+      "design clearances",
+      "ID references",
+      "opening limits",
+      "control groups",
+      "service access",
+      "budget arithmetic",
+      "area cover"
+    ],
+    "not_checked": [
+      "structural safety",
+      "electrical protection",
+      "pipe sizing and gradients",
+      "statutory compliance",
+      "site conditions",
+      "client approval"
+    ],
+    "envelope_area_m2": 96.0,
+    "net_area_m2": 92.5344,
+    "budget": {
+      "base": 261734.18,
+      "reserve": 26173.42,
+      "total": 287907.6,
+      "budget": 300000,
+      "remaining": 12092.4
+    }
+  },
+  "dxf": {
+    "audit_errors": 0,
+    "audit_fixes": 0,
+    "units": "mm",
+    "entity_counts": {
+      "LWPOLYLINE": 324,
+      "LINE": 877,
+      "TEXT": 209,
+      "CIRCLE": 57
+    },
+    "layer_count": 66,
+    "room_rectangles_checked": 35,
+    "furniture_rectangles_checked": 30,
+    "opening_labels_checked": 13,
+    "total_dimensions_checked": 10
+  },
+  "svg_files": [
+    "ID-01.svg",
+    "ID-02.svg",
+    "ID-03.svg",
+    "ID-04.svg",
+    "ID-05.svg",
+    "ID-06.svg"
+  ],
+  "pdf": {
+    "pages": 12,
+    "format": "A3 landscape",
+    "chinese_text_extracted": true,
+    "chinese_font_embedded": true
+  },
+  "model_exchange": {
+    "blend_reopened_in_blender": true,
+    "blend_objects": 545,
+    "glb_version": 2,
+    "glb_meshes": 505
+  },
+  "renders": {
+    "input_hash_matches": true,
+    "files": [
+      "01-axon.png",
+      "02-living.png",
+      "03-study.png"
+    ]
+  },
+  "budget": {
+    "detail_rows": 40,
+    "all_amounts_equal_to_cent": true,
+    "base": 261734.18,
+    "reserve": 26173.42,
+    "total": 287907.6,
+    "budget": 300000,
+    "remaining": 12092.4
+  },
+  "closed_design_issues": 3,
+  "latest_skill_records_checked": 15,
+  "artifacts_only": false
+}

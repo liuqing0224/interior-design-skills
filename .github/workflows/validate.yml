@@ -1,0 +1,61 @@
+name: Validate skills and examples
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install verification dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Check skill metadata and local references
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import json
+          import re
+          import yaml
+
+          skills = sorted(Path('skills').glob('interior-*'))
+          assert len(skills) == 15, 'Expected exactly 15 skills'
+          references = 0
+          for skill in skills:
+              text = (skill / 'SKILL.md').read_text()
+              match = re.match(r'\A---\s*\n(.*?)\n---\s*(?:\n|$)', text, re.S)
+              assert match, f'Missing front matter: {skill}'
+              metadata = yaml.safe_load(match.group(1))
+              assert metadata['name'] == skill.name, f'Skill name mismatch: {skill}'
+              assert isinstance(metadata['description'], str) and metadata['description'].strip()
+              assert isinstance(yaml.safe_load((skill / 'agents/openai.yaml').read_text()), dict)
+              for doc in skill.rglob('*.md'):
+                  for href in re.findall(r'\]\(([^)]+)\)', doc.read_text()):
+                      if '://' in href or href.startswith('#'):
+                          continue
+                      assert (doc.parent / href.split('#')[0]).is_file(), f'Missing reference: {doc}: {href}'
+                      references += 1
+          for manifest in Path('projects').glob('*/state/delivery-manifest.json'):
+              for row in json.loads(manifest.read_text())['files']:
+                  target = manifest.parent.parent / row['path']
+                  assert hashlib.sha256(target.read_bytes()).hexdigest() == row['sha256'], str(target)
+          print(f'15 skills, {references} references and project manifests verified')
+          PY
+      - name: Run behavior tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify transfer example and five actual stage records
+        run: python skills/interior-review/scripts/verify_2d.py projects/TEST-L-084 --check-records
+      - name: Verify cabinet change
+        run: python tools/verify_change.py
+      - name: Verify frozen 96 sqm example
+        run: python tools/verify_delivery.py --baseline-skills --out /tmp/demo096-regression.json

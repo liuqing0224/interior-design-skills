@@ -1,0 +1,6 @@
+ezdxf>=1.4,<2
+reportlab>=4,<5
+Pillow>=11,<13
+PyYAML>=6,<7
+pypdf>=5,<7
+openpyxl>=3.1,<4

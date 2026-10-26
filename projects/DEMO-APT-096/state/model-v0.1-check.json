@@ -1,0 +1,48 @@
+{
+  "project_id": "DEMO-APT-096",
+  "revision": "v0.1",
+  "passed": false,
+  "issues": [
+    {
+      "code": "CLEARANCE",
+      "object": "C01",
+      "message": "Below project design target",
+      "actual_mm": 200,
+      "target_mm": 750,
+      "basis_type": "project_design_target"
+    },
+    {
+      "code": "POINT_ACCESS",
+      "object": "P07",
+      "message": "Service point behind F17"
+    }
+  ],
+  "scope": [
+    "rectangular room boundaries",
+    "furniture collision",
+    "design clearances",
+    "ID references",
+    "opening limits",
+    "control groups",
+    "service access",
+    "budget arithmetic",
+    "area cover"
+  ],
+  "not_checked": [
+    "structural safety",
+    "electrical protection",
+    "pipe sizing and gradients",
+    "statutory compliance",
+    "site conditions",
+    "client approval"
+  ],
+  "envelope_area_m2": 96.0,
+  "net_area_m2": 92.5344,
+  "budget": {
+    "base": 263034.17,
+    "reserve": 26303.42,
+    "total": 289337.59,
+    "budget": 300000,
+    "remaining": 10662.41
+  }
+}

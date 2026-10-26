@@ -1,0 +1,637 @@
+[
+  {
+    "id": "B01",
+    "category": "硬装",
+    "name": "干区复合地板含安装",
+    "quantity": 74.1336,
+    "unit": "㎡",
+    "rate": 245,
+    "waste": 0.05,
+    "basis": "房间净面积合计，柜下满铺",
+    "objects": "M01",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "floor",
+      "materials": [
+        "M01"
+      ]
+    },
+    "purchase_quantity": 77.8403,
+    "amount": 19070.87
+  },
+  {
+    "id": "B02",
+    "category": "硬装",
+    "name": "厨卫地砖含安装",
+    "quantity": 18.4008,
+    "unit": "㎡",
+    "rate": 240,
+    "waste": 0.08,
+    "basis": "R02与R06净面积，不与墙砖重复",
+    "objects": "M02,M03",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "floor",
+      "materials": [
+        "M02",
+        "M03"
+      ]
+    },
+    "purchase_quantity": 19.8729,
+    "amount": 4769.5
+  },
+  {
+    "id": "B03",
+    "category": "硬装",
+    "name": "顶面基层及涂装",
+    "quantity": 92.5344,
+    "unit": "㎡",
+    "rate": 135,
+    "waste": 0,
+    "basis": "净分区面积，厨卫耐湿体系另列",
+    "objects": "M04",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "net_area"
+    },
+    "purchase_quantity": 92.5344,
+    "amount": 12492.14
+  },
+  {
+    "id": "B04",
+    "category": "硬装",
+    "name": "干区墙面基层与涂装",
+    "quantity": 178.0,
+    "unit": "㎡",
+    "rate": 68,
+    "waste": 0,
+    "basis": "墙面展开估量，详见06；现场复尺后替换",
+    "objects": "M05",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 178.0,
+    "amount": 12104.0
+  },
+  {
+    "id": "B05",
+    "category": "硬装",
+    "name": "卫浴墙砖",
+    "quantity": 24.5,
+    "unit": "㎡",
+    "rate": 245,
+    "waste": 0.08,
+    "basis": "估量：实墙面展开扣门窗，非地砖",
+    "objects": "M10",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 26.46,
+    "amount": 6482.7
+  },
+  {
+    "id": "B06",
+    "category": "硬装",
+    "name": "厨房背板墙砖",
+    "quantity": 4.7,
+    "unit": "㎡",
+    "rate": 220,
+    "waste": 0.08,
+    "basis": "台面长度×0.6m，高柜区域扣除",
+    "objects": "M10",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 5.076,
+    "amount": 1116.72
+  },
+  {
+    "id": "B07",
+    "category": "硬装",
+    "name": "卫浴防水与找坡基层",
+    "quantity": 25.0,
+    "unit": "㎡",
+    "rate": 95,
+    "waste": 0,
+    "basis": "地面加墙面设计估量，淋浴高度待专业深化",
+    "objects": "R06",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 25.0,
+    "amount": 2375.0
+  },
+  {
+    "id": "B08",
+    "category": "硬装",
+    "name": "干区踢脚及收口",
+    "quantity": 48.0,
+    "unit": "m",
+    "rate": 68,
+    "waste": 0,
+    "basis": "净长度估量，门洞及柜体端部复尺",
+    "objects": "M06",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 48.0,
+    "amount": 3264.0
+  },
+  {
+    "id": "B09",
+    "category": "硬装",
+    "name": "室内门及五金",
+    "quantity": 5.0,
+    "unit": "套",
+    "rate": 2300,
+    "waste": 0,
+    "basis": "D02-D06，入户门保留",
+    "objects": "D02,D03,D04,D05,D06",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 5.0,
+    "amount": 11500.0
+  },
+  {
+    "id": "B10",
+    "category": "硬装",
+    "name": "淋浴玻璃隔断",
+    "quantity": 2.94,
+    "unit": "㎡",
+    "rate": 880,
+    "waste": 0,
+    "basis": "1400×2100，五金含在单价",
+    "objects": "SHOWER",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 2.94,
+    "amount": 2587.2
+  },
+  {
+    "id": "B11",
+    "category": "硬装",
+    "name": "厨卫耐湿顶面增量",
+    "quantity": 18.4008,
+    "unit": "㎡",
+    "rate": 65,
+    "waste": 0,
+    "basis": "相对B03的增量，不重复基础",
+    "objects": "M04",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "floor",
+      "materials": [
+        "M02",
+        "M03"
+      ]
+    },
+    "purchase_quantity": 18.4008,
+    "amount": 1196.05
+  },
+  {
+    "id": "B12",
+    "category": "硬装",
+    "name": "成品保护与清运",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 4800,
+    "waste": 0,
+    "basis": "设计估算",
+    "objects": "",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 4800.0
+  },
+  {
+    "id": "B13",
+    "category": "机电",
+    "name": "电气点位施工暂估",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 13500,
+    "waste": 0,
+    "basis": "不含灯具和家电，待专业系统深化",
+    "objects": "points",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 13500.0
+  },
+  {
+    "id": "B14",
+    "category": "机电",
+    "name": "给排水改造暂估",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 7800,
+    "waste": 0,
+    "basis": "保留原立管，不含洁具",
+    "objects": "points",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 7800.0
+  },
+  {
+    "id": "B15",
+    "category": "机电",
+    "name": "分体空调供装",
+    "quantity": 4.0,
+    "unit": "套",
+    "rate": 4200,
+    "waste": 0,
+    "basis": "含机组安装基本配置，超长管另核",
+    "objects": "E07,E08,E09,E10",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 4.0,
+    "amount": 16800.0
+  },
+  {
+    "id": "B16",
+    "category": "机电",
+    "name": "卫浴排风与风口",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 1800,
+    "waste": 0,
+    "basis": "原风道接入条件待核",
+    "objects": "E11",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 1800.0
+  },
+  {
+    "id": "B17",
+    "category": "灯具",
+    "name": "全部灯具与驱动",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 9800,
+    "waste": 0,
+    "basis": "灯具表28盏/条，控制器包含",
+    "objects": "lights",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 9800.0
+  },
+  {
+    "id": "B18",
+    "category": "定制",
+    "name": "主卧衣柜",
+    "quantity": 5.76,
+    "unit": "㎡",
+    "rate": 1100,
+    "waste": 0,
+    "basis": "2.4×2.4投影，侧板和五金含",
+    "objects": "J01",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "projection",
+      "ids": [
+        "J01"
+      ]
+    },
+    "purchase_quantity": 5.76,
+    "amount": 6336.0
+  },
+  {
+    "id": "B19",
+    "category": "定制",
+    "name": "儿童衣柜",
+    "quantity": 5.04,
+    "unit": "㎡",
+    "rate": 1050,
+    "waste": 0,
+    "basis": "2.1×2.4投影",
+    "objects": "J02",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "projection",
+      "ids": [
+        "J02"
+      ]
+    },
+    "purchase_quantity": 5.04,
+    "amount": 5292.0
+  },
+  {
+    "id": "B20",
+    "category": "定制",
+    "name": "书房书柜",
+    "quantity": 5.04,
+    "unit": "㎡",
+    "rate": 950,
+    "waste": 0,
+    "basis": "2.1×2.4投影",
+    "objects": "J04",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "projection",
+      "ids": [
+        "J04"
+      ]
+    },
+    "purchase_quantity": 5.04,
+    "amount": 4788.0
+  },
+  {
+    "id": "B21",
+    "category": "定制",
+    "name": "玄关柜",
+    "quantity": 1.32,
+    "unit": "㎡",
+    "rate": 1100,
+    "waste": 0,
+    "basis": "0.55×2.4投影",
+    "objects": "J03",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "projection",
+      "ids": [
+        "J03"
+      ]
+    },
+    "purchase_quantity": 1.32,
+    "amount": 1452.0
+  },
+  {
+    "id": "B22",
+    "category": "定制",
+    "name": "餐边柜",
+    "quantity": 2.0,
+    "unit": "m",
+    "rate": 1800,
+    "waste": 0,
+    "basis": "长度计价，非投影面积",
+    "objects": "J06",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "length",
+      "ids": [
+        "J06"
+      ]
+    },
+    "purchase_quantity": 2.0,
+    "amount": 3600.0
+  },
+  {
+    "id": "B23",
+    "category": "定制",
+    "name": "电视柜与床头柜",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 5800,
+    "waste": 0,
+    "basis": "电视柜2.6m，床头柜两只",
+    "objects": "J05,J10,J11",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 5800.0
+  },
+  {
+    "id": "B24",
+    "category": "定制",
+    "name": "厨房地柜与台面",
+    "quantity": 4.48,
+    "unit": "m",
+    "rate": 3100,
+    "waste": 0,
+    "basis": "2.48+2.00，L角不重复",
+    "objects": "J07,J08,M07",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "length",
+      "ids": [
+        "J07",
+        "J08"
+      ]
+    },
+    "purchase_quantity": 4.48,
+    "amount": 13888.0
+  },
+  {
+    "id": "B25",
+    "category": "定制",
+    "name": "浴室柜与镜",
+    "quantity": 1.2,
+    "unit": "m",
+    "rate": 3000,
+    "waste": 0,
+    "basis": "沿墙长度1.2m",
+    "objects": "J09",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "length",
+      "ids": [
+        "J09"
+      ]
+    },
+    "purchase_quantity": 1.2,
+    "amount": 3600.0
+  },
+  {
+    "id": "B26",
+    "category": "软装",
+    "name": "三人沙发",
+    "quantity": 1.0,
+    "unit": "件",
+    "rate": 6200,
+    "waste": 0,
+    "basis": "2600×900",
+    "objects": "F01",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 6200.0
+  },
+  {
+    "id": "B27",
+    "category": "软装",
+    "name": "茶几与单椅",
+    "quantity": 1.0,
+    "unit": "组",
+    "rate": 3200,
+    "waste": 0,
+    "basis": "两件合计",
+    "objects": "F02,F03",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 3200.0
+  },
+  {
+    "id": "B28",
+    "category": "软装",
+    "name": "餐桌",
+    "quantity": 1.0,
+    "unit": "件",
+    "rate": 3200,
+    "waste": 0,
+    "basis": "修订为1400×800，分体运输；示范估算",
+    "objects": "F04",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 3200.0
+  },
+  {
+    "id": "B29",
+    "category": "软装",
+    "name": "餐椅",
+    "quantity": 4.0,
+    "unit": "把",
+    "rate": 680,
+    "waste": 0,
+    "basis": "四把",
+    "objects": "F05,F06,F07,F08",
+    "source": "illustrative_estimate_not_quote",
+    "quantity_rule": {
+      "kind": "count",
+      "ids": [
+        "F05",
+        "F06",
+        "F07",
+        "F08"
+      ]
+    },
+    "purchase_quantity": 4.0,
+    "amount": 2720.0
+  },
+  {
+    "id": "B30",
+    "category": "软装",
+    "name": "两卧床与床垫",
+    "quantity": 2.0,
+    "unit": "套",
+    "rate": 4300,
+    "waste": 0,
+    "basis": "主卧1800床、儿童1200床",
+    "objects": "F09,F10",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 2.0,
+    "amount": 8600.0
+  },
+  {
+    "id": "B31",
+    "category": "软装",
+    "name": "双工作位与座椅",
+    "quantity": 1.0,
+    "unit": "组",
+    "rate": 5200,
+    "waste": 0,
+    "basis": "儿童桌与书房桌、椅各一",
+    "objects": "F11,F12,F13,F14",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 5200.0
+  },
+  {
+    "id": "B32",
+    "category": "软装",
+    "name": "书房折叠沙发床",
+    "quantity": 1.0,
+    "unit": "件",
+    "rate": 2800,
+    "waste": 0,
+    "basis": "折叠1400×850",
+    "objects": "F15",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 2800.0
+  },
+  {
+    "id": "B33",
+    "category": "软装",
+    "name": "窗帘及轨道",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 6200,
+    "waste": 0,
+    "basis": "按窗表配置，现场复尺",
+    "objects": "WIN01-WIN05",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 6200.0
+  },
+  {
+    "id": "B34",
+    "category": "软装",
+    "name": "地毯及少量饰品",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 2800,
+    "waste": 0,
+    "basis": "不另计装饰模型",
+    "objects": "F16",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 2800.0
+  },
+  {
+    "id": "B35",
+    "category": "家电洁具",
+    "name": "冰箱",
+    "quantity": 1.0,
+    "unit": "台",
+    "rate": 4200,
+    "waste": 0,
+    "basis": "750×750外包条件",
+    "objects": "E01",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 4200.0
+  },
+  {
+    "id": "B36",
+    "category": "家电洁具",
+    "name": "洗烘设备",
+    "quantity": 1.0,
+    "unit": "组",
+    "rate": 6500,
+    "waste": 0,
+    "basis": "叠放安装",
+    "objects": "E02",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 6500.0
+  },
+  {
+    "id": "B37",
+    "category": "家电洁具",
+    "name": "厨房电器及水槽",
+    "quantity": 1.0,
+    "unit": "组",
+    "rate": 8200,
+    "waste": 0,
+    "basis": "灶、油烟机、洗碗机、水槽，不含橱柜",
+    "objects": "E03,E04,E05",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 8200.0
+  },
+  {
+    "id": "B38",
+    "category": "家电洁具",
+    "name": "卫浴洁具与热水",
+    "quantity": 1.0,
+    "unit": "组",
+    "rate": 7200,
+    "waste": 0,
+    "basis": "坐便、花洒、龙头、热水器，不含浴室柜",
+    "objects": "E06,F19",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 7200.0
+  },
+  {
+    "id": "B39",
+    "category": "服务",
+    "name": "设计与深化服务暂估",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 15000,
+    "waste": 0,
+    "basis": "本示范为预算结构设定，不代表收费报价",
+    "objects": "",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 15000.0
+  },
+  {
+    "id": "B40",
+    "category": "服务",
+    "name": "安装协调及调试暂估",
+    "quantity": 1.0,
+    "unit": "项",
+    "rate": 3500,
+    "waste": 0,
+    "basis": "不重复各供装项的基本安装",
+    "objects": "",
+    "source": "illustrative_estimate_not_quote",
+    "purchase_quantity": 1.0,
+    "amount": 3500.0
+  }
+]

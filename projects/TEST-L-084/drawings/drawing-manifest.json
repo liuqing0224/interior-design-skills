@@ -1,0 +1,97 @@
+{
+  "revision": "v1.1",
+  "model_sha256": "347bfdfc11521ae2510d1508892bbba7f3ee9882fe78a9224943df385ee54ffb",
+  "generator_sha256": "ab9c74dab3a06c1df2a08e7b6af9715a4b62b6ab0bbc8b547791c0693ce98062",
+  "sheets": [
+    {
+      "code": "ID-01",
+      "title": "家具与空间平面",
+      "kind": "furniture",
+      "offset_mm": [
+        0.0,
+        0.0
+      ],
+      "bounds_mm": [
+        -172.0,
+        1680,
+        12240,
+        12045
+      ]
+    },
+    {
+      "code": "ID-02",
+      "title": "地材与铺装意向",
+      "kind": "finishes",
+      "offset_mm": [
+        15477.0,
+        0.0
+      ],
+      "bounds_mm": [
+        -172.0,
+        1680,
+        12240,
+        12045
+      ]
+    },
+    {
+      "code": "ID-03",
+      "title": "灯位与控制分组",
+      "kind": "lighting",
+      "offset_mm": [
+        30954.0,
+        0.0
+      ],
+      "bounds_mm": [
+        -172.0,
+        1680,
+        12240,
+        12045
+      ]
+    },
+    {
+      "code": "ID-04",
+      "title": "设备与机电条件",
+      "kind": "mep",
+      "offset_mm": [
+        0.0,
+        -12338.75
+      ],
+      "bounds_mm": [
+        -172.0,
+        1680,
+        12240,
+        12045
+      ]
+    },
+    {
+      "code": "ID-05",
+      "title": "定位与开口尺寸",
+      "kind": "dimensions",
+      "offset_mm": [
+        15477.0,
+        -12338.75
+      ],
+      "bounds_mm": [
+        -172.0,
+        1506.25,
+        12240,
+        12045
+      ]
+    },
+    {
+      "code": "ID-06",
+      "title": "定制立面与剖面条件",
+      "kind": "joinery",
+      "offset_mm": [
+        30954.0,
+        -12338.75
+      ],
+      "bounds_mm": [
+        -672.0,
+        -3898.75,
+        13005,
+        3200
+      ]
+    }
+  ]
+}

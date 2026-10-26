@@ -1,0 +1,51 @@
+test_budget_overrun (test_project_tools.ProjectTests.test_budget_overrun) ... ok
+test_corridor_block (test_project_tools.ProjectTests.test_corridor_block) ... ok
+test_device_reference (test_project_tools.ProjectTests.test_device_reference) ... ok
+test_duplicate_id (test_project_tools.ProjectTests.test_duplicate_id) ... ok
+test_final_design (test_project_tools.ProjectTests.test_final_design) ... ok
+test_furniture_collision (test_project_tools.ProjectTests.test_furniture_collision) ... ok
+test_half_cent_reserve_rounds_up (test_project_tools.ProjectTests.test_half_cent_reserve_rounds_up) ... ok
+test_half_up_quantity_and_line_amount (test_project_tools.ProjectTests.test_half_up_quantity_and_line_amount) ... ok
+test_historical_issues_are_observable (test_project_tools.ProjectTests.test_historical_issues_are_observable) ... ok
+test_init_rejects_existing (test_project_tools.ProjectTests.test_init_rejects_existing) ... ok
+test_installer_preflight_no_partial_write (test_project_tools.ProjectTests.test_installer_preflight_no_partial_write) ... ok
+test_invalid_dimension (test_project_tools.ProjectTests.test_invalid_dimension) ... ok
+test_missing_budget_input (test_project_tools.ProjectTests.test_missing_budget_input) ... ok
+test_opening_exceeds_wall (test_project_tools.ProjectTests.test_opening_exceeds_wall) ... ok
+test_point_outside_room (test_project_tools.ProjectTests.test_point_outside_room) ... ok
+test_quantity_updates_from_geometry (test_project_tools.ProjectTests.test_quantity_updates_from_geometry) ... ok
+test_record_rejects_escape (test_project_tools.ProjectTests.test_record_rejects_escape) ... ok
+test_room_overlap (test_project_tools.ProjectTests.test_room_overlap) ... ok
+test_unknown_light_group (test_project_tools.ProjectTests.test_unknown_light_group) ... ok
+test_unknown_material (test_project_tools.ProjectTests.test_unknown_material) ... ok
+test_wrong_units (test_project_tools.ProjectTests.test_wrong_units) ... ok
+test_zero_rate_is_valid (test_project_tools.ProjectTests.test_zero_rate_is_valid) ... ok
+test_bad_quantity_reference (test_transfer.TransferTests.test_bad_quantity_reference) ... ok
+test_both_versions_cover_true_footprint (test_transfer.TransferTests.test_both_versions_cover_true_footprint) ... ok
+test_bounding_box_mismatch_rejected (test_transfer.TransferTests.test_bounding_box_mismatch_rejected) ... ok
+test_cabinet_change_expected_quantities (test_transfer.TransferTests.test_cabinet_change_expected_quantities) ... ok
+test_collection_counts_update (test_transfer.TransferTests.test_collection_counts_update) ... ok
+test_concavity_requires_more_than_corners (test_transfer.TransferTests.test_concavity_requires_more_than_corners) ... ok
+test_diagonal_outline_rejected (test_transfer.TransferTests.test_diagonal_outline_rejected) ... ok
+test_duplicate_quantity_reference (test_transfer.TransferTests.test_duplicate_quantity_reference) ... ok
+test_explicit_front_axis_controls_projection (test_transfer.TransferTests.test_explicit_front_axis_controls_projection) ... ok
+test_fixture_room_is_validated (test_transfer.TransferTests.test_fixture_room_is_validated) ... ok
+test_invalid_cabinet_interior (test_transfer.TransferTests.test_invalid_cabinet_interior) ... ok
+test_joinery_schedule_is_updated (test_transfer.TransferTests.test_joinery_schedule_is_updated) ... ok
+test_known_update_preserves_backup (test_transfer.TransferTests.test_known_update_preserves_backup) ... ok
+test_no_shower_is_supported (test_transfer.TransferTests.test_no_shower_is_supported) ... ok
+test_notch_is_outside (test_transfer.TransferTests.test_notch_is_outside) ... ok
+test_old_model_exports_through_new_drawing_engine (test_transfer.TransferTests.test_old_model_exports_through_new_drawing_engine) ... ok
+test_plan_and_elevation_use_changed_geometry (test_transfer.TransferTests.test_plan_and_elevation_use_changed_geometry) ... ok
+test_real_gap_still_reported (test_transfer.TransferTests.test_real_gap_still_reported) ... ok
+test_repeated_outline_vertex_rejected (test_transfer.TransferTests.test_repeated_outline_vertex_rejected) ... ok
+test_self_intersection_rejected (test_transfer.TransferTests.test_self_intersection_rejected) ... ok
+test_total_dimensions_are_derived (test_transfer.TransferTests.test_total_dimensions_are_derived) ... ok
+test_translated_negative_origin (test_transfer.TransferTests.test_translated_negative_origin) ... ok
+test_unknown_cabinet_selection (test_transfer.TransferTests.test_unknown_cabinet_selection) ... ok
+test_update_refuses_unknown_installed_content (test_transfer.TransferTests.test_update_refuses_unknown_installed_content) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.314s
+
+OK

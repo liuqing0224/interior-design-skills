@@ -1,0 +1,1412 @@
+{
+  "project_id": "TEST-L-084",
+  "title": "折庭",
+  "revision": "v1.0",
+  "units": "mm",
+  "input_kind": "design_assumption",
+  "location_status": "synthetic_transfer_test",
+  "budget_cny": 220000,
+  "reserve_rate": 0.1,
+  "envelope": [
+    1000,
+    2000,
+    10500,
+    9000
+  ],
+  "outline": [
+    [
+      1000,
+      2000
+    ],
+    [
+      11500,
+      2000
+    ],
+    [
+      11500,
+      7500
+    ],
+    [
+      8500,
+      7500
+    ],
+    [
+      8500,
+      11000
+    ],
+    [
+      1000,
+      11000
+    ]
+  ],
+  "ceiling_height_mm": 2700,
+  "site_status": "not_started",
+  "procurement_status": "not_ordered",
+  "rooms": [
+    {
+      "id": "LOUNGE",
+      "name": "客餐厅",
+      "rect": [
+        1000,
+        2000,
+        7500,
+        4300
+      ],
+      "floor": "OAK",
+      "label_xy": [
+        4900,
+        5950
+      ]
+    },
+    {
+      "id": "COOK",
+      "name": "厨房",
+      "rect": [
+        8620,
+        2000,
+        2880,
+        4300
+      ],
+      "floor": "STONE"
+    },
+    {
+      "id": "PASS",
+      "name": "横厅通道",
+      "rect": [
+        1000,
+        6420,
+        10500,
+        1080
+      ],
+      "floor": "OAK",
+      "label_xy": [
+        5200,
+        6970
+      ]
+    },
+    {
+      "id": "SLEEP",
+      "name": "卧室",
+      "rect": [
+        1000,
+        7620,
+        3480,
+        3380
+      ],
+      "floor": "OAK"
+    },
+    {
+      "id": "WORK",
+      "name": "独立书房",
+      "rect": [
+        4600,
+        7620,
+        1780,
+        3380
+      ],
+      "floor": "OAK"
+    },
+    {
+      "id": "WASH",
+      "name": "卫浴",
+      "rect": [
+        6500,
+        7620,
+        2000,
+        3380
+      ],
+      "floor": "WET"
+    }
+  ],
+  "materials": [
+    {
+      "id": "OAK",
+      "name": "浅木复合地板",
+      "color": "#C9AD88",
+      "use": "干区地面",
+      "spec": "板宽160mm",
+      "sample_status": "not_submitted",
+      "pattern": {
+        "spacing_mm": [
+          160,
+          0
+        ]
+      }
+    },
+    {
+      "id": "STONE",
+      "name": "灰米厨房地砖",
+      "color": "#CEC9BE",
+      "use": "厨房地面",
+      "spec": "800×800",
+      "sample_status": "not_submitted",
+      "pattern": {
+        "spacing_mm": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "id": "WET",
+      "name": "浅灰卫浴砖",
+      "color": "#B6BCB7",
+      "use": "卫浴地面",
+      "spec": "300×600",
+      "sample_status": "not_submitted",
+      "pattern": {
+        "spacing_mm": [
+          300,
+          600
+        ]
+      }
+    },
+    {
+      "id": "WOOD",
+      "name": "浅木柜面",
+      "color": "#B69570",
+      "use": "定制与桌面",
+      "spec": "18mm板",
+      "sample_status": "not_submitted",
+      "pattern": {
+        "spacing_mm": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "FABRIC",
+      "name": "米白织物",
+      "color": "#E4DFD2",
+      "use": "沙发与床",
+      "spec": "示意色",
+      "sample_status": "not_submitted",
+      "pattern": {
+        "spacing_mm": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "METAL",
+      "name": "暖灰金属",
+      "color": "#7F8C87",
+      "use": "家电与灯具",
+      "spec": "示意色",
+      "sample_status": "not_submitted",
+      "pattern": {
+        "spacing_mm": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "EXT-S",
+      "axis": "x",
+      "start": 800,
+      "end": 11700,
+      "at": 1800,
+      "thickness": 200,
+      "height": 2700,
+      "internal": false
+    },
+    {
+      "id": "EXT-E",
+      "axis": "y",
+      "start": 2000,
+      "end": 7700,
+      "at": 11500,
+      "thickness": 200,
+      "height": 2700,
+      "internal": false
+    },
+    {
+      "id": "NOTCH-S",
+      "axis": "x",
+      "start": 8500,
+      "end": 11500,
+      "at": 7500,
+      "thickness": 200,
+      "height": 2700,
+      "internal": false
+    },
+    {
+      "id": "NOTCH-W",
+      "axis": "y",
+      "start": 7700,
+      "end": 11200,
+      "at": 8500,
+      "thickness": 200,
+      "height": 2700,
+      "internal": false
+    },
+    {
+      "id": "EXT-N",
+      "axis": "x",
+      "start": 800,
+      "end": 8500,
+      "at": 11000,
+      "thickness": 200,
+      "height": 2700,
+      "internal": false
+    },
+    {
+      "id": "EXT-W",
+      "axis": "y",
+      "start": 2000,
+      "end": 11000,
+      "at": 800,
+      "thickness": 200,
+      "height": 2700,
+      "internal": false
+    },
+    {
+      "id": "PART-K",
+      "axis": "y",
+      "start": 2000,
+      "end": 6300,
+      "at": 8500,
+      "thickness": 120,
+      "height": 2700,
+      "internal": true
+    },
+    {
+      "id": "PART-S",
+      "axis": "x",
+      "start": 1000,
+      "end": 11500,
+      "at": 6300,
+      "thickness": 120,
+      "height": 2700,
+      "internal": true
+    },
+    {
+      "id": "PART-N",
+      "axis": "x",
+      "start": 1000,
+      "end": 8500,
+      "at": 7500,
+      "thickness": 120,
+      "height": 2700,
+      "internal": true
+    },
+    {
+      "id": "PART-B",
+      "axis": "y",
+      "start": 7620,
+      "end": 11000,
+      "at": 4480,
+      "thickness": 120,
+      "height": 2700,
+      "internal": true
+    },
+    {
+      "id": "PART-C",
+      "axis": "y",
+      "start": 7620,
+      "end": 11000,
+      "at": 6380,
+      "thickness": 120,
+      "height": 2700,
+      "internal": true
+    }
+  ],
+  "openings": [
+    {
+      "id": "ENTRY",
+      "wall": "EXT-E",
+      "start": 6500,
+      "width": 900,
+      "height": 2100,
+      "sill": 0,
+      "kind": "door"
+    },
+    {
+      "id": "K-DOOR",
+      "wall": "PART-K",
+      "start": 4200,
+      "width": 900,
+      "height": 2100,
+      "sill": 0,
+      "kind": "sliding"
+    },
+    {
+      "id": "L-DOOR",
+      "wall": "PART-S",
+      "start": 1800,
+      "width": 900,
+      "height": 2100,
+      "sill": 0,
+      "kind": "door"
+    },
+    {
+      "id": "K-HALL",
+      "wall": "PART-S",
+      "start": 9400,
+      "width": 900,
+      "height": 2100,
+      "sill": 0,
+      "kind": "door"
+    },
+    {
+      "id": "BED-DOOR",
+      "wall": "PART-N",
+      "start": 1800,
+      "width": 800,
+      "height": 2100,
+      "sill": 0,
+      "kind": "door"
+    },
+    {
+      "id": "WORK-DOOR",
+      "wall": "PART-N",
+      "start": 4700,
+      "width": 800,
+      "height": 2100,
+      "sill": 0,
+      "kind": "sliding"
+    },
+    {
+      "id": "BATH-DOOR",
+      "wall": "PART-N",
+      "start": 6600,
+      "width": 800,
+      "height": 2100,
+      "sill": 0,
+      "kind": "sliding"
+    },
+    {
+      "id": "GLAZE-S",
+      "wall": "EXT-S",
+      "start": 1500,
+      "width": 2200,
+      "height": 1500,
+      "sill": 900,
+      "kind": "window"
+    },
+    {
+      "id": "GLAZE-K",
+      "wall": "EXT-S",
+      "start": 9100,
+      "width": 1800,
+      "height": 1500,
+      "sill": 900,
+      "kind": "window"
+    },
+    {
+      "id": "GLAZE-B",
+      "wall": "EXT-N",
+      "start": 1600,
+      "width": 1900,
+      "height": 1500,
+      "sill": 900,
+      "kind": "window"
+    },
+    {
+      "id": "GLAZE-W",
+      "wall": "EXT-N",
+      "start": 4800,
+      "width": 1200,
+      "height": 1500,
+      "sill": 900,
+      "kind": "window"
+    },
+    {
+      "id": "GLAZE-H",
+      "wall": "EXT-N",
+      "start": 6900,
+      "width": 1000,
+      "height": 700,
+      "sill": 1700,
+      "kind": "window"
+    }
+  ],
+  "furniture": [
+    {
+      "id": "SOFA-A",
+      "name": "双人沙发",
+      "room": "LOUNGE",
+      "rect": [
+        1400,
+        4800,
+        2400,
+        900
+      ],
+      "height_mm": 800,
+      "kind": "furniture",
+      "material": "FABRIC"
+    },
+    {
+      "id": "TABLE-C",
+      "name": "茶几",
+      "room": "LOUNGE",
+      "rect": [
+        1700,
+        3600,
+        1100,
+        600
+      ],
+      "height_mm": 380,
+      "kind": "furniture",
+      "material": "WOOD"
+    },
+    {
+      "id": "TV-LOW",
+      "name": "电视矮柜",
+      "room": "LOUNGE",
+      "rect": [
+        1500,
+        2100,
+        2400,
+        350
+      ],
+      "height_mm": 550,
+      "kind": "joinery",
+      "material": "WOOD",
+      "front_axis": "x",
+      "joinery": {
+        "panel_mm": 18,
+        "back_mm": 9,
+        "plinth_mm": 80,
+        "scribe_mm": 15,
+        "bays": 2
+      }
+    },
+    {
+      "id": "DINING",
+      "name": "四人餐桌",
+      "room": "LOUNGE",
+      "rect": [
+        5700,
+        3500,
+        1600,
+        850
+      ],
+      "height_mm": 750,
+      "kind": "furniture",
+      "material": "WOOD"
+    },
+    {
+      "id": "SEAT-1",
+      "name": "餐椅",
+      "room": "LOUNGE",
+      "rect": [
+        5800,
+        2900,
+        450,
+        450
+      ],
+      "height_mm": 780,
+      "kind": "furniture",
+      "material": "WOOD"
+    },
+    {
+      "id": "SEAT-2",
+      "name": "餐椅",
+      "room": "LOUNGE",
+      "rect": [
+        6700,
+        2900,
+        450,
+        450
+      ],
+      "height_mm": 780,
+      "kind": "furniture",
+      "material": "WOOD"
+    },
+    {
+      "id": "SEAT-3",
+      "name": "餐椅",
+      "room": "LOUNGE",
+      "rect": [
+        5800,
+        4500,
+        450,
+        450
+      ],
+      "height_mm": 780,
+      "kind": "furniture",
+      "material": "WOOD"
+    },
+    {
+      "id": "SEAT-4",
+      "name": "餐椅",
+      "room": "LOUNGE",
+      "rect": [
+        6700,
+        4500,
+        450,
+        450
+      ],
+      "height_mm": 780,
+      "kind": "furniture",
+      "material": "WOOD"
+    },
+    {
+      "id": "SIDE-A",
+      "name": "餐边柜",
+      "room": "LOUNGE",
+      "rect": [
+        7850,
+        3000,
+        450,
+        2200
+      ],
+      "height_mm": 1000,
+      "kind": "joinery",
+      "material": "WOOD",
+      "front_axis": "y",
+      "joinery": {
+        "panel_mm": 18,
+        "back_mm": 9,
+        "plinth_mm": 80,
+        "scribe_mm": 15,
+        "bays": 2
+      }
+    },
+    {
+      "id": "BED-A",
+      "name": "双人床",
+      "room": "SLEEP",
+      "rect": [
+        1400,
+        8200,
+        1600,
+        2100
+      ],
+      "height_mm": 550,
+      "kind": "furniture",
+      "material": "FABRIC"
+    },
+    {
+      "id": "CAB-A",
+      "name": "卧室衣柜",
+      "room": "SLEEP",
+      "rect": [
+        3880,
+        8200,
+        600,
+        2200
+      ],
+      "height_mm": 2200,
+      "kind": "joinery",
+      "material": "WOOD",
+      "front_axis": "y",
+      "joinery": {
+        "panel_mm": 18,
+        "back_mm": 9,
+        "plinth_mm": 80,
+        "scribe_mm": 15,
+        "bays": 3
+      }
+    },
+    {
+      "id": "DESK-A",
+      "name": "书房工作台",
+      "room": "WORK",
+      "rect": [
+        4700,
+        10350,
+        1500,
+        600
+      ],
+      "height_mm": 740,
+      "kind": "furniture",
+      "material": "WOOD"
+    },
+    {
+      "id": "CHAIR-A",
+      "name": "工作椅",
+      "room": "WORK",
+      "rect": [
+        5100,
+        9500,
+        550,
+        550
+      ],
+      "height_mm": 820,
+      "kind": "furniture",
+      "material": "WOOD"
+    },
+    {
+      "id": "KT-BASE",
+      "name": "厨房地柜",
+      "room": "COOK",
+      "rect": [
+        8900,
+        2100,
+        2400,
+        600
+      ],
+      "height_mm": 850,
+      "kind": "joinery",
+      "material": "WOOD",
+      "front_axis": "x",
+      "joinery": {
+        "panel_mm": 18,
+        "back_mm": 9,
+        "plinth_mm": 80,
+        "scribe_mm": 15,
+        "bays": 2
+      }
+    },
+    {
+      "id": "FRIDGE",
+      "name": "冰箱",
+      "room": "COOK",
+      "rect": [
+        10600,
+        5200,
+        750,
+        750
+      ],
+      "height_mm": 1900,
+      "kind": "equipment",
+      "material": "METAL"
+    },
+    {
+      "id": "VANITY",
+      "name": "浴室柜",
+      "room": "WASH",
+      "rect": [
+        6500,
+        9000,
+        500,
+        1200
+      ],
+      "height_mm": 850,
+      "kind": "joinery",
+      "material": "WOOD",
+      "front_axis": "y",
+      "joinery": {
+        "panel_mm": 18,
+        "back_mm": 9,
+        "plinth_mm": 80,
+        "scribe_mm": 15,
+        "bays": 2
+      }
+    },
+    {
+      "id": "WC-A",
+      "name": "坐便体量",
+      "room": "WASH",
+      "rect": [
+        7500,
+        8100,
+        700,
+        900
+      ],
+      "height_mm": 750,
+      "kind": "equipment",
+      "material": "METAL"
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "SINK-A",
+      "room": "COOK",
+      "rect": [
+        10200,
+        2200,
+        650,
+        400
+      ]
+    }
+  ],
+  "equipment": [
+    {
+      "id": "REF-E",
+      "room": "COOK",
+      "object": "FRIDGE",
+      "name": "冰箱"
+    },
+    {
+      "id": "AC-E",
+      "room": "LOUNGE",
+      "xy": [
+        8000,
+        5700
+      ],
+      "name": "分体空调"
+    },
+    {
+      "id": "FAN-E",
+      "room": "WASH",
+      "xy": [
+        8200,
+        10500
+      ],
+      "name": "排风机"
+    }
+  ],
+  "control_groups": [
+    {
+      "id": "G-LOUNGE",
+      "name": "客餐厅"
+    },
+    {
+      "id": "G-COOK",
+      "name": "厨房"
+    },
+    {
+      "id": "G-PASS",
+      "name": "横厅通道"
+    },
+    {
+      "id": "G-SLEEP",
+      "name": "卧室"
+    },
+    {
+      "id": "G-WORK",
+      "name": "独立书房"
+    },
+    {
+      "id": "G-WASH",
+      "name": "卫浴"
+    }
+  ],
+  "lights": [
+    {
+      "id": "LAMP-1",
+      "room": "LOUNGE",
+      "xy": [
+        2300,
+        4200
+      ],
+      "group": "G-LOUNGE",
+      "power_w": 12,
+      "lumens": 1000,
+      "name": "吸顶或筒灯意向",
+      "z_mm": 2600
+    },
+    {
+      "id": "LAMP-2",
+      "room": "LOUNGE",
+      "xy": [
+        4600,
+        4200
+      ],
+      "group": "G-LOUNGE",
+      "power_w": 12,
+      "lumens": 1000,
+      "name": "吸顶或筒灯意向",
+      "z_mm": 2600
+    },
+    {
+      "id": "LAMP-3",
+      "room": "LOUNGE",
+      "xy": [
+        6700,
+        3900
+      ],
+      "group": "G-LOUNGE",
+      "power_w": 12,
+      "lumens": 1000,
+      "name": "吸顶或筒灯意向",
+      "z_mm": 2600
+    },
+    {
+      "id": "LAMP-4",
+      "room": "COOK",
+      "xy": [
+        9500,
+        3500
+      ],
+      "group": "G-COOK",
+      "power_w": 12,
+      "lumens": 1000,
+      "name": "吸顶或筒灯意向",
+      "z_mm": 2600
+    },
+    {
+      "id": "LAMP-5",
+      "room": "COOK",
+      "xy": [
+        10600,
+        4400
+      ],
+      "group": "G-COOK",
+      "power_w": 12,
+      "lumens": 1000,
+      "name": "吸顶或筒灯意向",
+      "z_mm": 2600
+    },
+    {
+      "id": "LAMP-6",
+      "room": "PASS",
+      "xy": [
+        3500,
+        6900
+      ],
+      "group": "G-PASS",
+      "power_w": 12,
+      "lumens": 1000,
+      "name": "吸顶或筒灯意向",
+      "z_mm": 2600
+    },
+    {
+      "id": "LAMP-7",
+      "room": "PASS",
+      "xy": [
+        9000,
+        6900
+      ],
+      "group": "G-PASS",
+      "power_w": 12,
+      "lumens": 1000,
+      "name": "吸顶或筒灯意向",
+      "z_mm": 2600
+    },
+    {
+      "id": "LAMP-8",
+      "room": "SLEEP",
+      "xy": [
+        2700,
+        9300
+      ],
+      "group": "G-SLEEP",
+      "power_w": 12,
+      "lumens": 1000,
+      "name": "吸顶或筒灯意向",
+      "z_mm": 2600
+    },
+    {
+      "id": "LAMP-9",
+      "room": "WORK",
+      "xy": [
+        5500,
+        9200
+      ],
+      "group": "G-WORK",
+      "power_w": 12,
+      "lumens": 1000,
+      "name": "吸顶或筒灯意向",
+      "z_mm": 2600
+    },
+    {
+      "id": "LAMP-10",
+      "room": "WASH",
+      "xy": [
+        7600,
+        10000
+      ],
+      "group": "G-WASH",
+      "power_w": 12,
+      "lumens": 1000,
+      "name": "吸顶或筒灯意向",
+      "z_mm": 2600
+    }
+  ],
+  "points": [
+    {
+      "id": "POWER-R",
+      "room": "COOK",
+      "xy": [
+        10400,
+        6000
+      ],
+      "z_mm": 1300,
+      "type": "冰箱可维护电源",
+      "link": "REF-E",
+      "access_required": true,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "POWER-D",
+      "room": "WORK",
+      "xy": [
+        6200,
+        10200
+      ],
+      "z_mm": 1100,
+      "type": "工作位电源",
+      "link": "DESK-A",
+      "access_required": true,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "WATER-K",
+      "room": "COOK",
+      "xy": [
+        10900,
+        2850
+      ],
+      "z_mm": 550,
+      "type": "厨房给排水条件",
+      "link": "SINK-A",
+      "access_required": true,
+      "status": "intent_not_construction"
+    },
+    {
+      "id": "WATER-H",
+      "room": "WASH",
+      "xy": [
+        7100,
+        9800
+      ],
+      "z_mm": 550,
+      "type": "浴室给排水条件",
+      "link": "VANITY",
+      "access_required": true,
+      "status": "intent_not_construction"
+    }
+  ],
+  "clearances": [
+    {
+      "id": "C-DINE",
+      "name": "餐桌至餐边柜",
+      "from": "DINING",
+      "to": "SIDE-A",
+      "axis": "x",
+      "target_mm": 500,
+      "basis": "project_design_target"
+    },
+    {
+      "id": "C-BED",
+      "name": "床侧至衣柜",
+      "from": "BED-A",
+      "to": "CAB-A",
+      "axis": "x",
+      "target_mm": 800,
+      "basis": "project_design_target"
+    }
+  ],
+  "clear_zones": [
+    {
+      "id": "CIRCULATION",
+      "name": "横厅通道",
+      "rect": [
+        1000,
+        6420,
+        10500,
+        1080
+      ]
+    }
+  ],
+  "drawing": {
+    "joinery_ids": [
+      "CAB-A",
+      "KT-BASE",
+      "SIDE-A"
+    ]
+  },
+  "budget": [
+    {
+      "id": "Q-OAK",
+      "category": "硬装",
+      "name": "OAK地面供装",
+      "quantity": 1,
+      "unit": "㎡",
+      "rate": 235,
+      "waste": 0.05,
+      "basis": "净分区面积，柜下满铺；加所列损耗",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "floor",
+        "materials": [
+          "OAK"
+        ]
+      }
+    },
+    {
+      "id": "Q-KT",
+      "category": "硬装",
+      "name": "STONE地面供装",
+      "quantity": 1,
+      "unit": "㎡",
+      "rate": 245,
+      "waste": 0.08,
+      "basis": "净分区面积，柜下满铺；加所列损耗",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "floor",
+        "materials": [
+          "STONE"
+        ]
+      }
+    },
+    {
+      "id": "Q-WET",
+      "category": "硬装",
+      "name": "WET地面供装",
+      "quantity": 1,
+      "unit": "㎡",
+      "rate": 250,
+      "waste": 0.08,
+      "basis": "净分区面积，柜下满铺；加所列损耗",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "floor",
+        "materials": [
+          "WET"
+        ]
+      }
+    },
+    {
+      "id": "Q-CEILING",
+      "category": "硬装",
+      "name": "顶面基层与涂装",
+      "quantity": 1,
+      "unit": "㎡",
+      "rate": 125,
+      "waste": 0,
+      "basis": "按模型对象计量",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "net_area"
+      }
+    },
+    {
+      "id": "Q-DOORS",
+      "category": "硬装",
+      "name": "室内门及五金",
+      "quantity": 1,
+      "unit": "套",
+      "rate": 2100,
+      "waste": 0,
+      "basis": "按模型对象计量",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "collection": "openings",
+        "ids": [
+          "K-DOOR",
+          "L-DOOR",
+          "K-HALL",
+          "BED-DOOR",
+          "WORK-DOOR",
+          "BATH-DOOR"
+        ]
+      }
+    },
+    {
+      "id": "Q-PAINT",
+      "category": "硬装",
+      "name": "墙面及湿区基层暂估",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 18000,
+      "waste": 0,
+      "basis": "综合暂估，未建立墙面展开量规则",
+      "source": "synthetic_estimate_not_quote"
+    },
+    {
+      "id": "Q-PROTECT",
+      "category": "硬装",
+      "name": "保护与清运",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 4200,
+      "waste": 0,
+      "basis": "测试估算包项",
+      "source": "synthetic_estimate_not_quote"
+    },
+    {
+      "id": "Q-CAB-A",
+      "category": "定制",
+      "name": "CAB-A柜体",
+      "quantity": 1,
+      "unit": "㎡",
+      "rate": 1050,
+      "waste": 0,
+      "basis": "front_axis正面宽度×高度；含板材五金",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "projection",
+        "ids": [
+          "CAB-A"
+        ]
+      }
+    },
+    {
+      "id": "Q-SIDE-A",
+      "category": "定制",
+      "name": "SIDE-A柜体",
+      "quantity": 1,
+      "unit": "㎡",
+      "rate": 900,
+      "waste": 0,
+      "basis": "front_axis正面宽度×高度；含板材五金",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "projection",
+        "ids": [
+          "SIDE-A"
+        ]
+      }
+    },
+    {
+      "id": "Q-TV-LOW",
+      "category": "定制",
+      "name": "TV-LOW柜体",
+      "quantity": 1,
+      "unit": "㎡",
+      "rate": 900,
+      "waste": 0,
+      "basis": "front_axis正面宽度×高度；含板材五金",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "projection",
+        "ids": [
+          "TV-LOW"
+        ]
+      }
+    },
+    {
+      "id": "Q-KT-BASE",
+      "category": "定制",
+      "name": "KT-BASE柜体及台面",
+      "quantity": 1,
+      "unit": "m",
+      "rate": 3000,
+      "waste": 0,
+      "basis": "沿front_axis正面长度，非最大包围边默认值",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "length",
+        "ids": [
+          "KT-BASE"
+        ]
+      }
+    },
+    {
+      "id": "Q-VANITY",
+      "category": "定制",
+      "name": "VANITY柜体及台面",
+      "quantity": 1,
+      "unit": "m",
+      "rate": 2700,
+      "waste": 0,
+      "basis": "沿front_axis正面长度，非最大包围边默认值",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "length",
+        "ids": [
+          "VANITY"
+        ]
+      }
+    },
+    {
+      "id": "Q-LAMPS",
+      "category": "灯具",
+      "name": "灯具与驱动",
+      "quantity": 1,
+      "unit": "盏",
+      "rate": 650,
+      "waste": 0,
+      "basis": "按模型对象计量",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "collection": "lights"
+      }
+    },
+    {
+      "id": "Q-POINTS",
+      "category": "机电",
+      "name": "条件点位施工暂估",
+      "quantity": 1,
+      "unit": "点",
+      "rate": 600,
+      "waste": 0,
+      "basis": "每个条件点暂估，系统深化费用另列",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "collection": "points"
+      }
+    },
+    {
+      "id": "Q-MEP",
+      "category": "机电",
+      "name": "管线及系统深化暂估",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 14000,
+      "waste": 0,
+      "basis": "不重复点位；测试估算包项",
+      "source": "synthetic_estimate_not_quote"
+    },
+    {
+      "id": "Q-EQUIP",
+      "category": "家电设备",
+      "name": "设备采购供装暂估",
+      "quantity": 1,
+      "unit": "台",
+      "rate": 3800,
+      "waste": 0,
+      "basis": "每台测试统一估算；不代表选型报价",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "collection": "equipment"
+      }
+    },
+    {
+      "id": "Q-SOFA-A",
+      "category": "家具洁具",
+      "name": "双人沙发",
+      "quantity": 1,
+      "unit": "件",
+      "rate": 5500,
+      "waste": 0,
+      "basis": "按模型对象计量",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "ids": [
+          "SOFA-A"
+        ]
+      }
+    },
+    {
+      "id": "Q-TABLE-C",
+      "category": "家具洁具",
+      "name": "茶几",
+      "quantity": 1,
+      "unit": "件",
+      "rate": 1800,
+      "waste": 0,
+      "basis": "按模型对象计量",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "ids": [
+          "TABLE-C"
+        ]
+      }
+    },
+    {
+      "id": "Q-DINING",
+      "category": "家具洁具",
+      "name": "餐桌",
+      "quantity": 1,
+      "unit": "件",
+      "rate": 3000,
+      "waste": 0,
+      "basis": "按模型对象计量",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "ids": [
+          "DINING"
+        ]
+      }
+    },
+    {
+      "id": "Q-BED-A",
+      "category": "家具洁具",
+      "name": "床及床垫",
+      "quantity": 1,
+      "unit": "件",
+      "rate": 4800,
+      "waste": 0,
+      "basis": "按模型对象计量",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "ids": [
+          "BED-A"
+        ]
+      }
+    },
+    {
+      "id": "Q-DESK-A",
+      "category": "家具洁具",
+      "name": "工作桌",
+      "quantity": 1,
+      "unit": "件",
+      "rate": 1800,
+      "waste": 0,
+      "basis": "按模型对象计量",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "ids": [
+          "DESK-A"
+        ]
+      }
+    },
+    {
+      "id": "Q-CHAIR-A",
+      "category": "家具洁具",
+      "name": "工作椅",
+      "quantity": 1,
+      "unit": "件",
+      "rate": 900,
+      "waste": 0,
+      "basis": "按模型对象计量",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "ids": [
+          "CHAIR-A"
+        ]
+      }
+    },
+    {
+      "id": "Q-WC-A",
+      "category": "家具洁具",
+      "name": "坐便器",
+      "quantity": 1,
+      "unit": "件",
+      "rate": 2600,
+      "waste": 0,
+      "basis": "按模型对象计量",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "ids": [
+          "WC-A"
+        ]
+      }
+    },
+    {
+      "id": "Q-SEATS",
+      "category": "家具洁具",
+      "name": "餐椅",
+      "quantity": 1,
+      "unit": "把",
+      "rate": 600,
+      "waste": 0,
+      "basis": "按模型对象计量",
+      "source": "synthetic_estimate_not_quote",
+      "quantity_rule": {
+        "kind": "count",
+        "ids": [
+          "SEAT-1",
+          "SEAT-2",
+          "SEAT-3",
+          "SEAT-4"
+        ]
+      }
+    },
+    {
+      "id": "Q-SOFT",
+      "category": "软装",
+      "name": "窗帘与饰品暂估",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 7000,
+      "waste": 0,
+      "basis": "测试估算包项",
+      "source": "synthetic_estimate_not_quote"
+    },
+    {
+      "id": "Q-SERVICE",
+      "category": "服务",
+      "name": "设计与协调暂估",
+      "quantity": 1,
+      "unit": "项",
+      "rate": 16000,
+      "waste": 0,
+      "basis": "测试预算结构设定",
+      "source": "synthetic_estimate_not_quote"
+    }
+  ]
+}
