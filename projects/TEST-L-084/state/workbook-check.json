@@ -7,7 +7,8 @@
   "missing_input_exposed": true,
   "zero_preserved": true,
   "restored": true,
-  "engine": "artifact-tool",
+  "engine": "openpyxl",
+  "cached_values": "decimal-mirror",
   "cells": {
     "base": "C19",
     "reserve": "C20",
@@ -15,5 +16,5 @@
     "remaining": "C22"
   },
   "model_sha256": "347bfdfc11521ae2510d1508892bbba7f3ee9882fe78a9224943df385ee54ffb",
-  "xlsx_sha256": "bb137b3133a8115a464dfe17310c2f07e4a4d102bdd1fa7e3d0e1464d5ecfc80"
+  "xlsx_sha256": "89f94413a2052887d6d179235aef90690606341089ea5cab9f78724dcbd419f7"
 }

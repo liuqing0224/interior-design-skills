@@ -97,9 +97,9 @@ python3 -m venv .venv
 blender -b -t 4 --python skills/interior-orchestrator/scripts/render_project.py -- projects/DEMO-APT-096
 ```
 
-通用PDF使用`export_pdf.py`；`tools/build_book.py`仅重建原96㎡案例的12页汇报，其原绘图实现由`releases/baseline-v1-tools.zip`冻结。原案例配对DXF源码也属于v1冻结资源，需在v1交付包/对应环境中使用。中文字体从`INTERIOR_PDF_FONT`指定的TrueType文件读取，macOS默认尝试Arial Unicode，PDF内嵌字体子集。
+通用PDF使用`export_pdf.py`；`tools/build_book.py`仅重建原96㎡案例的12页汇报，其原绘图实现由`releases/baseline-v1-tools.zip`冻结。原案例配对DXF源码也属于v1冻结资源，需在v1交付包/对应环境中使用。中文字体优先读`INTERIOR_PDF_FONT`；未设置时按macOS/Windows/Linux常见中文TrueType字体（含`.ttc`子字体）自动探测，全部失败才报错并列出尝试过的路径。PDF内嵌字体子集。
 
-预算工具已随interior-cost安装；`export_budget.py`在临时目录链接Codex工作区的 `@oai/artifact-tool`，可显式传入--node与--modules。`tools/build_budget.mjs`保留为兼容入口。非Codex环境可直接使用CSV、现有工作簿和标准库复算工具。没有模型服务或API Key依赖。
+预算工作簿由`interior-cost/scripts/export_budget.py`用openpyxl直接生成：派生单元格保留公式，同时写入公式的缓存结果，并重建`state/budget-*-preview.png`。不依赖Node、Codex工作区或在线表格服务；`tools/build_budget.mjs`仅为转发入口。`schedules/budget-inputs.json`与模型不符时脚本拒绝执行，需先重跑schedules。
 
 `verify_2d.py`为通用户型核验器，读取真实图纸、工作簿及清单，独立重算预算。`tools/verify_change.py`验证本次衣柜变化及陈旧模型拒绝。`tools/verify_delivery.py --baseline-skills --out validation/demo096-regression-v2.json`专用于原96㎡冻结交付，按v1技能快照核对原15项记录、原三维、图纸和40行预算；不会把原记录冒认为由v2技能生成。
 

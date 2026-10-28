@@ -29,13 +29,13 @@
     },
     {
       "path": "documents/pdf-manifest.json",
-      "bytes": 660,
-      "sha256": "ae91ddaa9c8fee75cfa29e5ca40a2a1b5ca83fbc6d2067a83932e53787c6f9d7"
+      "bytes": 693,
+      "sha256": "0a7ff3a9c3cb2cefb9f6d1bb039d9ee4e00ac618656ca54219e5d6913f26f813"
     },
     {
       "path": "documents/折庭_图集.pdf",
-      "bytes": 134941,
-      "sha256": "9f9ddc65d5fcfde3ce54b63415203553fc5a76801bec849fdc752cc0993d872c"
+      "bytes": 134810,
+      "sha256": "b6b865350dfb4b9a88d26fd5aa1c5ff3be2d99d7a25b3457b330122f3d7dc58e"
     },
     {
       "path": "drawings/ID-01.svg",
@@ -69,28 +69,28 @@
     },
     {
       "path": "drawings/drawing-manifest.json",
-      "bytes": 1732,
-      "sha256": "aa08d718216b175337494b6f8545de5df00c60a499c95fc9f89da0cb224c434a"
+      "bytes": 1829,
+      "sha256": "f59c64bc826bd484fdb540e98f1406ed7a519da84f3ddffdeb7fbb1b89b7d9f8"
     },
     {
       "path": "drawings/interior-set.dxf",
-      "bytes": 230728,
-      "sha256": "c206994a908dcc765622c0f73e10ecebc64956514b8eea240788335910e561ad"
+      "bytes": 230730,
+      "sha256": "94cf5a4996a32fe639b94e36cb793fa81c494dcb7585bdf0341880e21bad0dea"
     },
     {
       "path": "drawings/interior-set.py",
-      "bytes": 571,
-      "sha256": "4a59d4f840e6cfe5ea50d66d3f9acba8735c955dac7f243cb5b83d886bf8a7d5"
+      "bytes": 598,
+      "sha256": "7346cf2164f62ab1a184e5186e3f03d9ccabb734c60af6d70f8b513625985f12"
     },
     {
       "path": "history/v1.0/documents/pdf-manifest.json",
-      "bytes": 660,
-      "sha256": "29e78dcc4699db008c7792b49f3146f8a309c2424e2c84c63e222cee5553f5d7"
+      "bytes": 693,
+      "sha256": "294245c83d25b09648e02799717a7c6fb1dff948d1000468705691a204374a12"
     },
     {
       "path": "history/v1.0/documents/折庭_图集.pdf",
-      "bytes": 123841,
-      "sha256": "55af5a319a1f0d63beb022c0079ce28170702162c9b35305127a07d59cc196b5"
+      "bytes": 120056,
+      "sha256": "006d3ed6afde148813cdd0ac74721ed6c71037dee80031cbdf2504c85573e836"
     },
     {
       "path": "history/v1.0/drawings/ID-01.svg",
@@ -124,18 +124,18 @@
     },
     {
       "path": "history/v1.0/drawings/drawing-manifest.json",
-      "bytes": 1732,
-      "sha256": "820df9476f8180d7ea11b5b5c24b9ee235afe1455512cd9fa8febec5db739da1"
+      "bytes": 1829,
+      "sha256": "2fa968d13138ee333440e4365d5bc5922b9251e1a1aca980fdb7494b30345a41"
     },
     {
       "path": "history/v1.0/drawings/interior-set.dxf",
       "bytes": 230745,
-      "sha256": "a6967668c7d47283c63a6f221c22b686794008b3fad581af3c3ee5560d883e04"
+      "sha256": "10d5efaab5609ae3da6577974c31ada577a4547de3cf00148a5ec88b57ac4492"
     },
     {
       "path": "history/v1.0/drawings/interior-set.py",
-      "bytes": 571,
-      "sha256": "4a59d4f840e6cfe5ea50d66d3f9acba8735c955dac7f243cb5b83d886bf8a7d5"
+      "bytes": 598,
+      "sha256": "7346cf2164f62ab1a184e5186e3f03d9ccabb734c60af6d70f8b513625985f12"
     },
     {
       "path": "history/v1.0/model/project.json",
@@ -144,13 +144,13 @@
     },
     {
       "path": "history/v1.0/schedules/budget-inputs.json",
-      "bytes": 10232,
-      "sha256": "c1ae9b70d8d9165f956c8e91f287dc7846a80d767daef5b65b3a7dc5cb00de7f"
+      "bytes": 10698,
+      "sha256": "a621d81a80d41a1ad3c5409a5424d845ec5607c1d00e52316cd621f26449d60f"
     },
     {
       "path": "history/v1.0/schedules/budget-summary.json",
-      "bytes": 114,
-      "sha256": "823956e4fe78c70880514236f8b952d1729c8f31f1085ec6dd69289f83d34482"
+      "bytes": 121,
+      "sha256": "bc305a8ca9987bb78c72110eee18c7fd0fba0fe8f20b6cefd7a010b608d93ab0"
     },
     {
       "path": "history/v1.0/schedules/budget.csv",
@@ -194,38 +194,38 @@
     },
     {
       "path": "history/v1.0/schedules/折庭_预算.xlsx",
-      "bytes": 9080,
-      "sha256": "21e9068b283f25b95d2a7082f0f955d93480a3751ad3a4f0e8b698ae2ddd64fc"
+      "bytes": 10457,
+      "sha256": "c2872ffe3a1ebf04958be34249e0e9faa85951429cfc066e249bf8a429a0499e"
     },
     {
       "path": "history/v1.0/state/budget-detail-preview.png",
-      "bytes": 292498,
-      "sha256": "8456d6c5874e191084228aeab7b8a94dfe0d4084a54ae2666815c999ff813d95"
+      "bytes": 57246,
+      "sha256": "4c5c0e51c798561afaeaf17c1209699624996e6b91e641e2e2d87c7aa9c31169"
     },
     {
       "path": "history/v1.0/state/budget-summary-preview.png",
-      "bytes": 123054,
-      "sha256": "958c7381f173cc78690043d533bebef532c64d17a3e11a320f675e9d29d0b93c"
+      "bytes": 41717,
+      "sha256": "4594a127cd76f5b0b54e03332c4aa34d27d2d15167f627696c7b7a79f253db0b"
     },
     {
       "path": "history/v1.0/state/model-check.json",
-      "bytes": 767,
-      "sha256": "c7ace02e0e7ba1c1353fb6b0763e1c5c0235bdbe29cfa938dfc17500c2df4be4"
+      "bytes": 803,
+      "sha256": "6526882ee87dc045fa1f5544793c5b9ff002b6ffa700f2c7ad1f3642b51dbd85"
     },
     {
       "path": "history/v1.0/state/workbook-check.json",
-      "bytes": 527,
-      "sha256": "b37a91d8d57a058442d5e1e654c0279a9e387484a96502251c6bcd5d92f1fca4"
+      "bytes": 580,
+      "sha256": "f05e8ab057ef8d72de9cd5a37ac6684e8bdd16bc62f67558513fb155dfca5570"
     },
     {
       "path": "history/v1.0/state/workbook-error-scan.txt",
-      "bytes": 60,
-      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146"
+      "bytes": 65,
+      "sha256": "ecbb8424e802b2cbae23474c122abccaccb197f0d71af979a6253a6046a31f83"
     },
     {
       "path": "history/v1.0/state/workbook-key-ranges.txt",
-      "bytes": 573,
-      "sha256": "a278dc9925c5ec6ece685d8faf6da057704d9e2250240cdd13ef32d52ff7d217"
+      "bytes": 625,
+      "sha256": "065b45bb7e926fdb3601012f4d56fc78cc43c1702f80773a6c9dd888cab1a5fd"
     },
     {
       "path": "model/project.json",
@@ -234,13 +234,13 @@
     },
     {
       "path": "schedules/budget-inputs.json",
-      "bytes": 10232,
-      "sha256": "cc1d535de0a02268f50457f10720d644d556f821a3e74dbccbf774bcf1f4e114"
+      "bytes": 10698,
+      "sha256": "66262d647f5e2797072c99208d3ac24c05a0553335ef6109783bec48d1ccd8a2"
     },
     {
       "path": "schedules/budget-summary.json",
-      "bytes": 114,
-      "sha256": "0505530d05b2904ada30e60e7caae1e102d27d95f4a8ae57116078033a229a2b"
+      "bytes": 121,
+      "sha256": "e0fb21b0fbd88d2c04b2195a9c59901d36356e00ff5d2f2d4ba3cedb29cb33df"
     },
     {
       "path": "schedules/budget.csv",
@@ -284,18 +284,18 @@
     },
     {
       "path": "schedules/折庭_预算.xlsx",
-      "bytes": 9085,
-      "sha256": "bb137b3133a8115a464dfe17310c2f07e4a4d102bdd1fa7e3d0e1464d5ecfc80"
+      "bytes": 10470,
+      "sha256": "89f94413a2052887d6d179235aef90690606341089ea5cab9f78724dcbd419f7"
     },
     {
       "path": "state/budget-detail-preview.png",
-      "bytes": 293801,
-      "sha256": "5921a51d4fb0cbb3f330e8d492271f273231af2152fd857b5669da85df7319a4"
+      "bytes": 57261,
+      "sha256": "cd9f936cff9a556db8fc95cc334bf5d5a536c99f885a132d68de22b9261be16f"
     },
     {
       "path": "state/budget-summary-preview.png",
-      "bytes": 122864,
-      "sha256": "583f961313af01e60ac516db6717786e2958095d631e46751c85cc035bce6fbd"
+      "bytes": 41329,
+      "sha256": "8676fdb8739c059418aa441701cb31851607224ea0c9c1ee74e5347988a35d1d"
     },
     {
       "path": "state/change-register.json",
@@ -304,13 +304,13 @@
     },
     {
       "path": "state/change-verification.json",
-      "bytes": 2001,
-      "sha256": "ef3c358b07d685d867f32f2280bc416ba6dc57c2c2f2abd09ba6c8997a30e150"
+      "bytes": 2075,
+      "sha256": "6648b3a53cb26b4dc9f102a7291ba1a7db9b6c32aa6786cfa052f42d7af270b5"
     },
     {
       "path": "state/model-check.json",
-      "bytes": 767,
-      "sha256": "3482c12647a36a6a3e57c504616cd245e559f15a651e2a8234ff32626e37cbf5"
+      "bytes": 803,
+      "sha256": "295cc6fe30fd8a255b79f2813f548ace46bcf3525f7af5d4f7fcb4295670ca4f"
     },
     {
       "path": "state/project-plan.md",
@@ -324,18 +324,18 @@
     },
     {
       "path": "state/workbook-check.json",
-      "bytes": 527,
-      "sha256": "bbcac21f22039477c264dd30a9ba6fb4c34595adaf16788aade75de9e0c86b1b"
+      "bytes": 580,
+      "sha256": "2519711ac830aecb1a00bda77b8954b8fee053bed62a049498c0b1a6164c765b"
     },
     {
       "path": "state/workbook-error-scan.txt",
-      "bytes": 60,
-      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146"
+      "bytes": 65,
+      "sha256": "ecbb8424e802b2cbae23474c122abccaccb197f0d71af979a6253a6046a31f83"
     },
     {
       "path": "state/workbook-key-ranges.txt",
-      "bytes": 573,
-      "sha256": "a278dc9925c5ec6ece685d8faf6da057704d9e2250240cdd13ef32d52ff7d217"
+      "bytes": 625,
+      "sha256": "065b45bb7e926fdb3601012f4d56fc78cc43c1702f80773a6c9dd888cab1a5fd"
     }
   ]
 }

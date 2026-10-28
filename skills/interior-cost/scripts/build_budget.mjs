@@ -1,3 +1,7 @@
+// Legacy Codex-only author. It needs the proprietary @oai/artifact-tool package,
+// which is not published on npm, so it cannot run outside a Codex workspace.
+// Kept for reference; export_budget.py writes the same workbook, evidence and
+// previews with openpyxl and no external service.
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import path from 'node:path';

@@ -57,6 +57,8 @@ DXF skill的通用launcher在当前环境依次遇到`cadpy`/`OCP`依赖缺失�
 
 预算采用净量及计价量保留4位、金额与预备费保留2位的ROUND_HALF_UP口径。基础261,734.18元，加10%预备费26,173.42元，总额287,907.60元，相对30万元余量12,092.40元。Excel文件的重算行为在artifact-tool中验证，导出缓存及公式另用只读工具核对；未声称经过原生Excel交互测试。
 
+`export_budget.py`现已改用openpyxl生成工作簿（公式保留、同时写入缓存值），不再需要Codex专有的artifact-tool。改价、缺价、零价与恢复四项重算行为由脚本内的Decimal镜像断言覆盖，工作簿的最终数值再由`verify_2d.py`独立复算比对。上表中artifact-tool的记录保留为当时的历史证据。
+
 复现：
 
 ```bash

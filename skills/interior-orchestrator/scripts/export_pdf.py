@@ -13,15 +13,31 @@ from reportlab.lib.colors import HexColor
 from drawing_lib import SHEETS,plan,pdf_scene,scene_bounds,joinery
 from project_tools import load,check,totals,budget_rows,cabinet_dimensions,dump,sha
 
+CJK_CANDIDATES=['/System/Library/Fonts/Supplemental/Arial Unicode.ttf','/System/Library/Fonts/PingFang.ttc',
+    '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc','/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc',
+    '/usr/share/fonts/truetype/arphic/uming.ttc','C:/Windows/Fonts/msyh.ttc','C:/Windows/Fonts/simhei.ttf',
+    'C:/Windows/Fonts/simsun.ttc']
+
+def register_font():
+    """Prefer INTERIOR_PDF_FONT, then the first usable embeddable CJK font."""
+    tried=[];failure=''
+    for candidate in [os.getenv('INTERIOR_PDF_FONT','')]+CJK_CANDIDATES:
+        if not candidate:continue
+        tried.append(candidate)
+        if not Path(candidate).is_file():continue
+        try:
+            pdfmetrics.registerFont(TTFont('InteriorCJK',candidate,subfontIndex=0))
+            return 'InteriorCJK'
+        except Exception as exc:
+            failure=str(exc)
+    raise SystemExit('Set INTERIOR_PDF_FONT to an embeddable Chinese TrueType font. Tried: '+', '.join(tried)+((' / last error: '+failure) if failure else ''))
+
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('project',type=Path);parser.add_argument('--previous',type=Path);a=parser.parse_args()
     p=a.project.resolve();m=load(p/'model/project.json');result=check(m)
     if not result['passed']:raise SystemExit('Model check failed')
     old=load(a.previous/'model/project.json') if a.previous else None
-    candidates=[os.getenv('INTERIOR_PDF_FONT',''),'/System/Library/Fonts/Supplemental/Arial Unicode.ttf']
-    font=next((s for s in candidates if s and Path(s).is_file()),None)
-    if not font:raise SystemExit('Set INTERIOR_PDF_FONT to an embeddable Chinese TrueType font')
-    pdfmetrics.registerFont(TTFont('InteriorCJK',font));F='InteriorCJK'
+    F=register_font()
     width,height=landscape(A3);out=p/'documents'/(m['title']+'_图集.pdf');out.parent.mkdir(exist_ok=True)
     c=canvas.Canvas(str(out),pagesize=(width,height));c.setTitle(m['title']+' / '+m['revision']+' / 室内图集')
     page=0;pages=8 if old else 7;scales=[]

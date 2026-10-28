@@ -312,7 +312,7 @@ def main():
         if root.exists():raise SystemExit('Refusing to overwrite existing project')
         for d in ['model','state','drawings','schedules','visuals','documents']:(root/d).mkdir(parents=True,exist_ok=True)
         dump(root/'model/project.json',{'project_id':root.name,'title':a.name,'revision':'v0.1','units':'mm','input_kind':'unknown'})
-        (root/'README.md').write_text('# '+a.name+'\n\n补充真实输入后，按共享项目契约建立模型。此骨架尚不构成可校核设计。\n')
+        (root/'README.md').write_text('# '+a.name+'\n\n补充真实输入后，按共享项目契约建立模型。此骨架尚不构成可校核设计。\n',encoding='utf-8')
     elif a.command=='check':
         try:r=check(load(a.model))
         except (ValueError,TypeError,KeyError) as exc:r={'passed':False,'issues':[{'code':'INPUT_ERROR','message':str(exc)}]}

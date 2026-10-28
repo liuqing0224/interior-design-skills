@@ -1,6 +1,10 @@
 # 项目工具
 
-要求Python 3.10+。纯数据、算术与几何检查仅使用标准库；绘图工具另需ezdxf、reportlab、Pillow。
+要求Python 3.10+。纯数据、算术与几何检查仅使用标准库；绘图与预算工具另需ezdxf、reportlab、openpyxl、Pillow（其余为pypdf、PyYAML）。一条命令装齐：
+
+```bash
+python -m pip install -r requirements.txt
+```
 
 ```bash
 python skills/interior-orchestrator/scripts/project_tools.py init /path/to/project --name "项目名"
@@ -26,7 +30,7 @@ python interior-cost/scripts/export_budget.py P
 python interior-review/scripts/verify_2d.py P
 ```
 
-首次无历史版本时省略--previous。PDF需可嵌入中文TrueType字体，设置INTERIOR_PDF_FONT；macOS尝试Arial Unicode。预算入口在临时目录链接已配置的工作区Node依赖，不安装或修改依赖；如自动检测不到，用--node与--modules传入load_workspace_dependencies提供的实际路径。PDF/工作簿作者须先遵守当前环境相应技能的标记约定。
+首次无历史版本时省略--previous。PDF需可嵌入中文TrueType字体：先读INTERIOR_PDF_FONT，未设置时按macOS/Windows/Linux常见中文字体自动探测（含.ttc子字体），全部失败才报错并列出试过的路径。预算工作簿由openpyxl直接写入公式与公式缓存值，不依赖Node或在线表格服务；同一脚本重建state下的两张预算预览图。
 
 SVG、DXF与PDF共用二维图元。drawing-manifest.json保存来源、生成器哈希、各图原点；柜体用front_axis和joinery参数生成立剖，joinery.csv保存全部柜体。SVG通过data-object、DXF通过INTERIOR扩展数据保留对象编号。
 

@@ -19,7 +19,7 @@ description: 从室内模型与规格表计算工程量、损耗、费用及替�
 4. 汇总总额、预备费、目标预算差额及可替代项，修改输入后重新计算相关结果。
 5. 保存前后版本和差额原因，表格中公式与独立计算应一致。
 
-先运行总控schedules生成当前净量，再用`scripts/export_budget.py <项目目录>`调用工作区artifact-tool创建工作簿。运行前按当前Spreadsheets技能的作者要求处理操作标记与依赖；运行时参数见[工具用法](../interior-orchestrator/references/tool-guide.md)。quantity_rule和未联动输入须区分；柜体投影按front_axis正面宽×高计量。工作簿中的净量是该次模型快照，修改project.json后需重新导出，并核对模型和输出哈希。缺价与零价应产生不同结果。
+先运行总控schedules生成当前净量，再用`scripts/export_budget.py <项目目录>`创建工作簿。脚本只依赖openpyxl（见项目`requirements.txt`），不需要Node或在线表格服务：公式保留在工作簿中，同时写入公式的缓存结果，并重建`state/budget-*-preview.png`。`schedules/budget-inputs.json`与模型预算行不一致时脚本拒绝执行，须先重跑schedules。quantity_rule和未联动输入须区分；柜体投影按front_axis正面宽×高计量。工作簿中的净量是该次模型快照，修改project.json后需重新导出，并核对模型和输出哈希。缺价与零价应产生不同结果。
 
 具体核对项见[阶段检查表](references/checklist.md)。
 
