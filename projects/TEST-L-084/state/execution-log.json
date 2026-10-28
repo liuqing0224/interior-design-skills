@@ -144,5 +144,151 @@
     "executed_at": "2026-10-26T14:59:51.748151+08:00",
     "result": "design_deliverables_created",
     "site_work_completed": false
+  },
+  {
+    "skill": "interior-orchestrator",
+    "skill_sha256": "781b5b1178efa113cf3ddff9fda71b21e41290fe44d214e203b64c15d4504c94",
+    "input_sha256": "347bfdfc11521ae2510d1508892bbba7f3ee9882fe78a9224943df385ee54ffb",
+    "output_files": [
+      {
+        "path": "state\\project-plan.md",
+        "sha256": "ddd9f8d294e701ed08809f1e805906055a7000c6f5d06f50ea461992a1d6b0eb"
+      }
+    ],
+    "executed_at": "2026-10-28T17:59:04.608442+08:00",
+    "result": "design_deliverables_created",
+    "site_work_completed": false
+  },
+  {
+    "skill": "interior-layout",
+    "skill_sha256": "0dbb074405b1eb46d08b974b1d587e5de34e0507431bfa407f4d2571c7d05203",
+    "input_sha256": "347bfdfc11521ae2510d1508892bbba7f3ee9882fe78a9224943df385ee54ffb",
+    "output_files": [
+      {
+        "path": "03-layout.md",
+        "sha256": "acbea6d76b569d6e707d9519802d56c56f4b8e93174919e0db4641e23d321551"
+      },
+      {
+        "path": "state\\model-check.json",
+        "sha256": "295cc6fe30fd8a255b79f2813f548ace46bcf3525f7af5d4f7fcb4295670ca4f"
+      },
+      {
+        "path": "schedules\\rooms.csv",
+        "sha256": "c9d3da4dc37a029525ec4acc2ae4dd128f84ac0c645e75bbaaa7b7eed34356d7"
+      }
+    ],
+    "executed_at": "2026-10-28T17:59:04.738301+08:00",
+    "result": "design_deliverables_created",
+    "site_work_completed": false
+  },
+  {
+    "skill": "interior-drawings",
+    "skill_sha256": "5eec5e6020dc3e76d518c4e83fc10360b4ed4951466b8d50db13c2aa6ef1315c",
+    "input_sha256": "347bfdfc11521ae2510d1508892bbba7f3ee9882fe78a9224943df385ee54ffb",
+    "output_files": [
+      {
+        "path": "10-drawings.md",
+        "sha256": "4e09a850ead793c1fe1b3ec3cd7ef23b4c0e99f5e110d02de79566ed035ddd9b"
+      },
+      {
+        "path": "documents\\折庭_图集.pdf",
+        "sha256": "b6b865350dfb4b9a88d26fd5aa1c5ff3be2d99d7a25b3457b330122f3d7dc58e"
+      },
+      {
+        "path": "documents\\pdf-manifest.json",
+        "sha256": "0a7ff3a9c3cb2cefb9f6d1bb039d9ee4e00ac618656ca54219e5d6913f26f813"
+      },
+      {
+        "path": "drawings\\interior-set.py",
+        "sha256": "7346cf2164f62ab1a184e5186e3f03d9ccabb734c60af6d70f8b513625985f12"
+      },
+      {
+        "path": "drawings\\interior-set.dxf",
+        "sha256": "94cf5a4996a32fe639b94e36cb793fa81c494dcb7585bdf0341880e21bad0dea"
+      },
+      {
+        "path": "drawings\\drawing-manifest.json",
+        "sha256": "f59c64bc826bd484fdb540e98f1406ed7a519da84f3ddffdeb7fbb1b89b7d9f8"
+      },
+      {
+        "path": "drawings\\ID-01.svg",
+        "sha256": "799fceb7d936bc537b09f4550424918f5bb936af2789b8bd71f1176e0f266e6b"
+      },
+      {
+        "path": "drawings\\ID-02.svg",
+        "sha256": "4ca7e7027ec9158c030d0fe9ab826204335f2e23fdaf488708e5d1f7760750d9"
+      },
+      {
+        "path": "drawings\\ID-03.svg",
+        "sha256": "0a6d3faaaf9a744344ac7554b6e9bb62630589f5eda5e83d425512723a21e840"
+      },
+      {
+        "path": "drawings\\ID-04.svg",
+        "sha256": "1b3ca0ae03061353da3649d4694accf20bfa2c2514ae97d74023d0ec037c31fa"
+      },
+      {
+        "path": "drawings\\ID-05.svg",
+        "sha256": "ab15f4a5791fa29cb80cd60d6abfbec9575b08e1dba63a34b1f17f32913b759c"
+      },
+      {
+        "path": "drawings\\ID-06.svg",
+        "sha256": "c5757a265f89fb4ef828ff24f7bd280def230c9fdda767da60ea9f45bf31e41d"
+      }
+    ],
+    "executed_at": "2026-10-28T17:59:04.872140+08:00",
+    "result": "design_deliverables_created",
+    "site_work_completed": false
+  },
+  {
+    "skill": "interior-cost",
+    "skill_sha256": "d7e36cd728d2b3b673112d209ca24e6d7bcf5a0e37df367e545aad02ed410a10",
+    "input_sha256": "347bfdfc11521ae2510d1508892bbba7f3ee9882fe78a9224943df385ee54ffb",
+    "output_files": [
+      {
+        "path": "12-cost.md",
+        "sha256": "3d4aed73ec906944a93eb4d784476d9d7bfd3d0f4fab81f771e3bba018a72089"
+      },
+      {
+        "path": "schedules\\折庭_预算.xlsx",
+        "sha256": "89f94413a2052887d6d179235aef90690606341089ea5cab9f78724dcbd419f7"
+      },
+      {
+        "path": "schedules\\budget.csv",
+        "sha256": "4acd2369de08bfd261ded57f73461e4260bcb7caf6b0d02f551651ecf1878d5c"
+      },
+      {
+        "path": "schedules\\joinery.csv",
+        "sha256": "92ab6c25efaaddba9cc6e8afff3d4a4a15b89c30cf9fbc2a35f1bf9a6465e715"
+      },
+      {
+        "path": "state\\workbook-check.json",
+        "sha256": "2519711ac830aecb1a00bda77b8954b8fee053bed62a049498c0b1a6164c765b"
+      }
+    ],
+    "executed_at": "2026-10-28T17:59:05.002760+08:00",
+    "result": "design_deliverables_created",
+    "site_work_completed": false
+  },
+  {
+    "skill": "interior-review",
+    "skill_sha256": "cd8eaa578023465dbe89fad7b5a44f573332758696454c00504b153ab9f018b2",
+    "input_sha256": "347bfdfc11521ae2510d1508892bbba7f3ee9882fe78a9224943df385ee54ffb",
+    "output_files": [
+      {
+        "path": "13-review.md",
+        "sha256": "169709df3c53eb43351e725609889a493f0cd9c3371fab892e89359231afc0a0"
+      },
+      {
+        "path": "state\\change-verification.json",
+        "sha256": "6648b3a53cb26b4dc9f102a7291ba1a7db9b6c32aa6786cfa052f42d7af270b5"
+      },
+      {
+        "path": "state\\change-register.json",
+        "sha256": "c298fb111a16a20d09bc10380f8bd950901d5ca33cc4eb5535e3ea84a50f048b"
+      }
+    ],
+    "executed_at": "2026-10-28T17:59:05.135027+08:00",
+    "result": "design_deliverables_created",
+    "site_work_completed": false
   }
 ]
