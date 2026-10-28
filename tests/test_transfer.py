@@ -95,7 +95,7 @@ class TransferTests(unittest.TestCase):
     def test_known_update_preserves_backup(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);baseline=root/'baseline';shutil.copytree(ROOT/'skills',baseline/'skills',ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
-            old=baseline/'skills/interior-review/SKILL.md';old.write_text(old.read_text()+'\nOld known version.\n')
+            old=baseline/'skills/interior-review/SKILL.md';old.write_text(old.read_text(encoding='utf-8')+'\nOld known version.\n',encoding='utf-8')
             target=root/'installed';shutil.copytree(baseline/'skills',target)
             result=subprocess.run([sys.executable,str(ROOT/'install.py'),'--target',str(target),'--update-from',str(baseline)],capture_output=True)
             self.assertEqual(result.returncode,0,result.stderr);self.assertEqual((target/'interior-review/SKILL.md').read_bytes(),(ROOT/'skills/interior-review/SKILL.md').read_bytes())

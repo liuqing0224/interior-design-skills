@@ -1,6 +1,7 @@
 """Same-source 2D drawing primitives for SVG, PDF and DXF."""
 from pathlib import Path
 import html
+import io
 import math
 from project_tools import cabinet_dimensions, outline
 
@@ -200,7 +201,12 @@ def svg(s,path,title):
         elif p['kind']=='line':v.append(f'<line x1="{p["x1"]}" y1="{-p["y1"]}" x2="{p["x2"]}" y2="{-p["y2"]}" stroke="{p["stroke"]}" stroke-width="{p["sw"]}"'+(' stroke-dasharray="70 45"' if p.get('dash') else '')+'/>')
         elif p['kind']=='circle':v.append(f'<circle cx="{p["x"]}" cy="{-p["y"]}" r="{p["r"]}" fill="{p["fill"]}" stroke="{p["stroke"]}" stroke-width="{p["sw"]}"/>')
         else:v.append(f'<text x="{p["x"]}" y="{-p["y"]}" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="{p["size"]}" text-anchor="{p["anchor"]}" fill="{p["color"]}">{html.escape(p["text"])}</text>')
-    Path(path).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{xmin} {-ymax} {xmax-xmin} {ymax-ymin}"><title>{html.escape(title)}</title><rect x="{xmin}" y="{-ymax}" width="{xmax-xmin}" height="{ymax-ymin}" fill="#FFFEFA"/>'+''.join(v)+'</svg>')
+    Path(path).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{xmin} {-ymax} {xmax-xmin} {ymax-ymin}"><title>{html.escape(title)}</title><rect x="{xmin}" y="{-ymax}" width="{xmax-xmin}" height="{ymax-ymin}" fill="#FFFEFA"/>'+''.join(v)+'</svg>',encoding='utf-8')
+
+def save_dxf(doc,path):
+    """Write LF-only text so DXF bytes stay identical across platforms."""
+    stream=io.StringIO();doc.write(stream)
+    Path(path).write_text(stream.getvalue(),encoding='utf-8',newline='\n')
 
 def dxf_document(m):
     import ezdxf

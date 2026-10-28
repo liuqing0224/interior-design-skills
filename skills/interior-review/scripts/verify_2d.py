@@ -112,7 +112,7 @@ def verify(p,records=False):
     with (p/'schedules/budget.csv').open(encoding='utf-8-sig') as stream:csvrows=list(csv.DictReader(stream))
     require(len(csvrows)==len(rows),'Budget CSV row count differs')
     for actual,(id,q,purchase,amount) in zip(csvrows,rows):require(actual['id']==id and Decimal(actual['quantity'])==q and Decimal(actual['amount'])==amount,'Budget CSV differs')
-    require('matched 0 entries' in (p/'state/workbook-error-scan.txt').read_text(),'Workbook errors detected')
+    require('matched 0 entries' in (p/'state/workbook-error-scan.txt').read_text(encoding='utf-8'),'Workbook errors detected')
     pm=t.load(p/'documents/pdf-manifest.json');require(pm['model_sha256']==source,'PDF source hash differs')
     pdf=PdfReader(p/'documents'/pm['file']);require(len(pdf.pages)==pm['pages'],'PDF page count differs')
     texts=[page.extract_text() or '' for page in pdf.pages]

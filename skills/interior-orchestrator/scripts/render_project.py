@@ -2,14 +2,15 @@
 import bpy
 import json
 import math
+import shutil
 import sys
 import hashlib
 from pathlib import Path
 from mathutils import Vector
 
 P=Path(sys.argv[sys.argv.index('--')+1]).resolve()
-m=json.loads((P/'model/project.json').read_text());out=P/'visuals';out.mkdir(exist_ok=True)
-(out/'render-input.json').write_text((P/'model/project.json').read_text())
+m=json.loads((P/'model/project.json').read_text(encoding='utf-8'));out=P/'visuals';out.mkdir(exist_ok=True)
+shutil.copyfile(P/'model/project.json',out/'render-input.json')
 bpy.ops.wm.read_factory_settings(use_empty=True)
 scene=bpy.context.scene
 scene.render.engine='CYCLES';scene.cycles.samples=32;scene.cycles.use_denoising=True
@@ -207,5 +208,5 @@ bpy.ops.object.select_all(action='DESELECT')
 for o in scene.objects:
     if o.type=='MESH' and not any(c==cut for c in o.users_collection):o.select_set(True)
 bpy.ops.export_scene.gltf(filepath=str(out/'qimu-home.glb'),use_selection=True,export_format='GLB',export_cameras=False,export_lights=False)
-(out/'render-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+(out/'render-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('RENDER_COMPLETE',len(manifest['views']))
